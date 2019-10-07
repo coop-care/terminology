@@ -5,42 +5,15 @@ const app = new Vue({
     }
   },
   mounted() {
-    $.getJSON('/json/terminology-en.json?i=' + Math.random(), json => {
+    $.getJSON('/json/terminology_EN.json?i=' + Math.random(), json => {
       console.log(json);
       this.terminology.EN = json;
-      this.terminology.DE = JSON.parse(JSON.stringify(json));
-
-      var textCount = 0;
-      var characterCount = 0;
-
-      // empty all texts in translation target
-      _traverseObject(this.terminology.DE, function(value, path) {
-        _deepAssign(app.terminology.DE, path, "");
-      });
-
-      // count number of texts and characters to translate
-      _traverseObject(this.terminology.EN, function(value, path) {
-        textCount += 1;
-        characterCount += value.length;
-      });
-
-      console.log([textCount, "Texte,", characterCount, "Zeichen,", 
-        ((characterCount / 500) * 0.01).toFixed(2), "€ Kosten bei Deepl"].join(" "));
+      _prepareTranslation(this.terminology, "EN", "DE");
     });
   },
   methods: {
     translate() {
-      _traverseObject(this.terminology.EN, function(target) {
-        return function(value, path) {
-          _translateWithDeepl("APIKEY", value)
-            .done(function(translation) {
-              _deepAssign(app.terminology.DE, path, translation);
-            })
-            .fail(function() {
-              console.log("fail", arguments, path.join("."), value);
-            });
-        }
-      }(this.terminology.DE));
+      _translate(this.terminology, "EN", "DE");
     },
     downloadJSON_DE() {
       _downloadTerminology(this.terminology, "DE");
@@ -52,6 +25,9 @@ const app = new Vue({
   computed: {
   }
 });
+
+
+// Export as download helper
 
 function _downloadTerminology(terminology, language) {
   let data = JSON.stringify(terminology[language], null, 2);
@@ -66,6 +42,9 @@ function _download(filename, dataUri) {
   linkElement.setAttribute('download', filename);
   linkElement.click();
 }
+
+
+// Translation helper
 
 function _traverseObject(object, callback, path) {
   for (var key in object) {
@@ -91,15 +70,49 @@ function _deepAssign(object, path, value) {
   }
 }
 
-function _translateWithDeepl(authKey, text) {
-  var data = {
-    "auth_key": authKey, 
-    "text": text, 
-    "source_lang": "EN", 
-    "target_lang": "DE",
-    "split_sentences": 0
-  };
-  
+function _prepareTranslation(terminology, sourceLang, targetLang) {
+  terminology[targetLang] = JSON.parse(JSON.stringify(terminology[sourceLang]));
+
+  var textCount = 0;
+  var characterCount = 0;
+
+  // empty all texts in translation target
+  _traverseObject(terminology[targetLang], function(value, path) {
+    _deepAssign(terminology[targetLang], path, "");
+  });
+
+  // count number of texts and characters to translate
+  _traverseObject(terminology[sourceLang], function(value, path) {
+    textCount += 1;
+    characterCount += value.length;
+  });
+
+  console.log([textCount, "Texte,", characterCount, "Zeichen,", 
+    ((characterCount / 500) * 0.01).toFixed(2), "€ Kosten bei Deepl"].join(" "));
+}
+
+function _translate(terminology, sourceLang, targetLang) {
+  _traverseObject(terminology[sourceLang], function(target) {
+    return function(value, path) {
+      var data = {
+        "auth_key": "APIKEY", 
+        "text": value, 
+        "source_lang": sourceLang, 
+        "target_lang": targetLang,
+        "split_sentences": 0
+      };
+      _translateWithDeepl(data)
+        .done(function(translation) {
+          _deepAssign(terminology[targetLang], path, translation);
+        })
+        .fail(function() {
+          console.log("fail", arguments, path.join("."), value);
+        });
+    }
+  }(terminology[targetLang]));
+}
+
+function _translateWithDeepl(data) {
   return $.post("https://api.deepl.com/v2/translate", data)
     .then(function(data, status, response) {
       if (!data || !data.translations || !data.translations.length) {
