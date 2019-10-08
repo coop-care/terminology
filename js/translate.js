@@ -2,13 +2,15 @@ const app = new Vue({
   el: '#app',
   data: {
     terminology: {
+      EN: {},
+      DE: {}
     }
   },
   mounted() {
-    $.getJSON('/json/terminology_EN.json?i=' + Math.random(), json => {
-      console.log(json);
-      this.terminology.EN = json;
-      _prepareTranslation(this.terminology, "EN", "DE");
+    ["EN", "DE"].forEach(language => {
+      $.getJSON('/json/terminology_' + language + '.json?i=' + Math.random(), json => {
+        this.terminology[language]= json;
+      });
     });
   },
   methods: {

@@ -11,12 +11,71 @@
 </head>
 <body>
     <div id="app">
-        <button @click="translate">Übersetzung Englisch &gt; Deutsch</button>
-        <button @click="downloadJSON_EN">Download Terminology Englisch</button>
-        <button @click="downloadJSON_DE">Download Terminology Deutsch</button>
+        <div v-if="terminology.DE">
+            <h1>{{ terminology.DE.title }}</h1>
+
+            <h2>{{ terminology.DE.problemClassificationScheme.title }}</h2>
+            <h3>Bereiche</h3>
+            <ul>
+                <li v-for="(domain, index) in terminology.DE.problemClassificationScheme.domains">
+                    <h4>{{ domain.title }}</h4>
+                    <p>{{ domain.description }}</p>
+                    <ul>
+                        <li v-for="(problem, index) in domain.problems">
+                            <h4>{{ problem.title }}</h4>
+                            <p>{{ problem.description }}</p>
+                            <p>Anzeichen und Symptome:</p>
+                            <ul>
+                                <li v-for="(symptom, index) in problem.signsAndSymptoms">{{ symptom.title }}</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Merkmale</h3>
+            <ul>
+                <li v-for="(modifier, key) in terminology.DE.problemClassificationScheme.modifiers">
+                    <!-- <code>{{ key }}</code> -->
+                    <ul>
+                        <li v-for="(item, index) in modifier">
+                            <h4>{{ item.title }}</h4>
+                            <p>{{ item.description }}</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>{{ terminology.DE.interventionScheme.title }}</h2>
+            <h3>Kategorien</h3>
+            <ul>
+                <li v-for="(category, index) in terminology.DE.interventionScheme.categories">
+                    <h4>{{ category.title }}</h4>
+                    <p>{{ category.description }}</p>
+                </li>
+            </ul>
+            <h3>Ziele</h3>
+            <ul>
+                <li v-for="(target, index) in terminology.DE.interventionScheme.targets">
+                    <h4>{{ target.title }}</h4>
+                    <p>{{ target.description }}</p>
+                </li>
+            </ul>
+
+            <h2>{{ terminology.DE.problemRatingScale.title }}</h2>
+            <ul>
+                <li v-for="(rating, index) in terminology.DE.problemRatingScale.ratings">
+                    <h4>{{ rating.title }}</h4>
+                    <p>{{ rating.description }}</p>
+                    <p>Werte:</p>
+                    <ul>
+                        <li v-for="(value, index) in rating.scale">{{ value.title }} ({{ index + 1 }})</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    <script src="/js/vue.js"></script>
+    <script src="/js/jquery.min.js"> </script>
     <script type="module" src="js/translate.js"></script>
 </body>
 </html>
