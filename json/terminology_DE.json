@@ -1411,7 +1411,7 @@
     "modifiers": {
       "scope": [
         {
-          "title": "Individuum",
+          "title": "Einzelperson",
           "description": "Eine Person, die allein lebt oder ein Einfamilienmitglied, das ein gesundheitliches Problem hat."
         },
         {
@@ -1419,7 +1419,7 @@
           "description": "Eine soziale Einheit oder eine verwandte Gruppe von Personen, die zusammenleben und ein gesundheitliches Problem haben."
         },
         {
-          "title": "Community",
+          "title": "Gemeinschaft",
           "description": "Die Einzelpersonen und/oder Familien, die eine Gruppe, ein Viertel oder einen anderen geografischen Bezirk umfassen, die ein gesundheitliches Problem haben."
         }
       ],
@@ -1429,7 +1429,7 @@
           "description": "Kundeninteresse an der Steigerung der Erwartungen an Wissen, Verhalten und Gesundheit und der Entwicklung von mehr Vermögenswerten und Ressourcen, die das Wohlbefinden ohne Risikofaktoren, Anzeichen oder Symptome erhalten oder verbessern."
         },
         {
-          "title": "Potential",
+          "title": "Potentiell",
           "description": "Kundenstatus, gekennzeichnet durch das Vorhandensein bestimmter Gesundheitsmuster, Praktiken, Verhaltensweisen oder Risikofaktoren, die eine optimale Gesundheit ausschließen können, und das Fehlen von Anzeichen und Symptomen."
         },
         {
@@ -1770,6 +1770,27 @@
     "title": "Problembewertungsskala für Ergebnisse",
     "ratings": [
       {
+        "title": "Zustand",
+        "description": "Zustand des Kunden in Bezug auf objektive und subjektive definierende Merkmale.",
+        "scale": [
+          {
+            "title": "Extreme Anzeichen/Symptome"
+          },
+          {
+            "title": "Schwere Anzeichen/Symptome"
+          },
+          {
+            "title": "Mäßige Anzeichen/Symptome"
+          },
+          {
+            "title": "Minimale Anzeichen/Symptome"
+          },
+          {
+            "title": "Keine Anzeichen/Symptome"
+          }
+        ]
+      },
+      {
         "title": "Wissen",
         "description": "Fähigkeit des Kunden, Informationen zu speichern und zu interpretieren.",
         "scale": [
@@ -1808,27 +1829,6 @@
           },
           {
             "title": "Durchgängig angemessenes Verhalten"
-          }
-        ]
-      },
-      {
-        "title": "Status",
-        "description": "Zustand des Kunden in Bezug auf objektive und subjektive definierende Merkmale.",
-        "scale": [
-          {
-            "title": "Extreme Anzeichen/Symptome"
-          },
-          {
-            "title": "Schwere Anzeichen/Symptome"
-          },
-          {
-            "title": "Mäßige Anzeichen/Symptome"
-          },
-          {
-            "title": "Minimale Anzeichen/Symptome"
-          },
-          {
-            "title": "Keine Anzeichen/Symptome"
           }
         ]
       }
