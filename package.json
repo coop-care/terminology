@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "jquery": "^3.4.1",
+    "picnic": "^6.5.1",
     "vue": "^2.6.10"
   }
 }

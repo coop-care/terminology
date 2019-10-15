@@ -1,3 +1,4 @@
+import './styles/app.css';
 import * as $ from "jquery";
 import Vue from "vue";
 import JSONView from "./JSONView.vue";

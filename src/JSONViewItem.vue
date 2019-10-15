@@ -180,7 +180,6 @@ export default Vue.extend({
   font-weight: 600;
   margin-left: 10px;
   border-radius: 2px;
-  white-space: nowrap;
   padding: 5px 5px 5px 10px;
 
   &.can-select {
@@ -197,7 +196,6 @@ export default Vue.extend({
   border-radius: 2px;
   font-weight: 600;
   cursor: pointer;
-  white-space: nowrap;
   padding: 5px;
 
   &:hover {
@@ -220,6 +218,7 @@ export default Vue.extend({
   margin-right: 20px;
   margin-left: 5px;
   transform: rotate(-45deg);
+  box-sizing:initial;
 
   &.opened {
     margin-top: -3px;

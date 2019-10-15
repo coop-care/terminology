@@ -11,7 +11,15 @@
 </head>
 <body>
     <div id="app">
-        <button @click="downloadTarget">Deutsche Übersetzung herunterladen</button>
+        <nav class="main">
+            <span class="brand">Omaha System: {{ languageMap.source }} > {{ languageMap.target }}</span>
+            <input id="bmenub" type="checkbox" class="show">
+            <label for="bmenub" class="burger pseudo button">&#8801;</label>
+            <div class="menu">
+                <button class="pseudo" @click="downloadSource">{{ languageMap.source }} herunterladen</button>
+                <button @click="downloadTarget">{{ languageMap.target }} herunterladen</button>
+            </div>
+        </nav>
         <json-view :data="terminology" :max-depth="8" v-if="terminology"/>
     </div>
     <script src="/dist/bundle.js"></script>
