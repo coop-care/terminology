@@ -4,7 +4,7 @@
     <div v-if="typeof source === 'object' && source !== null">
       <div @click.stop="toggleOpen" class="data-key" :style="keyColor">
         <div :class="classes" :style="arrowStyles"></div>
-        {{ dataKey }}:
+        {{ readableKey }}:
         <span class="properties">&nbsp;{{ lengthString }}</span>
       </div>
       <json-view-item
@@ -28,9 +28,13 @@
       v-on:click="clickEvent(source)"
       v-if="typeof source !== 'object'"
     >
-      <span :style="valueKeyColor" :title="dataPath"> {{ dataKey }}: </span>
-      <div :style="getValueStyle('')" v-text="source"></div>
-      <div contenteditable="true" :style="getValueStyle(0)" v-text="target" @input="onInputValue"></div>
+      <div class="flex">
+        <div class="translation-key" :style="valueKeyColor" :title="dataPath">{{ readableKey }}:</div>
+        <div class="translation flex one">
+          <div><div :style="getValueStyle('')" class="source" v-text="source"></div></div>
+          <div><div contenteditable="true" :style="getValueStyle(0)" class="target" v-text="target" @input="onInputValue"></div></div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -166,6 +170,10 @@ export default Vue.extend({
     },
     valueKeyColor: function(): object {
       return { color: this.styles.valueKey };
+    },
+    readableKey: function(): string {
+      let key = this.dataKey.replace(/([a-z])([A-Z])/g, '$1 $2');
+      return key.charAt(0).toUpperCase() + key.slice(1);
     }
   }
 });

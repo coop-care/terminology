@@ -72,6 +72,7 @@ export default Vue.extend({
 #json-view {
   width: 100%;
   height: auto;
+  word-wrap: break-word;
 }
 #root-item {
   margin-left: 0;

@@ -1,3 +1,10 @@
 @import "../../node_modules/picnic/picnic.min.css";
 
+.right {text-align: right}
+
 nav.main + * {margin-top:64px;}
+.translation-key {width:20em; flex-grow:0;}
+.translation > * {padding-bottom:.4em;}
+.source, .target {padding:.15em .4em; border-radius: .2em;}
+.source {border:1px dashed #ccc;}
+.target {border:1px solid #aaa;}
