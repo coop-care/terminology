@@ -16,7 +16,7 @@ let config = {
     },
 
     resolve: {
-        extensions: [".ts", ".tsx", ".js", ".vue"],
+        extensions: [".ts", ".tsx", ".js", ".vue", ".json"],
         alias: {
           'vue$': 'vue/dist/vue.common.js'
         }

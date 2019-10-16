@@ -1,15 +1,16 @@
 import './styles/app.css';
-import * as $ from "jquery";
 import Vue from "vue";
 import JSONView from "./JSONView.vue";
 import { EventBus } from "./event-bus";
 import { Download } from "./download";
 import { Translation } from "./translation";
 import { Tree } from "./tree";
+import terminologyEN from "../json/terminology_EN.json";
+import terminologyDE from "../json/terminology_DE.json";
 
 let terminology = {
-  source: {},
-  target: {}
+  source: (terminologyEN as any),
+  target: (terminologyDE as any)
 } as any
 
 const app = new Vue({
@@ -18,20 +19,13 @@ const app = new Vue({
     languageMap: {
       source: "EN",
       target: "DE"
-    } as any,
-    loadedTerminologies: 0,
+    } as any
   },
   components: {
     "json-view": JSONView
   },
   mounted() {
-    Object.keys(this.languageMap).forEach(destination => {
-      let language = this.languageMap[destination];
-      $.getJSON('/json/terminology_' + language + '.json?i=' + Math.random(), json => {
-        terminology[destination] = json;
-        this.loadedTerminologies += 1;
-      });
-    });
+
   },
   methods: {
     downloadTarget() {
@@ -43,9 +37,7 @@ const app = new Vue({
   },
   computed: {
     terminology() {
-      if (this.loadedTerminologies >= Object.keys(this.languageMap).length) {
-        return terminology;
-      }
+      return terminology;
     }
   }
 });
