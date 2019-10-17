@@ -174,7 +174,7 @@
             "description": "Interaktion zwischen dem Einzelnen oder Familie oder Gemeinschaft und Sozialeinrichtungen, Schulen und Unternehmen in Bezug auf Dienstleistungen, Informationen und Waren oder Versorgungen.",
             "signsAndSymptoms": [
               {
-                "title": "nicht vertraut mit Optionen oder Verfahren zur Inanspruchnahme von Dienstleistungen"
+                "title": "nicht vertraut mit Optionen oder Methoden zur Inanspruchnahme von Dienstleistungen"
               },
               {
                 "title": "Schwierigkeiten beim Verständnis der Rollen oder Regelungen von Dienstleistern"
@@ -921,7 +921,7 @@
           },
           {
             "title": "Verdauung - Hydratation",
-            "description": "Verfahren zur Umwandlung von Lebensmitteln in Formen, die aufgenommen und assimiliert werden können, und zur Aufrechterhaltung des Flüssigkeitsgleichgewichts.",
+            "description": "Prozess zur Umwandlung von Lebensmitteln in Formen, die aufgenommen und assimiliert werden können, und zur Aufrechterhaltung des Flüssigkeitsgleichgewichts.",
             "signsAndSymptoms": [
               {
                 "title": "Übelkeit oder Verbrechen"
@@ -1447,7 +1447,7 @@
         "description": "Aktivitäten wie die Bereitstellung von Informationen und Materialien, die Ermutigung zur Übernahme von Verantwortung und Handeln zur Selbsthilfe und Problembewältigung, sowie Unterstützung des Einzelnen, der Familie oder der Gemeinschaft Entscheidungen zu treffen und Probleme zu lösen."
       },
       {
-        "title": "Behandlungen und Verfahren",
+        "title": "Behandlungen und Verfahrensweisen",
         "description": "Technische Aktivitäten wie Wundversorgung, Probenentnahme, Widerstandsübungen und Medikamentenverschreibung, die Anzeichen und Symptome für den Einzelnen, die Familie oder die Gemeinschaft verhindern, verringern oder lindern sollen."
       },
       {
@@ -1557,44 +1557,44 @@
         "description": "Aktivitäten, die Unterstützung bieten bei der Berücksichtigung und Anwendung von Methoden zur Vorbereitung einer Schwangerschaft."
       },
       {
-        "title": "Fütterungsverfahren",
-        "description": "Bereitstellung von Lebensmitteln oder Flüssigkeiten unter Verwendung von Methoden wie Brust, Formel, Löffel, Schlauch und intravenösen Lösungen."
+        "title": "Fütterungsmethode",
+        "description": "Bereitstellung von Lebensmitteln oder Flüssigkeiten unter Verwendung von Methoden wie Brust, Muttermilchersatz, Löffel, Schlauch und intravenösen Lösungen."
       },
       {
         "title": "Finanzen",
         "description": "Verwaltung von Einnahmen und Ausgaben."
       },
       {
-        "title": "Gehtraining",
+        "title": "Gehübungen",
         "description": "Systematische Aktivitäten, die das Gehen mit oder ohne Hilfsmittel fördern."
       },
       {
-        "title": "Genetik",
-        "description": "Diagnose, Beratung und Verfahren zur Vorbeugung, Identifizierung oder Behandlung von Geburtsfehlern, angeborenen Anomalien oder Erkrankungen."
+        "title": "Erbanlagen",
+        "description": "Diagnose, Beratung und Methoden zur Vorbeugung, Erkennung oder Behandlung von Geburtsfehlern, angeborenen Anomalien oder Erkrankungen."
       },
       {
-        "title": "wachstum oder entwicklungspflege",
-        "description": "Aktivitäten, die die fortschreitende Reifung im Verhältnis zum Alter fördern, wie beispielsweise das Messen von Gewicht, Größe und Kopfumfang und das stimulierende Erreichen von Entwicklungsmeilensteinen."
+        "title": "Wachstums- und Entwicklungsförderung",
+        "description": "Aktivitäten, die die fortschreitende Reifung im Verhältnis zum Alter fördern, wie beispielsweise das Messen von Gewicht, Größe und Kopfumfang und die Erreichung von Meilensteinen der Entwicklung zu stimulieren."
       },
       {
-        "title": "zu Hause",
+        "title": "Zuhause",
         "description": "Wohnort."
       },
       {
-        "title": "Haushaltsführung  oder  Haushaltsführung",
-        "description": "Management von Aktivitäten wie Reinigung, Wäscherei und Nahrungszubereitung im Haushalt oder in der Gesundheitseinrichtung."
+        "title": "Haushaltsführung und Hauswirtschaft",
+        "description": "Management von Aktivitäten wie Putzen, Wäsche waschen und Essenszubereitung im Haushalt oder in der Gesundheitseinrichtung."
       },
       {
         "title": "Infektionsschutzmaßnahmen",
-        "description": "Aktivitäten, die das Auftreten und die Übertragung ansteckender Krankheiten verringern, wie Händewaschen, Isolierung, Probenahme, Kontaktverfolgung, Meldeverfahren und Umweltkontrolle."
+        "description": "Aktivitäten, die das Auftreten und die Übertragung ansteckender Krankheiten verringern, wie Händewaschen, Isolation, Probenentnahme, Kontaktnachverfolgung, Meldeverfahren und Umweltkontrolle."
       },
       {
         "title": "Interaktion",
-        "description": "Gegenseitiges Handeln oder Einfluss unter Menschen wie Eltern-Kind, Eltern-Lehrer und Krankenschwester-Klient."
+        "description": "Gegenseitiges Handeln oder Einfluss unter Menschen wie Eltern-Kind, Eltern-Lehrer und Pflegekraft-Kunde."
       },
       {
         "title": "Dolmetscher- und Übersetzungsdienste",
-        "description": "Unterstützung bei der mündlichen oder schriftlichen Kommunikation in anderen Sprachen durch qualifizierte Mitarbeiter, die unter der Aufsicht von professionellen Gesundheitspraktikern stehen."
+        "description": "Unterstützung bei der mündlichen oder schriftlichen Kommunikation in anderen Sprachen durch qualifizierte Mitarbeiter, die von medizinischen Fachkräften beaufsichtigt werden."
       },
       {
         "title": "Laborbefunde",
@@ -1602,23 +1602,23 @@
       },
       {
         "title": "Rechtssystem",
-        "description": "Autorität, Verhaltensregeln oder Rechtsprechung."
+        "description": "Behörden, Verhaltensrichtlinien oder Rechtsprechung."
       },
       {
-        "title": "medizinische oder zahnärztliche Versorgung",
-        "description": "Beurteilung oder Diagnose und Behandlung durch Ärzte, Zahnärzte und deren Personal oder Assistenten."
+        "title": "Medizinische oder zahnärztliche Versorgung",
+        "description": "Beurteilung oder Diagnose und Behandlung durch Ärzte, Zahnärzte und deren Mitarbeiter oder Assistenten."
       },
       {
-        "title": "Medikamentenwirkung  oder  Nebenwirkungen",
-        "description": "Positive und oder oder negative Folgen von Medikamenten."
+        "title": "Medikamentenwirkung und Nebenwirkungen",
+        "description": "Positive oder negative Folgen von Medikamenten."
       },
       {
         "title": "Medikamentenverabreichung",
-        "description": "Aktivitäten, die die Anwendung oder Verabreichung von Medikamenten beinhalten und die von Kunden, Eltern oder Aufseher oder Gesundheitspraktikern durchgeführt werden."
+        "description": "Aktivitäten, die die Anwendung oder Verabreichung von Medikamenten beinhalten und die von Kunden, Eltern, Betreuern oder medizinischen Fachkräften durchgeführt werden."
       },
       {
-        "title": "Medikamentenkoordination oder Bestellung",
-        "description": "Kommunikation mit denjenigen, die Medikamente verschreiben und ausgeben, und den Unterstützungssystemen für Einzelpersonen oder Familien oder Gemeinschaften, um sicherzustellen, dass geeignete Medikamente und Vorräte rechtzeitig beschafft werden."
+        "title": "Medikamentenbestellung und -koordination",
+        "description": "Kommunikation mit denjenigen, die Medikamente verschreiben und ausgeben, und den Unterstützungssystemen der Einzelpersonen, Familien oder Gemeinschaften, um sicherzustellen, dass geeignete Medikamente und Vorräte rechtzeitig beschafft werden."
       },
       {
         "title": "Medikamentenverschreibung",
@@ -1654,7 +1654,7 @@
       },
       {
         "title": "paraprofessionelle oder hilfsbedingte Betreuung",
-        "description": "Unterstützung durch qualifizierte Helfer, Hausgesundheitshelfer und Pflegehelferinnen unter der Aufsicht von professionellen Gesundheitspraktikern."
+        "description": "Unterstützung durch qualifizierte Helfer, Hausgesundheitshelfer und Pflegehelferinnen unter der Aufsicht von medizinischen Fachkräften."
       },
       {
         "title": "Körperpflege",
