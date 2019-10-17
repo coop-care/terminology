@@ -16,6 +16,7 @@ let terminology = {
 const app = new Vue({
   el: '#app',
   data: {
+    treePresentation: "flat",
     languageMap: {
       source: "EN",
       target: "DE"
@@ -38,6 +39,25 @@ const app = new Vue({
   computed: {
     terminology() {
       return terminology;
+    },
+    labels() {
+      return {
+        "title": "Titel",
+        "description": "Beschreibung",
+        "signsAndSymptoms": "Symptom",
+        "problems": "Problem",
+        "domains": "Bereich",
+        "modifiers": "Merkmale",
+        "scope": "Merkmal Problembesitzer",
+        "severity": "Merkmal Dringlichkeit",
+        "categories": "Kategorie",
+        "targets": "Ziel",
+        "ratings": "Bewertung",
+        "scale": "Skala",
+        "problemClassificationScheme": "Pro­blem­klas­si­fi­ka­tions­sche­ma",
+        "interventionScheme": "In­ter­ven­tions­sche­ma",
+        "problemRatingScale": "Problem­bewertungs­skala für Ergebnisse",
+      };
     }
   }
 });

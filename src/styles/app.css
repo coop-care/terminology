@@ -1,10 +1,16 @@
 @import "../../node_modules/picnic/picnic.min.css";
+@import "./segmented-controls.css";
 
-.right {text-align: right}
+.pseudo {background-color:#eee !important;}
+.menu > * {display:inline-block; vertical-align: middle}
+
+.segmented-control {-moz-transition-duration:.2s;-o-transition-duration:.2s;-webkit-transition-duration:.2s;transition-duration:.2s; border-radius:.2em; font-size:82.5%;}
+.segmented-control > label {line-height:inherit; padding:.3em .9em;}
+
+.right {text-align: right;}
+.auto-hyphens {-moz-hyphens: auto; -webkit-hyphens: auto; -ms-hyphens: auto; hyphens: auto;}
+.manual-hyphens {-moz-hyphens: manual; -webkit-hyphens: manual; -ms-hyphens: manual; hyphens: manual;}
 
 nav.main + * {margin-top:64px;}
-.translation-key {width:20em; flex-grow:0;}
-.translation > * {padding-bottom:.4em;}
-.source, .target {padding:.15em .4em; border-radius: .2em;}
-.source {border:1px dashed #ccc;}
-.target {border:1px solid #aaa;}
+nav.main button {font-size:87.5%;}
+nav.main .segmented-control {margin-right:2em; font-size:76%;}

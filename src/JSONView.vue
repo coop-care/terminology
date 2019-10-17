@@ -7,6 +7,7 @@
       :dataKey="rootKey"
       :dataPath="rootKey"
       :maxDepth="maxDepth"
+      :labels="labels"
       :styles="customStyles"
       v-on:selected="itemSelected"
       :canSelect="hasSelectedListener"
@@ -22,6 +23,10 @@ export default Vue.extend({
   name: "json-view",
   props: {
     data: {
+      required: true,
+      type: Object
+    },
+    labels: {
       required: true,
       type: Object
     },

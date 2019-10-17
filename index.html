@@ -16,11 +16,19 @@
             <input id="bmenub" type="checkbox" class="show">
             <label for="bmenub" class="burger pseudo button">&#8801;</label>
             <div class="menu">
+                <div class="segmented-control" title="Darstellung" style="width: 13.9em; color: #0074d9">
+                    <input type="radio" name="jsonview" id="jsonview-flat" value="flat" v-model="treePresentation">
+                    <input type="radio" name="jsonview" id="jsonview-hierarchy" value="hierarchy" v-model="treePresentation">
+                    <label for="jsonview-flat" data-value="Flach">Flach</label>
+                    <label for="jsonview-hierarchy" data-value="Hierarchie">Hierarchie</label>
+                </div>
+                <div>
                 <button class="pseudo" @click="downloadSource">{{ languageMap.source }} herunterladen</button>
                 <button @click="downloadTarget">{{ languageMap.target }} herunterladen</button>
             </div>
+            </div>
         </nav>
-        <json-view :data="terminology" :max-depth="8" v-if="terminology"/>
+        <json-view :class="treePresentation" :data="terminology" :labels="labels" :max-depth="8" v-if="terminology"/>
     </div>
     <script src="/dist/bundle.js"></script>
 </body>

@@ -3,9 +3,7 @@
     <!-- Handle Objects and Arrays-->
     <div v-if="typeof source === 'object' && source !== null">
       <div @click.stop="toggleOpen" class="data-key" :style="keyColor">
-        <div :class="classes" :style="arrowStyles"></div>
-        {{ readableKey }}:
-        <span class="properties">&nbsp;{{ lengthString }}</span>
+        <div :class="classes" :style="arrowStyles"></div> <!--{{ dataKey }}:-->
       </div>
       <json-view-item
         v-on:selected="bubbleSelected"
@@ -18,6 +16,7 @@
         :target="target[childKey]"
         v-show="open"
         :maxDepth="maxDepth"
+        :labels="labels"
         :styles="styles"
         :canSelect="canSelect"
       />
@@ -29,8 +28,8 @@
       v-if="typeof source !== 'object'"
     >
       <div class="flex">
-        <div class="translation-key" :style="valueKeyColor" :title="dataPath">{{ readableKey }}:</div>
-        <div class="translation flex one">
+        <div class="translation-key manual-hyphens" :style="valueKeyColor" :title="path">{{ label }}:</div>
+        <div class="translation">
           <div><div :style="getValueStyle('')" class="source" v-text="source"></div></div>
           <div><div contenteditable="true" :style="getValueStyle(0)" class="target" v-text="target" @input="onInputTarget" @paste.prevent="onPasteTarget"></div></div>
         </div>
@@ -82,6 +81,10 @@ export default Vue.extend({
       type: Number,
       required: false,
       default: 1
+    },
+    labels: {
+      required: true,
+      type: Object
     },
     styles: {
       type: Object,
@@ -142,6 +145,15 @@ export default Vue.extend({
         default:
           return { color: this.styles.valueKeyColor };
       }
+    },
+    keyToLabel: function(item: string): string {
+      let label = this.labels[item]
+      if (label) {
+        return label
+      } else {
+        let splitWords = item.replace(/([a-z])([A-Z])/g, '$1 $2');
+        return splitWords.charAt(0).toUpperCase() + splitWords.slice(1);
+      }
     }
   },
   computed: {
@@ -160,32 +172,43 @@ export default Vue.extend({
     arrowStyles: function(): object {
       return { width: this.styles.arrowSize, height: this.styles.arrowSize };
     },
-    lengthString: function(): string {
-      let length = Object.keys(this.source).length
-      if (Array.isArray(this.source)) {
-        return length === 1
-          ? length + " element"
-          : length + " elements";
-      }
-      return length === 1
-        ? length + " property"
-        : length + " properties";
-    },
     keyColor: function(): object {
       return { color: this.styles.key };
     },
     valueKeyColor: function(): object {
       return { color: this.styles.valueKey };
     },
-    readableKey: function(): string {
-      let key = this.dataKey.replace(/([a-z])([A-Z])/g, '$1 $2');
-      return key.charAt(0).toUpperCase() + key.slice(1);
-    }
+    label: function(): string {
+      return this.dataPath
+        .split(".")
+        .slice(1)
+        .filter(item => { return isNaN(item as any) })
+        .slice(-2)
+        .map(this.keyToLabel)
+        .join(" > ")
+    },
+    path: function(): string {
+      return this.dataPath
+        .split(".")
+        .slice(1)
+        .map(this.keyToLabel)
+        .join(" > ")
+    },
   }
 });
 </script>
 
 <style lang="scss" scoped>
+.flat {
+  .json-view-item {
+    margin-left:0;
+    display:inherit !important;
+  }
+  .data-key {
+    display:none;
+  }
+}
+
 .json-view-item {
   margin-left: 20px;
 }
@@ -201,6 +224,10 @@ export default Vue.extend({
     &:hover {
       background-color: rgba(0, 0, 0, 0.08);
     }
+  }
+
+  >.flex > * {
+    padding-bottom:.5em;
   }
 }
 
@@ -238,5 +265,29 @@ export default Vue.extend({
     margin-top: -3px;
     transform: rotate(45deg);
   }
+}
+
+.translation-key {
+  width:12em;
+  flex: 0 1 auto;
+}
+.translation {
+  max-width: calc(100% - 12em);
+}
+.translation > * {
+  padding-bottom:.4em;
+}
+.translation :last-child {
+  padding-bottom:0;
+}
+.source, .target {
+  padding:.15em .4em;
+  border-radius: .2em;
+}
+.source {
+  border:1px dashed #ccc;
+}
+.target {
+  border:1px solid #aaa;
 }
 </style>
