@@ -32,7 +32,7 @@
         <div class="translation-key" :style="valueKeyColor" :title="dataPath">{{ readableKey }}:</div>
         <div class="translation flex one">
           <div><div :style="getValueStyle('')" class="source" v-text="source"></div></div>
-          <div><div contenteditable="true" :style="getValueStyle(0)" class="target" v-text="target" @input="onInputValue"></div></div>
+          <div><div contenteditable="true" :style="getValueStyle(0)" class="target" v-text="target" @input="onInputTarget" @paste.prevent="onPasteTarget"></div></div>
         </div>
       </div>
     </div>
@@ -97,13 +97,19 @@ export default Vue.extend({
     toggleOpen: function(): void {
       this.open = !this.open;
     },
-    onInputValue: function(evt: Event): void {
+    onInputTarget: function(evt: Event): void {
       let target = evt.target as HTMLElement
       EventBus.$emit("inputTargetValue", {
         key: this.dataKey,
         value: target.innerText,
         path: this.dataPath
       } as TreeItem);
+    },
+    onPasteTarget: function(evt: ClipboardEvent): void {
+      if (!evt.clipboardData) { return }
+      
+      const text = evt.clipboardData.getData('text/plain');
+      window.document.execCommand('insertText', false, text);
     },
     clickEvent: function(value: string): void {
       this.$emit("selected", {
