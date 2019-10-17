@@ -5,7 +5,7 @@
     "domains": [
       {
         "title": "Umweltbereich",
-        "description": "Materielle Ressourcen und physische Umgebung, sowohl innerhalb, als auch außerhalb des Wohnraums, der Nachbarschaft und der weiteren Gemeinschaft.",
+        "description": "Materielle Hilfsmittel und physische Umgebung, sowohl innerhalb, als auch außerhalb des Wohnraums, der Nachbarschaft und der weiteren Gemeinschaft.",
         "problems": [
           {
             "title": "Einkommen",
@@ -186,7 +186,7 @@
                 "title": "Unzufriedenheit mit den Dienstleistungen"
               },
               {
-                "title": "unzureichende oder nicht verfügbare Ressourcen"
+                "title": "unzureichende oder nicht verfügbare Hilfsmittel"
               },
               {
                 "title": "Sprachbarriere"
@@ -1444,19 +1444,19 @@
     "categories": [
       {
         "title": "Lehre, Anleitung und Beratung",
-        "description": "Aktivitäten, die darauf abzielen, Informationen und Materialien bereitzustellen, Maßnahmen und Verantwortung für die Selbsthilfe und Bewältigung zu fördern und den Einzelnen, die Familie oder die Gemeinschaft bei Entscheidungen und Problemlösungen zu unterstützen."
+        "description": "Aktivitäten wie die Bereitstellung von Informationen und Materialien, die Ermutigung zur Übernahme von Verantwortung und Handeln zur Selbsthilfe und Problembewältigung, sowie Unterstützung des Einzelnen, der Familie oder der Gemeinschaft Entscheidungen zu treffen und Probleme zu lösen."
       },
       {
         "title": "Behandlungen und Verfahren",
-        "description": "Technische Aktivitäten wie Wundversorgung, Probenentnahme, Widerstandsübungen und Medikamentenrezepte, die darauf abzielen, Zeichen und Symptome für den Einzelnen, die Familie oder die Gemeinschaft zu verhindern, zu verringern oder zu lindern."
+        "description": "Technische Aktivitäten wie Wundversorgung, Probenentnahme, Widerstandsübungen und Medikamentenverschreibung, die Anzeichen und Symptome für den Einzelnen, die Familie oder die Gemeinschaft verhindern, verringern oder lindern sollen."
       },
       {
         "title": "Fall-Management",
-        "description": "Aktivitäten wie Koordination, Lobbyarbeit und Vermittlung, die die Erbringung von Dienstleistungen erleichtern, Durchsetzungsfähigkeit fördern, den Einzelnen, die Familie oder die Gemeinschaft zur Nutzung geeigneter Ressourcen führen und die Kommunikation zwischen Gesundheits- und Personaldienstleistern verbessern."
+        "description": "Aktivitäten wie Koordination, Fürsprache und Überweisung, die die Erbringung von Dienstleistungen erleichtern, die Durchsetzungsfähigkeit fördern, den Einzelnen, die Familie oder die Gemeinschaft zur Nutzung geeigneter Hilfsmittel führen und die Kommunikation zwischen allen Gesundheits- und weiteren Dienstleistern verbessern."
       },
       {
         "title": "Überwachung",
-        "description": "Aktivitäten wie Erkennung, Messung, kritische Analyse und Überwachung, die darauf abzielen, den Status der Person, Familie oder Gemeinde in Bezug auf einen bestimmten Zustand oder ein bestimmtes Phänomen zu identifizieren."
+        "description": "Aktivitäten wie Erkennung, Messung, kritische Analyse und Überwachung um den Status der Person, Familie oder Gemeinschaft in Bezug auf einen bestimmten Zustand oder ein bestimmtes Phänomen wahrzunehmen."
       }
     ],
     "targets": [
@@ -1465,7 +1465,7 @@
         "description": "Struktur und Funktion des menschlichen Körpers."
       },
       {
-        "title": "Umgang mit Wut",
+        "title": "Aggressionsbewältigung",
         "description": "Aktivitäten, die negative Gefühle und Interaktionen, einschließlich Gewalt, verringern oder kontrollieren."
       },
       {
@@ -1473,48 +1473,48 @@
         "description": "Aktivitäten, die Gewohnheiten, Verhaltensweisen oder Handlungsmuster verändern."
       },
       {
-        "title": "Blasenpflege",
-        "description": "Aktivitäten, die die Funktion der Harnblase fördern, wie z.B. Blasentraining, Katheterwechsel und Katheterspülung."
+        "title": "Blasenbehandlung",
+        "description": "Aktivitäten, die die Funktion der Harnblase fördern, wie beispielsweise Blasentraining, Katheterwechsel und Katheterspülung."
       },
       {
-        "title": "Kleben oder Beilagen",
-        "description": "Eine gegenseitige, positive Beziehung zwischen zwei Personen, wie z.B. einem Elternteil oder Betreuer und einem Säugling oder Kind."
+        "title": "Emotionale Verbundenheit",
+        "description": "Eine gegenseitige, positive Beziehung zwischen zwei Personen, wie beispielsweise zwischen einem Elternteil oder Betreuer und einem Säugling oder Kind."
       },
       {
-        "title": "Darmpflege",
-        "description": "Aktivitäten, die die Darmfunktion fördern, wie z.B. Darmtraining und Einläufe."
+        "title": "Darmbehandlung",
+        "description": "Aktivitäten, die die Darmfunktion fördern, wie beispielsweise Darmtraining und Einläufe."
       },
       {
-        "title": "Herzbetreuung",
-        "description": "Aktivitäten, die die Herz- oder Kreislauffunktion fördern, wie z.B. Energieeinsparung und Flüssigkeitshaushalt."
+        "title": "Herzbehandlung",
+        "description": "Aktivitäten, die die Herz- oder Kreislauffunktion fördern, wie beispielsweise Energieerhaltung und Flüssigkeitshaushalt."
       },
       {
-        "title": "Betreuungs- oder Elternfähigkeiten",
-        "description": "Aktivitäten wie Füttern, Baden, Disziplin, Pflege und Stimulation für ein unterhaltsames Kind oder einen Erwachsenen."
+        "title": "Betreuungs- oder elterliche Kompetenzen",
+        "description": "Aktivitäten wie Füttern, Baden, Erziehung, Förderung und Stimulation für ein abhängiges Kind oder einen abhängigen Erwachsenen."
       },
       {
-        "title": "Gusspflege",
-        "description": "Aktivitäten, die Sauberkeit, Trockenheit, Unterstützung, Ausrichtung und Linderung von Schmerzen, Druck und Verengung eines verletzten Körperteils fördern, das durch einen Guss, eine Schiene oder eine andere Vorrichtung immobilisiert wurde."
+        "title": "Gipsbehandlung",
+        "description": "Aktivitäten, die Sauberkeit, Trockenheit, Unterstützung, Ausrichtung und Linderung von Schmerzen, Druck und Einengung eines verletzten Körperteils fördern, das durch einen Gips, eine Schiene oder eine andere Vorrichtung ruhiggestellt wurde."
       },
       {
         "title": "Kommunikation",
-        "description": "Austausch von verbalen oder nonverbalen Informationen zwischen der Person oder Familie oder Gemeinschaft und anderen."
+        "description": "Austausch von verbalen oder nonverbalen Informationen zwischen der Einzelperson, Familie oder Gemeinschaft und anderen."
       },
       {
-        "title": "gemeindenahe arbeitnehmerdienste",
-        "description": "Unterstützung bei der Verwaltung von Aufgaben in den Bereichen Gesundheit, Transport, Haushalt und Kinder- oder Erwachsenenpflege durch qualifizierte Mitarbeiter unter der Aufsicht von professionellen Gesundheitsdienstleistern."
+        "title": "gemeindenahe Soziale Arbeit",
+        "description": "Unterstützung bei der Koordination von Aufgaben in den Bereichen Gesundheit, Transport, Haushalt und Betreuung von Kindern oder Erwachsenen durch qualifizierte Mitarbeiter unter der Aufsicht von professionellen Gesundheitsdienstleistern."
       },
       {
-        "title": "Kontinuität der Versorgung",
-        "description": "Übermittlung von Informationen zwischen Anbietern oder Organisationen, um eine sichere und effektive Versorgung zu gewährleisten und Doppelarbeit bei Bemühungen oder Dienstleistungen zu vermeiden."
+        "title": "Koordination der Pflege",
+        "description": "Kommunikation von Informationen zwischen Anbietern oder Organisationen, um eine sichere und effektive Versorgung zu gewährleisten und Doppelarbeit bei Bemühungen oder Dienstleistungen zu vermeiden."
       },
       {
         "title": "Bewältigungskompetenzen",
-        "description": "Fähigkeit, Herausforderungen und Veränderungen wie Krankheit, Behinderung, Einkommensverlust, Geburt eines Kindes oder Tod eines Familienmitglieds effektiv zu bewältigen."
+        "description": "Die Fähigkeit, Herausforderungen und Veränderungen wie Krankheit, Behinderung, Einkommensverlust, Geburt eines Kindes oder Tod eines Familienmitglieds effektiv zu bewältigen."
       },
       {
-        "title": "Tagespflege oder Termine",
-        "description": "Einzelpersonen oder Organisationen, die die Betreuung von Kindern oder Erwachsenen übernehmen, während die Eltern oder Erziehungsberechtigten die Schule besuchen, arbeiten oder von den üblichen Aufgaben befreit sind."
+        "title": "Tagesbetreuung oder Ruhezeit",
+        "description": "Einzelpersonen oder Organisationen, die die Betreuung von Kindern oder Erwachsenen übernehmen, während die Eltern oder Erziehungsberechtigten die Schule besuchen, arbeiten oder von den üblichen Pflichten entlastet werden."
       },
       {
         "title": "Ernährungsmanagement",
@@ -1522,39 +1522,39 @@
       },
       {
         "title": "Disziplin",
-        "description": "Pflegende Praktiken, die angemessenes Verhalten, Verhalten und Selbstkontrolle fördern."
+        "description": "Pflegemaßnahmen, die angemessenes Verhalten und Selbstkontrolle fördern."
       },
       {
-        "title": "Verbandwechsel oder Wundpflege",
-        "description": "Aktivitäten, die die Wundheilung fördern und Infektionen verhindern, wie z.B. Beobachten, Messen, Reinigen, Bewässern und oder oder Abdecken einer Wunde, Läsion oder eines Schnittes."
+        "title": "Verbandwechsel oder Wundversorgung",
+        "description": "Aktivitäten, die die Wundheilung fördern und Infektionen vorbeugen, wie beispielsweise Beobachten, Messen, Reinigen, Spülen oder Abdecken einer Wunde, Läsion oder eines Schnittes."
       },
       {
-        "title": "langlebige medizinische Geräte",
-        "description": "Nicht wegwerfbare Gegenstände, die während der Pflege verwendet werden, wie spezielle Betten, Gehhilfen und Apnoemonitore."
+        "title": "Langlebige medizinische Geräte",
+        "description": "Nicht wegwerfbare Gegenstände, die während der Pflege verwendet werden, wie spezielle Betten, Gehhilfen und Apnoe-Monitore."
       },
       {
-        "title": "Ausbildung",
-        "description": "Formale Programme, die allgemeine, technische oder individuelle Studiengänge für Schüler jeden Alters anbieten."
+        "title": "Bildung",
+        "description": "Formelle Programme, die eine allgemeine, technische oder individuelle Ausbildung für Schüler jeden Alters anbieten."
       },
       {
-        "title": "Beschäftigung",
-        "description": "Beruf, der Einkommen schafft."
+        "title": "Arbeitsverhältnis",
+        "description": "Berufstätigkeit, die zumindest ein existenzsicherndes Einkommen ermöglicht."
       },
       {
-        "title": "End-of-life-Betreuung",
-        "description": "Aktivitäten, die körperlichen Komfort und emotionale Ruhe für diejenigen bieten, die durch Einbeziehung von Familie, Freunden, spirituellen Anliegen, Ritualen, Schmerzkontrolle und Körperpflege sterben."
+        "title": "Pflege am Lebensende",
+        "description": "Aktivitäten, die körperliches Wohlbefinden und emotionale Ruhe für Sterbende ermöglichen unter Einbeziehung von Familie, Freunden, spirituellen Anliegen, Ritualen, Schmerzlinderung und Körperpflege."
       },
       {
         "title": "Umgebung",
-        "description": "Physische Umgebung, Bedingungen oder Einflüsse in der Residenz, Nachbarschaft und oder oder Gemeinde"
+        "description": "Physische Umgebung, Bedingungen oder Einflüsse am Wohnsitz, in der Nachbarschaft oder Kommune."
       },
       {
         "title": "Übungen",
-        "description": "Therapeutische körperliche Aktivitäten wie aktiver oder passiver Bewegungsumfang, Isometrie, Stretching und Gewichtheben."
+        "description": "Therapeutische, körperliche Aktivitäten wie beispielsweise Bewegungsradius trainieren, Isometrie, Dehnen und Gewichtheben."
       },
       {
-        "title": "Familienplanungspflege",
-        "description": "Aktivitäten, die die Berücksichtigung und Anwendung von Methoden zur Vorbereitung und Raumschwangerschaft unterstützen."
+        "title": "Betreuung bei Familienplanung",
+        "description": "Aktivitäten, die Unterstützung bieten bei der Berücksichtigung und Anwendung von Methoden zur Vorbereitung einer Schwangerschaft."
       },
       {
         "title": "Fütterungsverfahren",
@@ -1574,7 +1574,7 @@
       },
       {
         "title": "wachstum oder entwicklungspflege",
-        "description": "Aktivitäten, die die fortschreitende Reifung im Verhältnis zum Alter fördern, wie z.B. das Messen von Gewicht, Größe und Kopfumfang und das stimulierende Erreichen von Entwicklungsmeilensteinen."
+        "description": "Aktivitäten, die die fortschreitende Reifung im Verhältnis zum Alter fördern, wie beispielsweise das Messen von Gewicht, Größe und Kopfumfang und das stimulierende Erreichen von Entwicklungsmeilensteinen."
       },
       {
         "title": "zu Hause",
@@ -1630,7 +1630,7 @@
       },
       {
         "title": "Mobilität  oder  Transfers",
-        "description": "Körperbewegungen, die die Position verändern oder die Teilnahme an Aktivitäten wie z.B. Gehen ermöglichen."
+        "description": "Körperbewegungen, die die Position verändern oder die Teilnahme an Aktivitäten wie beispielsweise Gehen ermöglichen."
       },
       {
         "title": "Krankenpflege",
@@ -1649,7 +1649,7 @@
         "description": "Aktivitäten zur Steuerung der Ausscheidung von Urin oder Stuhl durch künstliche Öffnungen wie Kolostomie und Ileostomie."
       },
       {
-        "title": "andere gemeinschaftliche ressourcen",
+        "title": "andere gemeinschaftliche Hilfsmittel",
         "description": "Organisationen oder Gruppen, die Waren oder Dienstleistungen anbieten, die nicht speziell in anderen Zielen wie Trainingseinrichtungen, Lebensmittelkammern oder Verteilzentren oder Glaubensgemeinschaften aufgeführt sind."
       },
       {
@@ -1678,7 +1678,7 @@
       },
       {
         "title": "Atemschutz",
-        "description": "Aktivitäten, die die Atmungs- oder Lungenfunktion fördern, wie z.B. Saug- und Zerstäuberbehandlungen."
+        "description": "Aktivitäten, die die Atmungs- oder Lungenfunktion fördern, wie beispielsweise Saug- und Zerstäuberbehandlungen."
       },
       {
         "title": "Pflege der Atemtherapie",
@@ -1710,7 +1710,7 @@
       },
       {
         "title": "Hautpflege",
-        "description": "Aktivitäten, die die Hautintegrität fördern, wie z.B. das Auftragen von Lotion und Massage."
+        "description": "Aktivitäten, die die Hautintegrität fördern, wie beispielsweise das Auftragen von Lotion und Massage."
       },
       {
         "title": "Sozialarbeit oder Beratungsbetreuung",
