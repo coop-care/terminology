@@ -8,6 +8,10 @@ import { Tree } from "./tree";
 import terminologyEN from "../json/terminology_EN.json";
 import terminologyDE from "../json/terminology_DE.json";
 
+interface Titleable {
+  title: string
+}
+
 let terminology = {
   source: (terminologyEN as any),
   target: (terminologyDE as any)
@@ -35,6 +39,22 @@ const app = new Vue({
     downloadSource() {
       Download.json(terminology.source, 'terminology_' + this.languageMap.source + '.json');
     },
+    problems(domain: any) {
+      return (domain.problems as Titleable[]).sort(this.sortByTitle);
+    },
+    targets(terminology: any) {
+      let targets = terminology.interventionScheme.targets as Titleable[]
+      let other = targets.pop()
+      targets = targets.sort(this.sortByTitle)
+
+      if (other) {
+        targets.push(other)
+      }
+      return targets;
+    },
+    sortByTitle(a: Titleable, b: Titleable): number {
+      return a.title.localeCompare(b.title);
+    }
   },
   computed: {
     terminology() {

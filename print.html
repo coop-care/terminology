@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Omaha System: Druckversion</title>
+    <style type="text/css">
+        #print-terminology {font-size: 70%;}
+        #print-terminology h2 {color: white; text-align: center; margin:0 0 1em; padding:.5em 1em;}
+        .description {font-style: italic}
+        h2 .description {font-size:60%;}
+        h2 .parent-category {font-weight:normal;}
+        #print-terminology h4, #print-terminology strong {font-size:120%;}
+        #print-terminology h4 {padding-bottom:0;}
+        #print-terminology p {margin:0;}
+        #print-terminology p + p {margin-top: .5em;}
+        .no-bullets {list-style-type: none; margin: 0; padding: 0;}
+        ul:not(.no-bullets) {padding-left: 15px;}
+        #print-terminology li {margin: 0;}
+        .column {column-count: 3; margin:0 10mm;}
+        .page-break {page-break-before: always;}
+        .unbreakable {page-break-inside: avoid; break-inside: avoid-column;}
+
+        @media print {
+        
+        }
+
+        @page {
+            size: A4;
+            margin: 5mm 5mm 5mm 5mm;
+        }
+    </style>
+</head>
+<body id="print-terminology">
+    <div id="app">
+
+        <div :class="index > 0 ? 'page-break' : ''" v-for="(domain, index) in terminology.target.problemClassificationScheme.domains">
+            <h2 style="background-color: #E63E21">
+                <span class="parent-category">{{ terminology.target.problemClassificationScheme.title }}:</span> {{ domain.title }}
+                <div class="description">{{ domain.description }}</div>
+            </h2>
+            <ul class="column no-bullets auto-hyphens">
+                <li class="unbreakable" v-for="problem in problems(domain)">
+                    <h4>{{ problem.title }}</h4>
+                    <p class="description">{{ problem.description }}</p>
+                    <p>Symptome:</p>
+                    <ul>
+                        <li v-for="symptom in problem.signsAndSymptoms">{{ symptom.title }}</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <h2 style="background-color: #EF971B" class="page-break">
+            <span class="parent-category">{{ terminology.target.interventionScheme.title }}:</span> Ziele
+        </h2>
+        <ul class="column no-bullets auto-hyphens">
+            <li class="unbreakable" v-for="target in targets(terminology.target)">
+                <p><strong>{{ target.title }}:</strong> <span class="description">{{ target.description }}</span></p>
+            </li>
+        </ul>
+
+    </div>
+    <script src="/dist/bundle.js"></script>
+</body>
+</html>
