@@ -1613,19 +1613,19 @@
         "description": "Positive oder negative Folgen von Medikamenten."
       },
       {
-        "title": "Medikamentenverabreichung",
+        "title": "Medikamente verabreichen",
         "description": "Aktivitäten, die die Anwendung oder Verabreichung von Medikamenten beinhalten und die von Kunden, Eltern, Betreuern oder medizinischen Fachkräften durchgeführt werden."
       },
       {
-        "title": "Medikamentenbestellung und -koordination",
+        "title": "Medikamente bestellen und koordinieren",
         "description": "Kommunikation mit denjenigen, die Medikamente verschreiben und ausgeben, und den Unterstützungssystemen der Einzelpersonen, Familien oder Gemeinschaften, um sicherzustellen, dass geeignete Medikamente und Vorräte rechtzeitig beschafft werden."
       },
       {
-        "title": "Medikamentenverschreibung",
+        "title": "Medikamente verschreiben",
         "description": "Eine formalisierte pharmazeutische Bestellung  oder  offizielle Anfrage für Medikamente."
       },
       {
-        "title": "Medikamenteneinrichtung",
+        "title": "Medikamenten richten",
         "description": "Akt der Vorbereitung auf die Medikamentenverabreichung durch Befüllen oder Überprüfen eines oralen Medikamentenorganizers, Vorfüllen von Spritzen oder Einsetzen von intravenösen Zugangsgeräten."
       },
       {
@@ -1701,11 +1701,11 @@
         "description": "Aktivitäten als Reaktion auf Krankheiten oder Unfälle wie Erste Hilfe und Temperaturmessung."
       },
       {
-        "title": "Zeichen oder Symptome - mental oder emotional",
+        "title": "Anzeichen oder Symptome - mental oder emotional",
         "description": "Objektiver oder subjektiver Nachweis von psychischen oder emotionalen Gesundheitsproblemen wie Depressionen, Verwirrung oder Unruhe."
       },
       {
-        "title": "Zeichen oder Symptome - physikalisch",
+        "title": "Anzeichen oder Symptome - körperlich",
         "description": "Objektiver oder subjektiver Nachweis von körperlichen Gesundheitsproblemen wie Fieber, plötzlicher Gewichtsabnahme oder Schmerzaussage."
       },
       {
@@ -1725,7 +1725,7 @@
         "description": "Beurteilung oder Diagnose und Behandlung durch Sprach- und Sprachpathologen und deren Mitarbeiter oder Assistenten."
       },
       {
-        "title": "spirituelle Betreuung",
+        "title": "Spirituelle Betreuung",
         "description": "Aktivitäten, die die persönliche Gelassenheit und den Komfort fördern und spirituelle Anliegen oder Praktiken beinhalten."
       },
       {
