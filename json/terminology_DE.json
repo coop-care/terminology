@@ -170,8 +170,8 @@
         "description": "Verhaltensmuster, Emotionen, Kommunikation, Beziehungen und Entwicklung.",
         "problems": [
           {
-            "title": "Kommunikation mit den Community-Ressourcen",
-            "description": "Interaktion zwischen dem Einzelnen oder Familie oder Gemeinschaft und Sozialeinrichtungen, Schulen und Unternehmen in Bezug auf Dienstleistungen, Informationen und Waren oder Versorgungen.",
+            "title": "Kommunikation mit den kommunalen Einrichtungen",
+            "description": "Interaktion zwischen dem Einzelnen, der Familie oder Gemeinschaft und Sozialeinrichtungen, Schulen und Unternehmen in Bezug auf Dienstleistungen, Informationen und Waren oder Versorgung.",
             "signsAndSymptoms": [
               {
                 "title": "nicht vertraut mit Optionen oder Methoden zur Inanspruchnahme von Dienstleistungen"
@@ -282,7 +282,7 @@
           },
           {
             "title": "Spiritualität",
-            "description": "Überzeugungen und Praktiken, die Glauben, Religion, Werte, den Geist und oder oder die Seele betreffen.",
+            "description": "Überzeugungen und Praktiken, die Glauben, Religion, Werte, den Geist oder die Seele betreffen.",
             "signsAndSymptoms": [
               {
                 "title": "drückt spirituelle Bedenken aus"
@@ -416,7 +416,7 @@
             ]
           },
           {
-            "title": "Betreuung oder Kindererziehung",
+            "title": "Betreuung und Kindererziehung",
             "description": "Unterstützung, Pflege, Stimulation und körperliche Betreuung von unterhaltsberechtigten Kindern und Erwachsenen.",
             "signsAndSymptoms": [
               {
@@ -560,7 +560,7 @@
             ]
           },
           {
-            "title": "Vision",
+            "title": "Sehkraft",
             "description": "Wirken oder die Kraft der Wahrnehmung mit den Augen.",
             "signsAndSymptoms": [
               {
@@ -620,7 +620,7 @@
             ]
           },
           {
-            "title": "Mundgesundheit",
+            "title": "Mund",
             "description": "Zustand von Mund und Zahnfleisch sowie Anzahl, Art und Anordnung der Zähne.",
             "signsAndSymptoms": [
               {
@@ -716,7 +716,7 @@
             ]
           },
           {
-            "title": "Bewusstsein",
+            "title": "Wahrnehmung",
             "description": "Sensibilisierung und Reaktionsfähigkeit auf Reize und die Umgebung.",
             "signsAndSymptoms": [
               {
@@ -920,7 +920,7 @@
             ]
           },
           {
-            "title": "Verdauung - Hydratation",
+            "title": "Verdauung und Flüssigkeitsaufnahme",
             "description": "Prozess zur Umwandlung von Lebensmitteln in Formen, die aufgenommen und assimiliert werden können, und zur Aufrechterhaltung des Flüssigkeitsgleichgewichts.",
             "signsAndSymptoms": [
               {
@@ -1085,7 +1085,7 @@
             ]
           },
           {
-            "title": "Postpartal",
+            "title": "Wochenbett",
             "description": "Sechs Wochen nach der Geburt.",
             "signsAndSymptoms": [
               {
@@ -1148,7 +1148,7 @@
       },
       {
         "title": "Bereich Gesundheitsverhalten",
-        "description": "Aktivitätsmuster, die das Wohlbefinden erhalten oder fördern, die Regeneration fördern und das Risiko von Krankheiten verringern.",
+        "description": "Aktivitätsmuster, die das Wohlbefinden erhalten oder fördern, die Genesung stärken und das Risiko von Krankheiten verringern.",
         "problems": [
           {
             "title": "Ernährung",
@@ -1280,8 +1280,8 @@
             ]
           },
           {
-            "title": "Stoffverbrauch",
-            "description": "Konsum von Medikamenten, Freizeitdrogen oder anderen Materialien, die Stimmungsschwankungen und oder oder psychische oder physische Abhängigkeit, Krankheit und Krankheit verursachen können.",
+            "title": "Psychoaktive Substanzen",
+            "description": "Konsum von Medikamenten, Freizeitdrogen oder anderen Materialien, die Stimmungsschwankungen, psychische oder physische Abhängigkeit oder Erkrankungen verursachen können.",
             "signsAndSymptoms": [
               {
                 "title": "Missbrauch von rezeptfreien oder verschreibungspflichtigen Medikamenten"
@@ -1373,7 +1373,7 @@
             ]
           },
           {
-            "title": "Medikamentenschema",
+            "title": "Medikamenteneinnahme",
             "description": "Verwendung oder Anwendung von rezeptfreien und verschriebenen oder empfohlenen Medikamenten und Infusionen zur Einhaltung der Richtlinien für therapeutische Wirkung, Sicherheit und Zeitplan.",
             "signsAndSymptoms": [
               {
@@ -1420,7 +1420,7 @@
         },
         {
           "title": "Gemeinschaft",
-          "description": "Die Einzelpersonen und oder oder Familien, die eine Gruppe, ein Viertel oder einen anderen geografischen Bezirk umfassen, die ein gesundheitliches Problem haben."
+          "description": "Die Einzelpersonen oder Familien, die eine Gruppe, ein Viertel oder einen anderen geografischen Bezirk umfassen, die ein gesundheitliches Problem haben."
         }
       ],
       "severity": [
@@ -1461,7 +1461,7 @@
     ],
     "targets": [
       {
-        "title": "Anatomie oder Physiologie",
+        "title": "Anatomie und Physiologie",
         "description": "Struktur und Funktion des menschlichen Körpers."
       },
       {
@@ -1501,7 +1501,7 @@
         "description": "Austausch von verbalen oder nonverbalen Informationen zwischen der Einzelperson, Familie oder Gemeinschaft und anderen."
       },
       {
-        "title": "gemeindenahe Soziale Arbeit",
+        "title": "Kommunale Hilfsdienste",
         "description": "Unterstützung bei der Koordination von Aufgaben in den Bereichen Gesundheit, Transport, Haushalt und Betreuung von Kindern oder Erwachsenen durch qualifizierte Mitarbeiter unter der Aufsicht von professionellen Gesundheitsdienstleistern."
       },
       {
@@ -1513,7 +1513,7 @@
         "description": "Die Fähigkeit, Herausforderungen und Veränderungen wie Krankheit, Behinderung, Einkommensverlust, Geburt eines Kindes oder Tod eines Familienmitglieds effektiv zu bewältigen."
       },
       {
-        "title": "Tagesbetreuung oder Ruhezeit",
+        "title": "Tagesbetreuung und Ruhepausen",
         "description": "Einzelpersonen oder Organisationen, die die Betreuung von Kindern oder Erwachsenen übernehmen, während die Eltern oder Erziehungsberechtigten die Schule besuchen, arbeiten oder von den üblichen Pflichten entlastet werden."
       },
       {
@@ -1525,11 +1525,11 @@
         "description": "Pflegemaßnahmen, die angemessenes Verhalten und Selbstkontrolle fördern."
       },
       {
-        "title": "Verbandwechsel oder Wundversorgung",
+        "title": "Verbandwechsel und Wundversorgung",
         "description": "Aktivitäten, die die Wundheilung fördern und Infektionen vorbeugen, wie beispielsweise Beobachten, Messen, Reinigen, Spülen oder Abdecken einer Wunde, Läsion oder eines Schnittes."
       },
       {
-        "title": "Langlebige medizinische Geräte",
+        "title": "Medizinische Gerätschaften",
         "description": "Nicht wegwerfbare Gegenstände, die während der Pflege verwendet werden, wie spezielle Betten, Gehhilfen und Apnoe-Monitore."
       },
       {
@@ -1697,15 +1697,15 @@
         "description": "Bewertungsstrategien, die verwendet werden, um das Risiko für Krankheiten zu identifizieren, Krankheiten frühzeitig zu diagnostizieren und Veränderungen oder Fortschritte über die Zeit zu überwachen."
       },
       {
-        "title": "Krankheit oder Verletzungshilfe",
+        "title": "Hilfe bei Krankheit und Verletzungen",
         "description": "Aktivitäten als Reaktion auf Krankheiten oder Unfälle wie Erste Hilfe und Temperaturmessung."
       },
       {
-        "title": "Anzeichen oder Symptome - mental oder emotional",
+        "title": "Anzeichen und Symptome – mental oder emotional",
         "description": "Objektiver oder subjektiver Nachweis von psychischen oder emotionalen Gesundheitsproblemen wie Depressionen, Verwirrung oder Unruhe."
       },
       {
-        "title": "Anzeichen oder Symptome - körperlich",
+        "title": "Anzeichen und Symptome – körperlich",
         "description": "Objektiver oder subjektiver Nachweis von körperlichen Gesundheitsproblemen wie Fieber, plötzlicher Gewichtsabnahme oder Schmerzaussage."
       },
       {
@@ -1713,15 +1713,15 @@
         "description": "Aktivitäten, die die Hautintegrität fördern, wie beispielsweise das Auftragen von Lotion und Massage."
       },
       {
-        "title": "Sozialarbeit oder Beratungsbetreuung",
-        "description": "Beurteilung oder Diagnose und Behandlung durch Sozialarbeiter, Berater und deren Mitarbeiter oder Assistenten."
+        "title": "Sozialarbeit und Beratung",
+        "description": "Beurteilung oder Diagnose und Behandlung durch Sozialarbeiter, Berater, Seelsorger und deren Mitarbeiter oder Assistenten."
       },
       {
         "title": "Probensammlung",
         "description": "Tätigkeiten zur Gewinnung von Proben von menschlichem und tierischem Gewebe, Flüssigkeiten, Sekreten oder Ausscheidungen wie Blut, Urin, Stuhl, Auswurf und Drainage."
       },
       {
-        "title": "Betreuung von Sprach- und Sprachpathologien",
+        "title": "Behandlung durch Logopädie",
         "description": "Beurteilung oder Diagnose und Behandlung durch Sprach- und Sprachpathologen und deren Mitarbeiter oder Assistenten."
       },
       {
@@ -1729,7 +1729,7 @@
         "description": "Aktivitäten, die die persönliche Gelassenheit und den Komfort fördern und spirituelle Anliegen oder Praktiken beinhalten."
       },
       {
-        "title": "Stimulierung oder Nährstoffversorgung",
+        "title": "Förderung und Versorgung",
         "description": "Aktivitäten, die eine gesunde körperliche, geistige und emotionale Entwicklung fördern."
       },
       {
@@ -1757,7 +1757,7 @@
         "description": "Reisemethoden wie Auto, Bus, Taxi, Roller oder Wagen."
       },
       {
-        "title": "Wellness",
+        "title": "Wohlbefinden",
         "description": "Praktiken, die die körperliche und geistige Gesundheit fördern, wie Bewegung, Ernährung und Impfungen."
       },
       {
