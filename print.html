@@ -6,20 +6,26 @@
     <title>Omaha System: Druckversion</title>
     <style type="text/css">
         #print-terminology {font-size: 70%;}
-        #print-terminology h2 {color: white; text-align: center; margin:0 0 1em; padding:.5em 1em;}
-        .description {font-style: italic}
-        h2 .description {font-size:60%;}
+        #print-terminology h2 {font-size:180%; color: white; text-align: center; margin:0 0 1.5em; padding:10mm 10mm 4mm;}
+        #print-terminology h2.mb {margin-bottom:2.5em;}
+        .description {font-style: italic;}
+        h2 .description {font-size:70%; font-style:normal;}
         h2 .parent-category {font-weight:normal;}
-        #print-terminology h4, #print-terminology strong {font-size:120%;}
+        #print-terminology h3 {font-size:127%; color: white; margin:1.8em 0 0; padding:.3em .5em;}
+        #print-terminology h3.no-margin {margin:0;}
+        #print-terminology h4, #print-terminology strong {font-size:130%;}
         #print-terminology h4 {padding-bottom:0;}
         #print-terminology p {margin:0;}
         #print-terminology p + p {margin-top: .5em;}
+        #print-terminology p.item {margin-bottom:.7em;}
+        #print-terminology p.item .description {font-size:100%;}
         .no-bullets {list-style-type: none; margin: 0; padding: 0;}
         ul:not(.no-bullets) {padding-left: 15px;}
         #print-terminology li {margin: 0;}
-        .column {column-count: 3; margin:0 10mm;}
+        .column {column-count: 3; margin:0 13mm;}
         .page-break {page-break-before: always;}
         .unbreakable {page-break-inside: avoid; break-inside: avoid-column;}
+        .reduced-line-height {line-height: 1.3em;}
 
         @media print {
         
@@ -27,36 +33,54 @@
 
         @page {
             size: A4;
-            margin: 5mm 5mm 5mm 5mm;
+            margin: 0mm 0mm 8mm 0mm;
         }
     </style>
 </head>
 <body id="print-terminology">
     <div id="app">
 
-        <div :class="index > 0 ? 'page-break' : ''" v-for="(domain, index) in terminology.target.problemClassificationScheme.domains">
-            <h2 style="background-color: #E63E21">
-                <span class="parent-category">{{ terminology.target.problemClassificationScheme.title }}:</span> {{ domain.title }}
-                <div class="description">{{ domain.description }}</div>
-            </h2>
-            <ul class="column no-bullets auto-hyphens">
-                <li class="unbreakable" v-for="problem in problems(domain)">
-                    <h4>{{ problem.title }}</h4>
-                    <p class="description">{{ problem.description }}</p>
-                    <p>Symptome:</p>
-                    <ul>
-                        <li v-for="symptom in problem.signsAndSymptoms">{{ symptom.title }}</li>
-                    </ul>
-                </li>
-            </ul>
+        <h2 style="background-color: #E63E21">
+            <span class="parent-category">{{ terminology.target.problemClassificationScheme.title }}:</span> Probleme
+        </h2>
+        <div class="column reduced-line-height">
+            <div v-for="(domain, index) in domains(terminology.target)">
+                <h3 :class="index == 0 ? 'no-margin' : ''" style="background-color: #E63E21">
+                    {{ domain.title }}
+                </h3>
+                <p class="description" style="color: #E63E21; font-weight: bold; margin-bottom: .7em;">{{ domain.description }}</p>
+                <ul class="no-bullets auto-hyphens">
+                    <li class="unbreakable" v-for="problem in problems(domain)">
+                        <p class="item">
+                            <strong>{{ problem.title }}:</strong>
+                            <span class="description">{{ problem.description }}</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </div>
 
-        <h2 style="background-color: #EF971B" class="page-break">
-            <span class="parent-category">{{ terminology.target.interventionScheme.title }}:</span> Ziele
+        <h2 style="background-color: #EF971B" class="page-break mb">
+            <span class="parent-category">{{ terminology.target.interventionScheme.title }}:</span> Ziele <span class="parent-category">(1/2)</span></h2>
         </h2>
-        <ul class="column no-bullets auto-hyphens">
-            <li class="unbreakable" v-for="target in targets(terminology.target)">
-                <p><strong>{{ target.title }}:</strong> <span class="description">{{ target.description }}</span></p>
+        <ul class="column reduced-line-height no-bullets auto-hyphens">
+            <li class="unbreakable" v-for="target in targets(terminology.target).slice(0, 38)">
+                <p class="item">
+                    <strong>{{ target.title }}:</strong>
+                    <span class="description">{{ target.description }}</span>
+                </p>
+            </li>
+        </ul>
+
+        <h2 style="background-color: #EF971B" class="page-break mb">
+            <span class="parent-category">{{ terminology.target.interventionScheme.title }}:</span> Ziele <span class="parent-category">(2/2)</span></h2>
+        </h2>
+        <ul class="column reduced-line-height no-bullets auto-hyphens">
+            <li class="unbreakable" v-for="target in targets(terminology.target).slice(38)">
+                <p class="item">
+                    <strong>{{ target.title }}:</strong>
+                    <span class="description">{{ target.description }}</span>
+                </p>
             </li>
         </ul>
 

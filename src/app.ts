@@ -39,6 +39,10 @@ const app = new Vue({
     downloadSource() {
       Download.json(terminology.source, 'terminology_' + this.languageMap.source + '.json');
     },
+    domains(terminology: any) {
+      let domains = terminology.problemClassificationScheme.domains
+      return domains
+    },
     problems(domain: any) {
       return (domain.problems as Titleable[]).sort(this.sortByTitle);
     },
