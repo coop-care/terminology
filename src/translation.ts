@@ -1,4 +1,5 @@
 import { Tree } from "./tree";
+import $ from "jquery";
   
 export module Translation {
 
