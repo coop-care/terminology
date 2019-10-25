@@ -3,7 +3,7 @@
     <!-- Handle Objects and Arrays-->
     <div v-if="typeof source === 'object' && source !== null">
       <div @click.stop="toggleOpen" class="data-key" :style="keyColor">
-        <div :class="classes" :style="arrowStyles"></div> <!--{{ dataKey }}:-->
+        <div :class="classes" :style="arrowStyles"></div> {{ hierarchyKey }}:
       </div>
       <json-view-item
         v-on:selected="bubbleSelected"
@@ -28,7 +28,10 @@
       v-if="typeof source !== 'object'"
     >
       <div class="flex">
-        <div class="translation-key manual-hyphens" :style="valueKeyColor" :title="path">{{ label }}:</div>
+        <div class="translation-key manual-hyphens" :style="valueKeyColor" :title="path">
+          <span class="hierarchy">{{ hierarchyKey }}:</span>
+          <span class="flat">{{ flatLabel }}:</span>
+          </div>
         <div class="translation">
           <div><div :style="getValueStyle('')" class="source" v-text="source"></div></div>
           <div><div contenteditable="true" :style="getValueStyle(0)" class="target" v-text="target" @input="onInputTarget" @paste.prevent="onPasteTarget"></div></div>
@@ -178,7 +181,20 @@ export default Vue.extend({
     valueKeyColor: function(): object {
       return { color: this.styles.valueKey };
     },
-    label: function(): string {
+    hierarchyKey: function(): string {
+      if (!isNaN(this.dataKey as unknown as number)) {
+        return this.dataPath
+        .split(".")
+        .slice(1)
+        .slice(-2)
+        .map(this.keyToLabel)
+        .join(" ")
+      } else {
+        let key = Array.isArray(this.source) ? this.dataKey + "[]" : this.dataKey
+        return this.keyToLabel(key)
+      }
+    },
+    flatLabel: function(): string {
       return this.dataPath
         .split(".")
         .slice(1)
@@ -207,6 +223,20 @@ export default Vue.extend({
   .data-key {
     display:none;
   }
+  .translation-key {
+    text-align: right;
+  }
+  .hierarchy {
+    display:none;
+  }
+}
+.hierarchy {
+  .translation-key {
+    padding-left: 35px;
+  }
+  .flat {
+    display:none;
+  }
 }
 
 .json-view-item {
@@ -214,7 +244,7 @@ export default Vue.extend({
 }
 
 .value-key {
-  font-weight: 600;
+  font-weight: 400;
   margin-left: 10px;
   border-radius: 2px;
   padding: 5px 5px 5px 10px;
@@ -268,6 +298,7 @@ export default Vue.extend({
 }
 
 .translation-key {
+  font-weight:600;
   width:12em;
   flex: 0 1 auto;
 }

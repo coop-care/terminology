@@ -69,18 +69,28 @@ const app = new Vue({
         "title": "Titel",
         "description": "Beschreibung",
         "signsAndSymptoms": "Symptom",
+        "signsAndSymptoms[]": "Symptome",
         "problems": "Problem",
+        "problems[]": "Probleme",
         "domains": "Bereich",
+        "domains[]": "Bereiche",
         "modifiers": "Merkmale",
         "scope": "Merkmal Problembesitzer",
+        "scope[]": "Merkmal Problembesitzer",
         "severity": "Merkmal Dringlichkeit",
+        "severity[]": "Merkmal Dringlichkeit",
         "categories": "Kategorie",
+        "categories[]": "Kategorien",
         "targets": "Ziel",
+        "targets[]": "Ziele",
         "ratings": "Bewertung",
+        "ratings[]": "Bewertungen",
         "scale": "Skala",
+        "scale[]": "Skala",
         "problemClassificationScheme": "Pro­blem­klas­si­fi­ka­tions­sche­ma",
         "interventionScheme": "In­ter­ven­tions­sche­ma",
         "problemRatingScale": "Problem­bewertungs­skala für Ergebnisse",
+        "root": "Das Omaha-System"
       };
     }
   }
