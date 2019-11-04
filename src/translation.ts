@@ -5,13 +5,18 @@ export module Translation {
   export function estimateTranslationCosts(
     source: any,
     sourceLang: string,
-    targetLang: string
+    targetLang: string,
+    excludeKeys?: string[]
   ): string {
     let textCount = 0;
     let characterCount = 0;
 
     // count number of texts and characters to translate
     Tree.traverseObject(source, function(value, path) {
+      if ((excludeKeys || []).includes(path[path.length - 1])) {
+        return;
+      }
+
       textCount += 1;
       characterCount += value.length;
     });
@@ -40,12 +45,17 @@ export module Translation {
     source: any,
     target: any,
     sourceLang: string,
-    targetLang: string
+    targetLang: string,
+    excludeKeys?: string[]
   ) {
     Tree.traverseObject(
       source,
       (function(target) {
         return function(value: string, path: string[]) {
+          if ((excludeKeys || []).includes(path[path.length - 1])) {
+            return;
+          }
+
           let data = {
             auth_key: "APIKEY",
             text: value,

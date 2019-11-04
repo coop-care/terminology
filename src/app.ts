@@ -31,6 +31,29 @@ const app = new Vue({
   },
   mounted() {},
   methods: {
+    estimateTranslation() {
+      alert(
+        Translation.estimateTranslationCosts(
+          terminology.source,
+          this.languageMap.source,
+          this.languageMap.target,
+          ["code"]
+        )
+      );
+    },
+    translate() {
+      Translation.translate(
+        terminology.source,
+        terminology.target,
+        this.languageMap.source,
+        this.languageMap.target,
+        ["code"]
+      );
+      setTimeout(() => {
+        console.log(terminology.target);
+        app.$forceUpdate();
+      }, 3000);
+    },
     downloadTarget() {
       Download.json(
         terminology.target,
@@ -42,26 +65,6 @@ const app = new Vue({
         terminology.source,
         "terminology_" + this.languageMap.source + ".json"
       );
-    },
-    domains(terminology: any) {
-      let domains = terminology.problemClassificationScheme.domains;
-      return domains;
-    },
-    problems(domain: any) {
-      return (domain.problems as Titleable[]).sort(this.sortByTitle);
-    },
-    targets(terminology: any) {
-      let targets = terminology.interventionScheme.targets as Titleable[];
-      let other = targets.pop();
-      targets = targets.sort(this.sortByTitle);
-
-      if (other) {
-        targets.push(other);
-      }
-      return targets;
-    },
-    sortByTitle(a: Titleable, b: Titleable): number {
-      return a.title.localeCompare(b.title);
     }
   },
   computed: {
