@@ -1296,153 +1296,199 @@
           {
             "title": "Urinary function",
             "description": "Production and excretion of urine.",
+            "code": "46",
             "signsAndSymptoms": [
               {
-                "title": "burning/painful urination"
+                "title": "burning/painful urination",
+                "code": "01"
               },
               {
-                "title": "incontinent of urine"
+                "title": "incontinent of urine",
+                "code": "02"
               },
               {
-                "title": "urgency/frequency"
+                "title": "urgency/frequency",
+                "code": "03"
               },
               {
-                "title": "difficulty initiating urination"
+                "title": "difficulty initiating urination",
+                "code": "04"
               },
               {
-                "title": "difficulty emptying bladder"
+                "title": "difficulty emptying bladder",
+                "code": "05"
               },
               {
-                "title": "abnormal amount"
+                "title": "abnormal amount",
+                "code": "06"
               },
               {
-                "title": "hematuria/abnormal color"
+                "title": "hematuria/abnormal color",
+                "code": "07"
               },
               {
-                "title": "nocturia"
+                "title": "nocturia",
+                "code": "08"
               },
               {
-                "title": "abnormal urinary laboratory results"
+                "title": "abnormal urinary laboratory results",
+                "code": "09"
               },
               {
-                "title": "other"
+                "title": "other",
+                "code": "10"
               }
             ]
           },
           {
             "title": "Reproductive function",
             "description": "Condition of the genital organs and breasts and the ability to reproduce.",
+            "code": "47",
             "signsAndSymptoms": [
               {
-                "title": "abnormal discharge"
+                "title": "abnormal discharge",
+                "code": "01"
               },
               {
-                "title": "abnormal menstrual pattern"
+                "title": "abnormal menstrual pattern",
+                "code": "02"
               },
               {
-                "title": "difficulty managing menopause/andropause"
+                "title": "difficulty managing menopause/andropause",
+                "code": "03"
               },
               {
-                "title": "abnormal lumps/swelling/tenderness of genital organs or breasts"
+                "title": "abnormal lumps/swelling/tenderness of genital organs or breasts",
+                "code": "04"
               },
               {
-                "title": "pain during or after sexual intercourse"
+                "title": "pain during or after sexual intercourse",
+                "code": "05"
               },
               {
-                "title": "infertility"
+                "title": "infertility",
+                "code": "06"
               },
               {
-                "title": "impotency"
+                "title": "impotency",
+                "code": "07"
               },
               {
-                "title": "other"
+                "title": "other",
+                "code": "08"
               }
             ]
           },
           {
             "title": "Pregnancy",
             "description": "Period from conception to childbirth.",
+            "code": "48",
             "signsAndSymptoms": [
               {
-                "title": "difficulty bonding with unborn baby"
+                "title": "difficulty bonding with unborn baby",
+                "code": "01"
               },
               {
-                "title": "difficulty coping with body changes"
+                "title": "difficulty coping with body changes",
+                "code": "02"
               },
               {
-                "title": "difficulty with prenatal exercise/rest/diet/behaviors"
+                "title": "difficulty with prenatal exercise/rest/diet/behaviors",
+                "code": "03"
               },
               {
-                "title": "fears delivery procedure"
+                "title": "fears delivery procedure",
+                "code": "04"
               },
               {
-                "title": "prenatal complications/preterm labor"
+                "title": "prenatal complications/preterm labor",
+                "code": "05"
               },
               {
-                "title": "inadequate social support"
+                "title": "inadequate social support",
+                "code": "06"
               },
               {
-                "title": "other"
+                "title": "other",
+                "code": "07"
               }
             ]
           },
           {
             "title": "Postpartum",
             "description": "Six-week period following childbirth.",
+            "code": "49",
             "signsAndSymptoms": [
               {
-                "title": "difficulty breast-feeding"
+                "title": "difficulty breast-feeding",
+                "code": "01"
               },
               {
-                "title": "difficulty coping with postpartum changes"
+                "title": "difficulty coping with postpartum changes",
+                "code": "02"
               },
               {
-                "title": "difficulty with postpartum exercise/rest/diet/behaviors"
+                "title": "difficulty with postpartum exercise/rest/diet/behaviors",
+                "code": "03"
               },
               {
-                "title": "abnormal bleeding/vaginal discharge"
+                "title": "abnormal bleeding/vaginal discharge",
+                "code": "04"
               },
               {
-                "title": "postpartum complications"
+                "title": "postpartum complications",
+                "code": "05"
               },
               {
-                "title": "abnormal depressed feelings"
+                "title": "abnormal depressed feelings",
+                "code": "06"
               },
               {
-                "title": "other"
+                "title": "other",
+                "code": "07"
               }
             ]
           },
           {
             "title": "Communicable/infectious condition",
             "description": "State in which organisms invade/infest and produce superficial or systemic illness with the potential for spreading or transmission.",
+            "code": "50",
             "signsAndSymptoms": [
               {
-                "title": "infection"
+                "title": "infection",
+                "code": "01"
               },
               {
-                "title": "infestation"
+                "title": "infestation",
+                "code": "02"
               },
               {
-                "title": "fever"
+                "title": "fever",
+                "code": "03"
               },
               {
-                "title": "biological hazards"
+                "title": "biological hazards",
+                "code": "04"
               },
               {
-                "title": "positive screening/culture/laboratory results"
+                "title": "positive screening/culture/laboratory results",
+                "code": "05"
               },
               {
-                "title": "inadequate supplies/equipment/policies to prevent transmission"
+                "title": "inadequate supplies/equipment/policies to prevent transmission",
+                "code": "06"
               },
               {
-                "title": "does not follow infection control regimen"
+                "title": "does not follow infection control regimen",
+                "code": "07"
               },
               {
-                "title": "inadequate immunity"
+                "title": "inadequate immunity",
+                "code": "08"
               },
               {
-                "title": "other"
+                "title": "other",
+                "code": "09"
               }
             ]
           }
@@ -1451,259 +1497,337 @@
       {
         "title": "Health-related Behaviors Domain",
         "description": "Patterns of activity that maintain or promote wellness, promote recovery, and decrease the risk of disease.",
+        "code": "04",
         "problems": [
           {
             "title": "Nutrition",
             "description": "Select, consume, and use food and fluids for energy, maintenance, growth, and health.",
+            "code": "35",
             "signsAndSymptoms": [
               {
-                "title": "overweight: adult BMI 25.0 or more; child BMI 95th percentile or more"
+                "title": "overweight: adult BMI 25.0 or more; child BMI 95th percentile or more",
+                "code": "12"
               },
               {
-                "title": "underweight: adult BMI 18.5 or less; child BMI 5th percentile or less"
+                "title": "underweight: adult BMI 18.5 or less; child BMI 5th percentile or less",
+                "code": "13"
               },
               {
-                "title": "lacks established standards for daily caloric/fluid intake"
+                "title": "lacks established standards for daily caloric/fluid intake",
+                "code": "03"
               },
               {
-                "title": "exceeds established standards for daily caloric/fluid intake"
+                "title": "exceeds established standards for daily caloric/fluid intake",
+                "code": "04"
               },
               {
-                "title": "unbalanced diet"
+                "title": "unbalanced diet",
+                "code": "05"
               },
               {
-                "title": "improper feeding schedule for age"
+                "title": "improper feeding schedule for age",
+                "code": "06"
               },
               {
-                "title": "does not follow recommended nutrition plan"
+                "title": "does not follow recommended nutrition plan",
+                "code": "07"
               },
               {
-                "title": "unexplained/progressive weight loss"
+                "title": "unexplained/progressive weight loss",
+                "code": "08"
               },
               {
-                "title": "unable to obtain/prepare food"
+                "title": "unable to obtain/prepare food",
+                "code": "14"
               },
               {
-                "title": "hypoglycemia"
+                "title": "hypoglycemia",
+                "code": "09"
               },
               {
-                "title": "hyperglycemia"
+                "title": "hyperglycemia",
+                "code": "10"
               },
               {
-                "title": "other"
+                "title": "other",
+                "code": "11"
               }
             ]
           },
           {
             "title": "Sleep & rest patterns",
             "description": "Periods of suspended motor and sensory activity and periods of inactivity, repose, or mental calm.",
+            "code": "36",
             "signsAndSymptoms": [
               {
-                "title": "sleep/rest pattern disrupts family"
+                "title": "sleep/rest pattern disrupts family",
+                "code": "01"
               },
               {
-                "title": "frequently wakes during night"
+                "title": "frequently wakes during night",
+                "code": "02"
               },
               {
-                "title": "sleepwalking"
+                "title": "sleepwalking",
+                "code": "03"
               },
               {
-                "title": "insomnia"
+                "title": "insomnia",
+                "code": "04"
               },
               {
-                "title": "nightmares"
+                "title": "nightmares",
+                "code": "05"
               },
               {
-                "title": "insufficient sleep/rest for age/physical condition"
+                "title": "insufficient sleep/rest for age/physical condition",
+                "code": "06"
               },
               {
-                "title": "sleep apnea"
+                "title": "sleep apnea",
+                "code": "08"
               },
               {
-                "title": "snoring"
+                "title": "snoring",
+                "code": "09"
               },
               {
-                "title": "other"
+                "title": "other",
+                "code": "07"
               }
             ]
           },
           {
             "title": "Physical activity",
             "description": "State or quality of body movements during daily living.",
+            "code": "37",
             "signsAndSymptoms": [
               {
-                "title": "sedentary life style"
+                "title": "sedentary life style",
+                "code": "01"
               },
               {
-                "title": "inadequate/inconsistent exercise routine"
+                "title": "inadequate/inconsistent exercise routine",
+                "code": "02"
               },
               {
-                "title": "inappropriate type/amount of exercise for age/physical condition"
+                "title": "inappropriate type/amount of exercise for age/physical condition",
+                "code": "03"
               },
               {
-                "title": "other"
+                "title": "other",
+                "code": "04"
               }
             ]
           },
           {
             "title": "Personal care",
             "description": "Management of personal cleanliness and dressing.",
+            "code": "38",
             "signsAndSymptoms": [
               {
-                "title": "difficulty laundering clothing"
+                "title": "difficulty laundering clothing",
+                "code": "01"
               },
               {
-                "title": "difficulty with bathing"
+                "title": "difficulty with bathing",
+                "code": "02"
               },
               {
-                "title": "difficulty with toileting activities"
+                "title": "difficulty with toileting activities",
+                "code": "07"
               },
               {
-                "title": "difficulty dressing lower body"
+                "title": "difficulty dressing lower body",
+                "code": "08"
               },
               {
-                "title": "difficulty dressing upper body"
+                "title": "difficulty dressing upper body",
+                "code": "09"
               },
               {
-                "title": "foul body odor"
+                "title": "foul body odor",
+                "code": "03"
               },
               {
-                "title": "difficulty shampooing/combing hair "
+                "title": "difficulty shampooing/combing hair",
+                "code": "04"
               },
               {
-                "title": "difficulty brushing/flossing/mouth care"
+                "title": "difficulty brushing/flossing/mouth care",
+                "code": "05"
               },
               {
-                "title": "unwilling/unable/forgets to complete personal care activities"
+                "title": "unwilling/unable/forgets to complete personal care activities",
+                "code": "10"
               },
               {
-                "title": "other"
+                "title": "other",
+                "code": "06"
               }
             ]
           },
           {
             "title": "Substance use",
             "description": "Consumption of medicines, recreational drugs, or other materials likely to cause mood changes and/or psychological/physical dependence, illness, and disease.",
+            "code": "39",
             "signsAndSymptoms": [
               {
-                "title": "abuses over-the-counter/prescription medications"
+                "title": "abuses over-the-counter/prescription medications",
+                "code": "08"
               },
               {
-                "title": "uses 'street' - recreatinal drugs"
+                "title": "uses 'street' - recreatinal drugs",
+                "code": "09"
               },
               {
-                "title": "abuses alcohol"
+                "title": "abuses alcohol",
+                "code": "02"
               },
               {
-                "title": "smokes/uses tobacco products"
+                "title": "smokes/uses tobacco products",
+                "code": "03"
               },
               {
-                "title": "difficulty performing normal routines"
+                "title": "difficulty performing normal routines",
+                "code": "04"
               },
               {
-                "title": "reflex disturbances"
+                "title": "reflex disturbances",
+                "code": "05"
               },
               {
-                "title": "behavior change"
+                "title": "behavior change",
+                "code": "06"
               },
               {
-                "title": "exposure to cigarette/cigar smoke"
+                "title": "exposure to cigarette/cigar smoke",
+                "code": "10"
               },
               {
-                "title": "buys/sells illegal substances"
+                "title": "buys/sells illegal substances",
+                "code": "11"
               },
               {
-                "title": "other"
+                "title": "other",
+                "code": "07"
               }
             ]
           },
           {
             "title": "Family planning",
             "description": "Practices designed to plan and space pregnancy within the context of values, attitudes, and beliefs.",
+            "code": "40",
             "signsAndSymptoms": [
               {
-                "title": "inappropriate/insufficient knowledge about family planning methods"
+                "title": "inappropriate/insufficient knowledge about family planning methods",
+                "code": "01"
               },
               {
-                "title": "inappropriate/insufficient knowledge about preconception health practices"
+                "title": "inappropriate/insufficient knowledge about preconception health practices",
+                "code": "05"
               },
               {
-                "title": "inaccurate/inconsistent use of family planning methods"
+                "title": "inaccurate/inconsistent use of family planning methods",
+                "code": "02"
               },
               {
-                "title": "dissatisfied with present family planning method"
+                "title": "dissatisfied with present family planning method",
+                "code": "03"
               },
               {
-                "title": "fears others' reactions regarding family planning choices"
+                "title": "fears others' reactions regarding family planning choices",
+                "code": "06"
               },
               {
-                "title": "difficulty obtaining family planning methods"
+                "title": "difficulty obtaining family planning methods",
+                "code": "07"
               },
               {
-                "title": "other"
+                "title": "other",
+                "code": "04"
               }
             ]
           },
           {
             "title": "Health care supervision",
             "description": "Management of the health care treatment plan by health care providers.",
+            "code": "41",
             "signsAndSymptoms": [
               {
-                "title": "fails to obtain routine/preventive health care"
+                "title": "fails to obtain routine/preventive health care",
+                "code": "01"
               },
               {
-                "title": "fails to seek care for symptoms requiring evaluation/treatment"
+                "title": "fails to seek care for symptoms requiring evaluation/treatment",
+                "code": "02"
               },
               {
-                "title": "fails to return as requested to health care provider"
+                "title": "fails to return as requested to health care provider",
+                "code": "03"
               },
               {
-                "title": "inability to coordinate multiple appointments/treatment plans"
+                "title": "inability to coordinate multiple appointments/treatment plans",
+                "code": "04"
               },
               {
-                "title": "inconsistent source of health care"
+                "title": "inconsistent source of health care",
+                "code": "05"
               },
               {
-                "title": "inadequate source of health care"
+                "title": "inadequate source of health care",
+                "code": "08"
               },
               {
-                "title": "inadequate treatment plan"
+                "title": "inadequate treatment plan",
+                "code": "06"
               },
               {
-                "title": "other"
+                "title": "other",
+                "code": "07"
               }
             ]
           },
           {
             "title": "Medication regimen",
             "description": "Use or application of over-the-counter and prescribed/recommended medications and infusions to meet guidelines for therapeutic action, safety, and schedule.",
+            "code": "42",
             "signsAndSymptoms": [
               {
-                "title": "does not follow recommended dosage/schedule"
+                "title": "does not follow recommended dosage/schedule",
+                "code": "01"
               },
               {
-                "title": "evidence of side effects/adverse reactions"
+                "title": "evidence of side effects/adverse reactions",
+                "code": "02"
               },
               {
-                "title": "inadequate system for taking medication"
+                "title": "inadequate system for taking medication",
+                "code": "03"
               },
               {
-                "title": "improper storage of medication"
+                "title": "improper storage of medication",
+                "code": "04"
               },
               {
-                "title": "fails to obtain refills appropriately"
+                "title": "fails to obtain refills appropriately",
+                "code": "05"
               },
               {
-                "title": "fails to obtain immunizations"
+                "title": "fails to obtain immunizations",
+                "code": "06"
               },
               {
-                "title": "inadequate medication regimen"
+                "title": "inadequate medication regimen",
+                "code": "08"
               },
               {
-                "title": "unable to take medications without help"
+                "title": "unable to take medications without help",
+                "code": "09"
               },
               {
-                "title": "other"
+                "title": "other",
+                "code": "07"
               }
             ]
           }
@@ -1746,325 +1870,405 @@
     "categories": [
       {
         "title": "Teaching, Guidance, and Counseling",
-        "description": "Activities designed to provide information and materials, encourage action and responsibility for self-care and coping, and assist the individual, family, or community to make decisions and solve problems."
+        "description": "Activities designed to provide information and materials, encourage action and responsibility for self-care and coping, and assist the individual, family, or community to make decisions and solve problems.",
+        "code": "01"
       },
       {
         "title": "Treatments and Procedures",
-        "description": "Technical activities such as wound care, specimen collection, resistive exercises, and medication prescriptions that are designed to prevent, decrease, or alleviate signs and symptoms for the individual, family, or community."
+        "description": "Technical activities such as wound care, specimen collection, resistive exercises, and medication prescriptions that are designed to prevent, decrease, or alleviate signs and symptoms for the individual, family, or community.",
+        "code": "02"
       },
       {
         "title": "Case Management",
-        "description": "Activities such as coordination, advocacy, and referral that facilitate service delivery, promote assertiveness, guide the individual, family, or community toward use of appropriate resources, and improve communication among health and human service providers."
+        "description": "Activities such as coordination, advocacy, and referral that facilitate service delivery, promote assertiveness, guide the individual, family, or community toward use of appropriate resources, and improve communication among health and human service providers.",
+        "code": "03"
       },
       {
         "title": "Surveillance",
-        "description": "Activities such as detection, measurement, critical analysis, and monitoring intended to identify the individual, family, or community's status in relation to a given condition or phenomenon."
+        "description": "Activities such as detection, measurement, critical analysis, and monitoring intended to identify the individual, family, or community's status in relation to a given condition or phenomenon.",
+        "code": "04"
       }
     ],
     "targets": [
       {
         "title": "anatomy/physiology",
-        "description": "Structure and function of the human body."
+        "description": "Structure and function of the human body.",
+        "code": "01"
       },
       {
         "title": "anger management",
-        "description": "Activities that decrease or control negative feelings and interactions, including violence."
+        "description": "Activities that decrease or control negative feelings and interactions, including violence.",
+        "code": "64"
       },
       {
         "title": "behavior modification",
-        "description": "Activities that change habits, conduct, or patterns of action."
+        "description": "Activities that change habits, conduct, or patterns of action.",
+        "code": "02"
       },
       {
         "title": "bladder care",
-        "description": "Activities that promote urinary bladder function such as bladder retraining, catheter changes, and catheter irrigation."
+        "description": "Activities that promote urinary bladder function such as bladder retraining, catheter changes, and catheter irrigation.",
+        "code": "03"
       },
       {
         "title": "bonding/attachment",
-        "description": "A mutual, positive relationship between two people such as a parent/caregiver and an infant/child."
+        "description": "A mutual, positive relationship between two people such as a parent/caregiver and an infant/child.",
+        "code": "04"
       },
       {
         "title": "bowel care",
-        "description": "Activities that promote bowel function such as bowel training and enemas."
+        "description": "Activities that promote bowel function such as bowel training and enemas.",
+        "code": "05"
       },
       {
         "title": "cardiac care",
-        "description": "Activities that promote cardiac or circulatory function such as energy conservation and fluid balance."
+        "description": "Activities that promote cardiac or circulatory function such as energy conservation and fluid balance.",
+        "code": "07"
       },
       {
         "title": "caretaking/parenting skills",
-        "description": "Activities such as feeding, bathing, discipline, nurturing, and stimulation provided to a dependent child or adult."
+        "description": "Activities such as feeding, bathing, discipline, nurturing, and stimulation provided to a dependent child or adult.",
+        "code": "08"
       },
       {
         "title": "cast care",
-        "description": "Activities that promote cleanliness, dryness, support, alignment, and relief of pain, pressure, and constriction of an injured body part immobilized by a cast, splint, or other device."
+        "description": "Activities that promote cleanliness, dryness, support, alignment, and relief of pain, pressure, and constriction of an injured body part immobilized by a cast, splint, or other device.",
+        "code": "09"
       },
       {
         "title": "communication",
-        "description": "Exchange of verbal or nonverbal information between the individual/family/community and others."
+        "description": "Exchange of verbal or nonverbal information between the individual/family/community and others.",
+        "code": "10"
       },
       {
         "title": "community outreach worker services",
-        "description": "Assistance with managing health care, transportation, household, and child/adult care responsibilities provided by qualified employees under the supervision of professional health care providers."
+        "description": "Assistance with managing health care, transportation, household, and child/adult care responsibilities provided by qualified employees under the supervision of professional health care providers.",
+        "code": "65"
       },
       {
         "title": "continuity of care",
-        "description": "Communication of information among providers/organizations to provide safe and effective care and decrease duplication of efforts/services."
+        "description": "Communication of information among providers/organizations to provide safe and effective care and decrease duplication of efforts/services.",
+        "code": "66"
       },
       {
         "title": "coping skills",
-        "description": "Ability to effectively manage challenges and changes such as illness, disability, loss of income, birth of a child, or death of a family member."
+        "description": "Ability to effectively manage challenges and changes such as illness, disability, loss of income, birth of a child, or death of a family member.",
+        "code": "11"
       },
       {
         "title": "day care/respite",
-        "description": "Individuals or organizations that provide child/adult supervision while the parent/usual caregiver attends school, works, or has relief from usual responsibilities."
+        "description": "Individuals or organizations that provide child/adult supervision while the parent/usual caregiver attends school, works, or has relief from usual responsibilities.",
+        "code": "12"
       },
       {
         "title": "dietary management",
-        "description": "Nourishment with balanced food and fluids that sustain life, provide energy, and promote growth and health."
+        "description": "Nourishment with balanced food and fluids that sustain life, provide energy, and promote growth and health.",
+        "code": "67"
       },
       {
         "title": "discipline",
-        "description": "Nurturing practices that promote appropriate behavior, conduct, and self-control."
+        "description": "Nurturing practices that promote appropriate behavior, conduct, and self-control.",
+        "code": "13"
       },
       {
         "title": "dressing change/wound care",
-        "description": "Activities that promote wound healing and prevent infection such as observing, measuring, cleansing, irrigating, and/or covering a wound, lesion, or incision."
+        "description": "Activities that promote wound healing and prevent infection such as observing, measuring, cleansing, irrigating, and/or covering a wound, lesion, or incision.",
+        "code": "14"
       },
       {
         "title": "durable medical equipment ",
-        "description": "Nondisposable items used while providing care such as special beds, walkers, and apnea monitors."
+        "description": "Nondisposable items used while providing care such as special beds, walkers, and apnea monitors.",
+        "code": "15"
       },
       {
         "title": "education",
-        "description": "Formal programs that offer general, technical, or individualized studies for students of all ages."
+        "description": "Formal programs that offer general, technical, or individualized studies for students of all ages.",
+        "code": "16"
       },
       {
         "title": "employment",
-        "description": "Occupation that provides income."
+        "description": "Occupation that provides income.",
+        "code": "17"
       },
       {
         "title": "end-of-life care",
-        "description": "Activities that provide physical comfort and emotional calm for those who are dying by involving/including family, friends, spiritual concerns, rituals, pain control, and physical care."
+        "description": "Activities that provide physical comfort and emotional calm for those who are dying by involving/including family, friends, spiritual concerns, rituals, pain control, and physical care.",
+        "code": "68"
       },
       {
         "title": "environment",
-        "description": "Physical surroundings, conditions, or influences in the residence, neighborhood, and/or community"
+        "description": "Physical surroundings, conditions, or influences in the residence, neighborhood, and/or community",
+        "code": "18"
       },
       {
         "title": "exercises",
-        "description": "Therapeutic physical activities such as active/passive range of motion, isometrics, stretching, and weight lifting."
+        "description": "Therapeutic physical activities such as active/passive range of motion, isometrics, stretching, and weight lifting.",
+        "code": "19"
       },
       {
         "title": "family planning care ",
-        "description": "Activities that support consideration and use of methods to prepare for and space pregnancy."
+        "description": "Activities that support consideration and use of methods to prepare for and space pregnancy.",
+        "code": "20"
       },
       {
         "title": "feeding procedures",
-        "description": "Provision of food or fluids using methods such as breast, formula, spoon, tube, and intravenous solutions."
+        "description": "Provision of food or fluids using methods such as breast, formula, spoon, tube, and intravenous solutions.",
+        "code": "21"
       },
       {
         "title": "finances",
-        "description": "Management of income and expenses."
+        "description": "Management of income and expenses.",
+        "code": "22"
       },
       {
         "title": "gait training",
-        "description": "Systematic activities that promote walking with or without assistive devices."
+        "description": "Systematic activities that promote walking with or without assistive devices.",
+        "code": "24"
       },
       {
         "title": "genetics",
-        "description": "Diagnosis, consultation, and procedures intended to prevent, identify, or treat birth defects, congenital anomalies, or conditions."
+        "description": "Diagnosis, consultation, and procedures intended to prevent, identify, or treat birth defects, congenital anomalies, or conditions.",
+        "code": "69"
       },
       {
         "title": "growth/development care",
-        "description": "Activities that promote progressive maturation in relation to age such as measuring weight, height, and head circumference and stimulating achievement of developmental milestones."
+        "description": "Activities that promote progressive maturation in relation to age such as measuring weight, height, and head circumference and stimulating achievement of developmental milestones.",
+        "code": "25"
       },
       {
         "title": "home",
-        "description": "Place of residence."
+        "description": "Place of residence.",
+        "code": "27"
       },
       {
         "title": "homemaking/housekeeping",
-        "description": "Management of activities such as cleaning, laundry, and food preparation in the home or the health care facility."
+        "description": "Management of activities such as cleaning, laundry, and food preparation in the home or the health care facility.",
+        "code": "70"
       },
       {
         "title": "infection precautions",
-        "description": "Activities that decrease the incidence and transmission of contagious disease such as hand washing, isolation, specimen collection, contact follow—up, reporting procedures, and environmental control."
+        "description": "Activities that decrease the incidence and transmission of contagious disease such as hand washing, isolation, specimen collection, contact follow—up, reporting procedures, and environmental control.",
+        "code": "71"
       },
       {
         "title": "interaction",
-        "description": "Reciprocal action or influence among people including parent-child, parent-teacher, and nurse-client."
+        "description": "Reciprocal action or influence among people including parent-child, parent-teacher, and nurse-client.",
+        "code": "28"
       },
       {
         "title": "interpreter/translator services",
-        "description": "Assistance with verbal or written communication in other languages provided by qualified employees who are under the supervision of professional health care practitioners."
+        "description": "Assistance with verbal or written communication in other languages provided by qualified employees who are under the supervision of professional health care practitioners.",
+        "code": "72"
       },
       {
         "title": "laboratory findings",
-        "description": "Results of fluid and tissue tests such as urine and blood analysis."
+        "description": "Results of fluid and tissue tests such as urine and blood analysis.",
+        "code": "29"
       },
       {
         "title": "legal system",
-        "description": "Authority, rules of conduct, or administration of the law."
+        "description": "Authority, rules of conduct, or administration of the law.",
+        "code": "30"
       },
       {
         "title": "medical/dental care",
-        "description": "Assessment/diagnosis and treatment provided by physicians, dentists, and their staff or assistants."
+        "description": "Assessment/diagnosis and treatment provided by physicians, dentists, and their staff or assistants.",
+        "code": "31"
       },
       {
         "title": "medication action/side effects",
-        "description": "Positive and/or negative consequences of medications."
+        "description": "Positive and/or negative consequences of medications.",
+        "code": "32"
       },
       {
         "title": "medication administration",
-        "description": "Activities that involve applying or giving medications and that are completed by clients, parents/caregivers, or health care practitioners."
+        "description": "Activities that involve applying or giving medications and that are completed by clients, parents/caregivers, or health care practitioners.",
+        "code": "33"
       },
       {
         "title": "medication coordination/ordering",
-        "description": "Communication with those who prescribe and dispense medications and the individual/family/community support systems to ensure that appropriate medications and supplies are obtained in a timely manner."
+        "description": "Communication with those who prescribe and dispense medications and the individual/family/community support systems to ensure that appropriate medications and supplies are obtained in a timely manner.",
+        "code": "73"
       },
       {
         "title": "medication prescription",
-        "description": "A formalized pharmaceutical order/official request for medications."
+        "description": "A formalized pharmaceutical order/official request for medications.",
+        "code": "74"
       },
       {
         "title": "medication set-up",
-        "description": "Act of preparing for medication administration by filling/checking an oral medication organizer, prefilling syringes, or inserting intravenous access devices."
+        "description": "Act of preparing for medication administration by filling/checking an oral medication organizer, prefilling syringes, or inserting intravenous access devices.",
+        "code": "34"
       },
       {
         "title": "mobility/transfers",
-        "description": "Body movements that change position or allow participation in activities such as walking."
+        "description": "Body movements that change position or allow participation in activities such as walking.",
+        "code": "35"
       },
       {
         "title": "nursing care",
-        "description": "Assessment/diagnosis and treatment provided by nurses and their staff or assistants."
+        "description": "Assessment/diagnosis and treatment provided by nurses and their staff or assistants.",
+        "code": "75"
       },
       {
         "title": "nutritionist care",
-        "description": "Assessment/diagnosis and treatment provided by nutritionists/registered dieticians and their staff or assistants."
+        "description": "Assessment/diagnosis and treatment provided by nutritionists/registered dieticians and their staff or assistants.",
+        "code": "38"
       },
       {
         "title": "occupational therapy care",
-        "description": "Assessment/diagnosis and treatment provided by occupational therapists and their staff or assistants."
+        "description": "Assessment/diagnosis and treatment provided by occupational therapists and their staff or assistants.",
+        "code": "76"
       },
       {
         "title": "ostomy care",
-        "description": "Activities to manage elimination of urine or stool through artificial openings such as a colostomy and ileostomy."
+        "description": "Activities to manage elimination of urine or stool through artificial openings such as a colostomy and ileostomy.",
+        "code": "39"
       },
       {
         "title": "other community resources",
-        "description": "Organizations or groups that offer goods or services not specifically identified in other targets such as exercise facilities, food pantries/distribution centers, or faith communities."
+        "description": "Organizations or groups that offer goods or services not specifically identified in other targets such as exercise facilities, food pantries/distribution centers, or faith communities.",
+        "code": "40"
       },
       {
         "title": "paraprofessional/aide care",
-        "description": "Assistance provided by qualified aides, home health aides, and nursing assistants under the supervision of professional health care practitioners."
+        "description": "Assistance provided by qualified aides, home health aides, and nursing assistants under the supervision of professional health care practitioners.",
+        "code": "77"
       },
       {
         "title": "personal hygiene",
-        "description": "Individual grooming activities such as bathing, shampooing, and toileting."
+        "description": "Individual grooming activities such as bathing, shampooing, and toileting.",
+        "code": "41"
       },
       {
         "title": "physical therapy care",
-        "description": "Assessment/diagnosis and treatment provided by physical therapists and their staff or assistants."
+        "description": "Assessment/diagnosis and treatment provided by physical therapists and their staff or assistants.",
+        "code": "78"
       },
       {
         "title": "positioning",
-        "description": "Alignment of the body to promote comfort and function."
+        "description": "Alignment of the body to promote comfort and function.",
+        "code": "42"
       },
       {
         "title": "recreational therapy care",
-        "description": "Assessment/diagnosis and treatment provided by recreational therapists and their staff or assistants."
+        "description": "Assessment/diagnosis and treatment provided by recreational therapists and their staff or assistants.",
+        "code": "79"
       },
       {
         "title": "relaxation/breathing techniques",
-        "description": "Activities that relieve muscle tension, induce a quieting body response, and rebuild energy resources such as deep breathing exercises, guided imagery, meditation, and massage."
+        "description": "Activities that relieve muscle tension, induce a quieting body response, and rebuild energy resources such as deep breathing exercises, guided imagery, meditation, and massage.",
+        "code": "44"
       },
       {
         "title": "respiratory care",
-        "description": "Activities that promote respiratory or pulmonary function such as suctioning and nebulizer treatments."
+        "description": "Activities that promote respiratory or pulmonary function such as suctioning and nebulizer treatments.",
+        "code": "80"
       },
       {
         "title": "respiratory therapy care",
-        "description": "Assessment/diagnosis and treatment provided by respiratory therapists and staff or assistants."
+        "description": "Assessment/diagnosis and treatment provided by respiratory therapists and staff or assistants.",
+        "code": "81"
       },
       {
         "title": "rest/sleep",
-        "description": "Periodic state of quiet and varying degrees of consciousness."
+        "description": "Periodic state of quiet and varying degrees of consciousness.",
+        "code": "45"
       },
       {
         "title": "safety",
-        "description": "Freedom from risk, the occurrence of injury, or loss."
+        "description": "Freedom from risk, the occurrence of injury, or loss.",
+        "code": "46"
       },
       {
         "title": "screening procedures",
-        "description": "Evaluation strategies used to identify risk for conditions, diagnose disease early, and monitor change/progression over time."
+        "description": "Evaluation strategies used to identify risk for conditions, diagnose disease early, and monitor change/progression over time.",
+        "code": "47"
       },
       {
         "title": "sickness/injury care",
-        "description": "Activities in response to illness or accidents such as first aid and temperature taking."
+        "description": "Activities in response to illness or accidents such as first aid and temperature taking.",
+        "code": "48"
       },
       {
         "title": "signs/symptoms-mental/emotional",
-        "description": "Objective or subjective evidence of mental/emotional health problems such as depression, confusion, or agitation."
+        "description": "Objective or subjective evidence of mental/emotional health problems such as depression, confusion, or agitation.",
+        "code": "49"
       },
       {
         "title": "signs/symptoms-physical",
-        "description": "Objective or subjective evidence of physical health problems such as fever, sudden weight loss, or statement of pain."
+        "description": "Objective or subjective evidence of physical health problems such as fever, sudden weight loss, or statement of pain.",
+        "code": "50"
       },
       {
         "title": "skin care",
-        "description": "Activities that promote skin integrity such as application of lotion and massage."
+        "description": "Activities that promote skin integrity such as application of lotion and massage.",
+        "code": "51"
       },
       {
         "title": "social work/counseling care",
-        "description": "Assessment/diagnosis and treatment provided by social workers, counselors, and their staff or assistants."
+        "description": "Assessment/diagnosis and treatment provided by social workers, counselors, and their staff or assistants.",
+        "code": "52"
       },
       {
         "title": "specimen collection",
-        "description": "Activities designed to obtain samples of human and animal tissue, fluids, secretions, or excreta such as blood, urine, stool, sputum, and drainage."
+        "description": "Activities designed to obtain samples of human and animal tissue, fluids, secretions, or excreta such as blood, urine, stool, sputum, and drainage.",
+        "code": "53"
       },
       {
         "title": "speech and language pathology care",
-        "description": "Assessment/diagnosis and treatment provided by speech and language pathologists and their staff or assistants."
+        "description": "Assessment/diagnosis and treatment provided by speech and language pathologists and their staff or assistants.",
+        "code": "82"
       },
       {
         "title": "spiritual care",
-        "description": "Activities that promote personal serenity and comfort and involve spiritual concerns/practices."
+        "description": "Activities that promote personal serenity and comfort and involve spiritual concerns/practices.",
+        "code": "54"
       },
       {
         "title": "stimulation/nurturance",
-        "description": "Activities that promote healthy physical, intellectual, and emotional development."
+        "description": "Activities that promote healthy physical, intellectual, and emotional development.",
+        "code": "55"
       },
       {
         "title": "stress management",
-        "description": "Cognitive, emotional, and physical activities that promote healthy functioning during difficult life circumstances."
+        "description": "Cognitive, emotional, and physical activities that promote healthy functioning during difficult life circumstances.",
+        "code": "56"
       },
       {
         "title": "substance use cessation",
-        "description": "Activities that promote discontinuing use of harmful/addicting materials."
+        "description": "Activities that promote discontinuing use of harmful/addicting materials.",
+        "code": "83"
       },
       {
         "title": "supplies",
-        "description": "Disposable items used while providing care such as dressings, syringes, tubing, diapers, and baby bottles."
+        "description": "Disposable items used while providing care such as dressings, syringes, tubing, diapers, and baby bottles.",
+        "code": "58"
       },
       {
         "title": "support group",
-        "description": "Organized sources of information and assistance such as focused classes and organizations, telephone reassurance, and reliable Internet sites that address a specific topic such as parenting, alcoholism, obesity, and Alzheimer's disease."
+        "description": "Organized sources of information and assistance such as focused classes and organizations, telephone reassurance, and reliable Internet sites that address a specific topic such as parenting, alcoholism, obesity, and Alzheimer's disease.",
+        "code": "59"
       },
       {
         "title": "support system",
-        "description": "Circle of family, friends, and associates that provide love, care, and assistance to promote health and manage illness."
+        "description": "Circle of family, friends, and associates that provide love, care, and assistance to promote health and manage illness.",
+        "code": "60"
       },
       {
         "title": "transportation",
-        "description": "Methods of travel such as a car, bus, taxi, scooter, or cart."
+        "description": "Methods of travel such as a car, bus, taxi, scooter, or cart.",
+        "code": "61"
       },
       {
         "title": "wellness",
-        "description": "Practices that promote physical and mental health such as exercise, nutrition, and immunizations."
+        "description": "Practices that promote physical and mental health such as exercise, nutrition, and immunizations.",
+        "code": "62"
       },
       {
         "title": "other",
-        "description": "Persons, places, things, or activities not identified in this list."
+        "description": "Persons, places, things, or activities not identified in this list.",
+        "code": "63"
       }
     ]
   },
