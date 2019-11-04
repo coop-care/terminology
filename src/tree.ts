@@ -23,5 +23,22 @@ export default {
       }
     }
     return null;
+  },
+
+  traverseObject: function(
+    object: any,
+    callback: (value: string, path: string[]) => void,
+    path?: string[]
+  ) {
+    for (let key in object) {
+      let currentPath = (path || []).concat([key]);
+      let value = object[key];
+
+      if (typeof value == "string") {
+        callback(value, currentPath);
+      } else if (typeof value == "object") {
+        this.traverseObject(value, callback, currentPath);
+      }
+    }
   }
 };

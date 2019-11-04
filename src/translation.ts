@@ -11,7 +11,7 @@ export module Translation {
     let characterCount = 0;
 
     // count number of texts and characters to translate
-    traverseObject(source, function(value, path) {
+    Tree.traverseObject(source, function(value, path) {
       textCount += 1;
       characterCount += value.length;
     });
@@ -29,28 +29,11 @@ export module Translation {
   export function emptyTranslationTargetAsCopyFromSource(source: any): any {
     let target = JSON.parse(JSON.stringify(source));
 
-    traverseObject(target, function(value, path) {
+    Tree.traverseObject(target, function(value, path) {
       Tree.deepAssign(target, path, "");
     });
 
     return target;
-  }
-
-  function traverseObject(
-    object: any,
-    callback: (value: string, path: string[]) => void,
-    path?: string[]
-  ) {
-    for (let key in object) {
-      let currentPath = (path || []).concat([key]);
-      let value = object[key];
-
-      if (typeof value == "string") {
-        callback(value, currentPath);
-      } else if (typeof value == "object") {
-        traverseObject(value, callback, currentPath);
-      }
-    }
   }
 
   export function translate(
@@ -59,7 +42,7 @@ export module Translation {
     sourceLang: string,
     targetLang: string
   ) {
-    traverseObject(
+    Tree.traverseObject(
       source,
       (function(target) {
         return function(value: string, path: string[]) {
