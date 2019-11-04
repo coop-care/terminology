@@ -2,12 +2,19 @@
   <div class="json-view-item">
     <!-- Handle Objects and Arrays-->
     <div v-if="typeof source === 'object' && source !== null">
-      <div @click.stop="toggleOpen" class="data-key" :style="keyColor">
-        <div :class="classes" :style="arrowStyles"></div> {{ hierarchyKey }}:
+      <div
+        @click.stop="toggleOpen"
+        class="data-key"
+        :style="keyColor"
+      >
+        <div
+          :class="classes"
+          :style="arrowStyles"
+        ></div> {{ hierarchyKey }}:
       </div>
       <json-view-item
         v-on:selected="bubbleSelected"
-        v-for="childKey in Object.keys(source)"
+        v-for="childKey in Object.keys(source).filter(key => key != 'code')"
         :dataKey="childKey"
         :dataPath="dataPath + '.' + childKey"
         :dataDepth="dataDepth + 1"
@@ -28,13 +35,32 @@
       v-if="typeof source !== 'object'"
     >
       <div class="flex">
-        <div class="translation-key manual-hyphens" :style="valueKeyColor" :title="path">
+        <div
+          class="translation-key manual-hyphens"
+          :style="valueKeyColor"
+          :title="path"
+        >
           <span class="hierarchy">{{ hierarchyKey }}:</span>
           <span class="flat">{{ flatLabel }}:</span>
-          </div>
+        </div>
         <div class="translation">
-          <div><div :style="getValueStyle('')" class="source" v-text="source"></div></div>
-          <div><div contenteditable="true" :style="getValueStyle(0)" class="target" v-text="target" @input="onInputTarget" @paste.prevent="onPasteTarget"></div></div>
+          <div>
+            <div
+              :style="getValueStyle('')"
+              class="source"
+              v-text="source"
+            ></div>
+          </div>
+          <div>
+            <div
+              contenteditable="true"
+              :style="getValueStyle(0)"
+              class="target"
+              v-text="target"
+              @input="onInputTarget"
+              @paste.prevent="onPasteTarget"
+            ></div>
+          </div>
         </div>
       </div>
     </div>
@@ -46,9 +72,9 @@ import Vue, { VueConstructor } from "vue";
 import { EventBus } from "./event-bus";
 
 export interface TreeItem {
-    key: string;
-    value: string;
-    path: string;
+  key: string;
+  value: string;
+  path: string;
 }
 
 export default Vue.extend({
@@ -104,7 +130,7 @@ export default Vue.extend({
       this.open = !this.open;
     },
     onInputTarget: function(evt: Event): void {
-      let target = evt.target as HTMLElement
+      let target = evt.target as HTMLElement;
       EventBus.$emit("inputTargetValue", {
         key: this.dataKey,
         value: target.innerText,
@@ -112,10 +138,12 @@ export default Vue.extend({
       } as TreeItem);
     },
     onPasteTarget: function(evt: ClipboardEvent): void {
-      if (!evt.clipboardData) { return }
-      
-      const text = evt.clipboardData.getData('text/plain');
-      window.document.execCommand('insertText', false, text);
+      if (!evt.clipboardData) {
+        return;
+      }
+
+      const text = evt.clipboardData.getData("text/plain");
+      window.document.execCommand("insertText", false, text);
     },
     clickEvent: function(value: string): void {
       this.$emit("selected", {
@@ -150,11 +178,11 @@ export default Vue.extend({
       }
     },
     keyToLabel: function(item: string): string {
-      let label = this.labels[item]
+      let label = this.labels[item];
       if (label) {
-        return label
+        return label;
       } else {
-        let splitWords = item.replace(/([a-z])([A-Z])/g, '$1 $2');
+        let splitWords = item.replace(/([a-z])([A-Z])/g, "$1 $2");
         return splitWords.charAt(0).toUpperCase() + splitWords.slice(1);
       }
     }
@@ -182,34 +210,38 @@ export default Vue.extend({
       return { color: this.styles.valueKey };
     },
     hierarchyKey: function(): string {
-      if (!isNaN(this.dataKey as unknown as number)) {
+      if (!isNaN((this.dataKey as unknown) as number)) {
         return this.dataPath
-        .split(".")
-        .slice(1)
-        .slice(-2)
-        .map(this.keyToLabel)
-        .join(" ")
+          .split(".")
+          .slice(1)
+          .slice(-2)
+          .map(this.keyToLabel)
+          .join(" ");
       } else {
-        let key = Array.isArray(this.source) ? this.dataKey + "[]" : this.dataKey
-        return this.keyToLabel(key)
+        let key = Array.isArray(this.source)
+          ? this.dataKey + "[]"
+          : this.dataKey;
+        return this.keyToLabel(key);
       }
     },
     flatLabel: function(): string {
       return this.dataPath
         .split(".")
         .slice(1)
-        .filter(item => { return isNaN(item as any) })
+        .filter(item => {
+          return isNaN(item as any);
+        })
         .slice(-2)
         .map(this.keyToLabel)
-        .join(" > ")
+        .join(" > ");
     },
     path: function(): string {
       return this.dataPath
         .split(".")
         .slice(1)
         .map(this.keyToLabel)
-        .join(" > ")
-    },
+        .join(" > ");
+    }
   }
 });
 </script>
@@ -217,17 +249,17 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .flat {
   .json-view-item {
-    margin-left:0;
-    display:inherit !important;
+    margin-left: 0;
+    display: inherit !important;
   }
   .data-key {
-    display:none;
+    display: none;
   }
   .translation-key {
     text-align: right;
   }
   .hierarchy {
-    display:none;
+    display: none;
   }
 }
 .hierarchy {
@@ -235,7 +267,7 @@ export default Vue.extend({
     padding-left: 35px;
   }
   .flat {
-    display:none;
+    display: none;
   }
 }
 
@@ -256,8 +288,8 @@ export default Vue.extend({
     }
   }
 
-  >.flex > * {
-    padding-bottom:.5em;
+  > .flex > * {
+    padding-bottom: 0.5em;
   }
 }
 
@@ -289,7 +321,7 @@ export default Vue.extend({
   margin-right: 20px;
   margin-left: 5px;
   transform: rotate(-45deg);
-  box-sizing:initial;
+  box-sizing: initial;
 
   &.opened {
     margin-top: -3px;
@@ -298,27 +330,28 @@ export default Vue.extend({
 }
 
 .translation-key {
-  font-weight:600;
-  width:12em;
+  font-weight: 600;
+  width: 12em;
   flex: 0 1 auto;
 }
 .translation {
   max-width: calc(100% - 12em);
 }
 .translation > * {
-  padding-bottom:.4em;
+  padding-bottom: 0.4em;
 }
 .translation :last-child {
-  padding-bottom:0;
+  padding-bottom: 0;
 }
-.source, .target {
-  padding:.15em .4em;
-  border-radius: .2em;
+.source,
+.target {
+  padding: 0.15em 0.4em;
+  border-radius: 0.2em;
 }
 .source {
-  border:1px dashed #ccc;
+  border: 1px dashed #ccc;
 }
 .target {
-  border:1px solid #aaa;
+  border: 1px solid #aaa;
 }
 </style>

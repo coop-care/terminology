@@ -23,8 +23,8 @@
                     <label for="jsonview-hierarchy" data-value="Hierarchie">Hierarchie</label>
                 </div>
                 <div>
-                <button @click="downloadTarget">Übersetzung herunterladen</button>
-            </div>
+                    <button @click="downloadTarget">Übersetzung herunterladen</button>
+                </div>
             </div>
         </nav>
         <json-view :class="treePresentation" :data="terminology" :labels="labels" :max-depth="8" v-if="terminology"/>
