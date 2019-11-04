@@ -1,0 +1,226 @@
+[
+  {
+    "term": "Dados agregados",
+    "definition": "Dados de problemas, intervenções e/ou resultados que são agrupados em conjunto."
+  },
+  {
+    "term": "Avaliação",
+    "definition": "Coleta de dados pertinentes, objetivos e subjetivos do cliente; primeiro passo ou conceito do processo de resolução de problemas. O uso do Esquema de Classificação de Problemas permite que o profissional operacionalize a avaliação antes de completar a identificação do problema."
+  },
+  {
+    "term": "Classificação",
+    "definition": "Processo de organizar termos semelhantes em grupos de acordo com um modelo específico."
+  },
+  {
+    "term": "Conceitos",
+    "definition": "Idéias que representam uma fusão de termos ou objetos específicos, familiares e concretos em níveis mais gerais de abstração; blocos de construção de uma classificação ou taxonomia."
+  },
+  {
+    "term": "Pensamento Crítico",
+    "definition": "Análise cuidadosa usando fatos, intuição e experiência com a intenção de resultar em bom senso."
+  },
+  {
+    "term": "Tomada de Decisão",
+    "definition": "Seleção de um curso de ação após considerar as vantagens e desvantagens das alternativas."
+  },
+  {
+    "term": "Avaliação",
+    "definition": "Processo concebido para medir os resultados e comparar os resultados dos cuidados com os padrões designados; quarta etapa ou conceito do processo de resolução de problemas. O uso da Escala de Classificação de Problemas para Resultados permite ao profissional operacionalizar a avaliação."
+  },
+  {
+    "term": "Prática Baseada em Evidências",
+    "definition": "Seleção de intervenções baseadas em dados precisos do cliente e pesquisa atual. O profissional combina o pensamento crítico e o processo de resolução de problemas, e muitas vezes se refere às melhores práticas, diretrizes, normas, protocolos ou vias clínicas."
+  },
+  {
+    "term": "Planejamento e Intervenção",
+    "definition": "Acções e actividades de cuidados propostos e concluídos para diversos clientes; terceiro passo ou conceito do processo de resolução de problemas. A utilização do Esquema de Intervenção permite ao profissional operacionalizar o planeamento e a intervenção."
+  },
+  {
+    "term": "Sistema Omaha",
+    "definition": "Abordagem baseada em pesquisa para a prática, documentação e gestão da informação que incorpora o Esquema de Classificação de Problemas, Esquema de Intervenção e Escala de Classificação de Problemas para Resultados."
+  },
+  {
+    "term": "Modelo do Sistema Omaha",
+    "definition": "Modelo conceitual circular, dinâmico, epidemiológico e interativo que representa os instrumentos padronizados do Sistema Omaha e é baseado no processo de resolução de problemas, relacionamento cliente-praticante/parceria, e conceitos de pensamento crítico, tomada de decisão clínica e melhoria da qualidade."
+  },
+  {
+    "term": "Identificação de Problemas",
+    "definition": "Julgamento clínico baseado em dados de avaliação; identificação ou diagnóstico dos interesses do cliente, riscos potenciais, sinais ou sintomas; segundo passo ou conceito do processo de resolução de problemas. A utilização da Classificação de Problemas permite ao profissional operacionalizar a identificação do problema após a conclusão da avaliação."
+  },
+  {
+    "term": "Processo de resolução de problemas",
+    "definition": "Avaliação, identificação de problemas, planejamento e intervenção e etapas ou conceitos de avaliação que orientam a prática multidisciplinar de cuidados de saúde e fornecem loops de feedback aos profissionais. Os enfermeiros muitas vezes usam o processo de enfermagem sinônimo, enquanto os médicos usam o processo de diagnóstico médico."
+  },
+  {
+    "term": "Desenvolvimento de Relacionamento",
+    "definition": "Arte de estabelecer uma parceria terapêutica entre profissionais e clientes, combinando serviços de saúde, compreensão, auto-respeito, motivação, profissionalismo e uma genuína preocupação com os outros; um arranjo de parceria. A existência desta parceria fornece um contexto para interações dentro do modelo do Sistema Omaha."
+  },
+  {
+    "term": "Taxonomia",
+    "definition": "Ciência da classificação e disposição dos termos e conceitos em níveis que vão do geral ao específico, de acordo com princípios e regras estabelecidas."
+  },
+  {
+    "term": "Terminologia",
+    "definition": "Estudo de símbolos ou termos utilizados por uma ou mais disciplinas em cuidados de saúde e serviços sociais. A American Nurses Association desenvolveu um processo de reconhecimento de terminologias diversas."
+  },
+  {
+    "term": "Teoria",
+    "definition": "Conjunto coerente de conceitos; as relações entre os conceitos podem ser descritas."
+  },
+  {
+    "term": "Real",
+    "definition": "Estado do problema do cliente caracterizado pela existência de um ou mais sinais e sintomas. Usado como um modificador de problemas que aparece no terceiro nível do Esquema de Classificação de Problemas."
+  },
+  {
+    "term": "Comunidade",
+    "definition": "Grupos, escolas, clínicas, clínicas, bairros ou outras áreas geográficas maiores que compartilham um ambiente físico comum e propriedade de um problema de saúde. Usado como um modificador de problemas que aparece no terceiro nível do Esquema de Classificação de Problemas."
+  },
+  {
+    "term": "Detalhes",
+    "definition": "Dados descritivos que explicam o interesse ou preocupação do cliente em relação a um problema específico. O profissional identifica, descreve e documenta detalhes ao selecionar o modificador Promoção da Saúde."
+  },
+  {
+    "term": "Domínios",
+    "definition": "Quatro áreas gerais que representam a prática de cuidados de saúde e fornecem agrupamentos organizacionais para os problemas dos clientes. Aparecem no primeiro nível do Esquema de Classificação de Problemas."
+  },
+  {
+    "term": "Domínio Ambiental",
+    "definition": "Recursos materiais e ambiente físico dentro e fora da área de vida, bairro e comunidade em geral. Aparece no primeiro nível do Esquema de Classificação de Problemas."
+  },
+  {
+    "term": "Família",
+    "definition": "Unidade social ou grupo relacionado de indivíduos que vivem juntos e partilham a propriedade de um problema de saúde. Usado como modificador de problemas que aparece no terceiro nível do Sistema de Classificação de Problemas."
+  },
+  {
+    "term": "Promoção da Saúde",
+    "definition": "Status do cliente caracterizado pelo interesse em aumentar o conhecimento, comportamento e expectativas de saúde, bem como desenvolver pontos fortes e recursos para melhorar o bem-estar na ausência de fatores de risco, sinais ou sintomas. Usado como um modificador de problemas que aparece no terceiro nível do Esquema de Classificação de Problemas."
+  },
+  {
+    "term": "Comportamentos Relacionados com a Saúde Domínio",
+    "definition": "Padrões de atividades que mantêm ou promovem o bem-estar, promovem a recuperação e diminuem o risco de doença. Aparece no primeiro nível do Esquema de Classificação de Problemas."
+  },
+  {
+    "term": "Alta Prioridade",
+    "definition": "O julgamento do profissional de saúde de que um problema deve ser abordado prontamente, baseado nas recomendações dos clientes, fontes de referência e outros. Quando um problema é considerado de alta prioridade, o profissional documenta o problema, fornece intervenções e completa as avaliações."
+  },
+  {
+    "term": "Individual",
+    "definition": "Pessoa que tem um problema de saúde. Usado como modificador de problemas que aparece no terceiro nível do Sistema de Classificação de Problemas."
+  },
+  {
+    "term": "Baixa Prioridade",
+    "definition": "O julgamento do profissional que um problema é de preocupação secundária em comparação com outros problemas, baseado em recomendações de clientes, fontes de referência e outros. Quando um problema é considerado de baixa prioridade, o profissional documenta o problema, mas não fornece intervenções ou avaliações completas até que as necessidades do cliente mudem ou aumentem."
+  },
+  {
+    "term": "Modificadores",
+    "definition": "Dois conjuntos de termos (Individual, Familiar, Comunitário e Promoção da Saúde, Potencial, Real) usados em conjunto com os problemas, que permitem aos profissionais identificar a quem pertence o problema e o grau de gravidade em relação aos pontos fortes, preocupações, factores de risco, sinais e sintomas do cliente."
+  },
+  {
+    "term": "Domínio Fisiológico",
+    "definition": "Funções e processos que mantêm a vida. Aparece no primeiro nível do Esquema de Classificação de Problemas."
+  },
+  {
+    "term": "Potencial",
+    "definition": "Estado do cliente caracterizado pela ausência de sinais e sintomas e pela presença de padrões, práticas, comportamentos ou fatores de risco que possam impedir a saúde ótima. Usado como um modificador de problemas que aparece no terceiro nível do Esquema de Classificação de Problemas."
+  },
+  {
+    "term": "Sistema de Classificação de Problemas",
+    "definition": "Taxonomia abrangente, ordenada, não exaustiva e mutuamente exclusiva concebida para identificar as preocupações dos clientes relacionadas com a saúde. Um dos três componentes ou instrumentos padronizados do Sistema Omaha."
+  },
+  {
+    "term": "Problemas",
+    "definition": "Preocupações, necessidades, pontos fortes, questões, focos ou condições que afectam qualquer aspecto do bem-estar do cliente; diagnósticos de enfermagem declarados na perspectiva do cliente. Existem 42 problemas no segundo nível do Esquema de Classificação de Problemas."
+  },
+  {
+    "term": "Domínio Psicossocial",
+    "definition": "Padrões de comportamento, emoção, comunicação, relações e desenvolvimento. Aparece no primeiro nível do Esquema de Classificação de Problemas."
+  },
+  {
+    "term": "Fatores de Risco",
+    "definition": "Circunstâncias que aumentam a vulnerabilidade do cliente ao desenvolvimento de um problema de saúde. O profissional identifica, descreve e documenta os fatores de risco ao selecionar o modificador Potencial."
+  },
+  {
+    "term": "Sinais",
+    "definition": "Evidência objetiva sobre o problema do cliente. O profissional identifica, descreve e documenta sinais e/ou sintomas ao selecionar o modificador Actual. Aparecer no quarto nível do Esquema de Classificação de Problemas."
+  },
+  {
+    "term": "Sintomas",
+    "definition": "Evidência subjetiva sobre o problema do cliente. O profissional identifica, descreve e documenta os sintomas e/ou sinais ao selecionar o modificador Actual. Aparece no quarto nível do Esquema de Classificação de Problemas."
+  },
+  {
+    "term": "Gestão de Casos",
+    "definition": "Atividades como coordenação, advocacy e encaminhamento que facilitem a prestação de serviços; promovam a assertividade; orientem o indivíduo, a família ou a comunidade para o uso de recursos apropriados; e melhorem a comunicação entre os prestadores de serviços de saúde e humanos. Aplicável a um problema específico. Aparece no primeiro nível do Esquema de Intervenção."
+  },
+  {
+    "term": "Categorias",
+    "definition": "Quatro grandes áreas que fornecem uma estrutura para descrever as ações ou atividades dos praticantes. Aparecem no primeiro nível do Esquema de Intervenção."
+  },
+  {
+    "term": "Informações específicas do mandante",
+    "definition": "Porção detalhada de um plano ou declaração de intervenção que é desenvolvida e documentada pelo profissional. O Guia do Usuário inclui informações sugeridas específicas do cliente para todos os problemas. Aparece no terceiro nível do Esquema de Intervenção."
+  },
+  {
+    "term": "Intervenções",
+    "definition": "Ações ou atividades implementadas para abordar um problema específico do cliente e para melhorar, manter ou restaurar a saúde ou prevenir doenças. Uma declaração de intervenção consiste em uma categoria, um ou mais alvos e informações específicas do cliente."
+  },
+  {
+    "term": "Regime de intervenção",
+    "definition": "Taxonomia abrangente, ordenada, não exaustiva e mutuamente exclusiva utilizada para descrever as ações e atividades dos profissionais. Um dos três componentes ou instrumentos padronizados do Sistema Omaha."
+  },
+  {
+    "term": "Planos",
+    "definition": "Acções ou actividades propostas concebidas para estabelecer um curso de cuidados para um problema específico do cliente. Uma declaração de plano consiste numa categoria, um ou mais alvos e informação específica do cliente."
+  },
+  {
+    "term": "Vigilância",
+    "definition": "Actividades como a detecção, medição, análise crítica e monitorização destinadas a identificar o estatuto do indivíduo, da família ou da comunidade em relação a uma dada condição ou fenómeno. Aplicável a um problema específico. Aparece no primeiro nível do Regime de Intervenção."
+  },
+  {
+    "term": "Alvos",
+    "definition": "Objetos únicos das ações ou atividades dos profissionais que servem para descrever melhor as intervenções. Existem 75 alvos no segundo nível do Esquema de Intervenção."
+  },
+  {
+    "term": "Ensino, Orientação e Aconselhamento",
+    "definition": "Atividades destinadas a fornecer informações e materiais, incentivar a ação e a responsabilidade pelo autocuidado e enfrentamento, e ajudar o indivíduo, família ou comunidade a tomar decisões e resolver problemas. Aplicável a um problema específico. Aparecer no primeiro nível do Esquema de Intervenção."
+  },
+  {
+    "term": "Tratamentos e Procedimentos",
+    "definition": "Atividades técnicas como o tratamento de feridas, colheita de amostras, exercícios resistivos e prescrições de medicamentos que se destinam a prevenir, diminuir ou aliviar os sinais e sintomas para o indivíduo, família ou comunidade. Aplicável a um problema específico. Aparecer no primeiro nível do Esquema de Intervenção."
+  },
+  {
+    "term": "Classificações de admissão",
+    "definition": "Avaliações numéricas específicas do problema para Conhecimento, Comportamento e Status concluídas na primeira vez que o problema é identificado como de alta prioridade para o cliente."
+  },
+  {
+    "term": "Comportamento",
+    "definition": "Uma das três escalas separadas da Escala de Classificação de Problemas para Resultados."
+  },
+  {
+    "term": "Classificações de Descarga",
+    "definition": "As classificações numéricas específicas do problema para Conhecimento, Comportamento e Status concluídas no momento em que o problema é resolvido, são alteradas para baixa prioridade ou quando o cliente é descarregado."
+  },
+  {
+    "term": "Classificações intermédias",
+    "definition": "Classificações numéricas específicas do problema para Conhecimento, Comportamento e Status preenchidas em intervalos periódicos durante o curso da prestação do serviço ao cliente e enquanto o problema é identificado como de alta prioridade."
+  },
+  {
+    "term": "Conhecimento",
+    "definition": "Descreve o que o cliente \"sabe\". Uma das três escalas separadas da Escala de Classificação de Problemas para Resultados."
+  },
+  {
+    "term": "Gestão de Resultados",
+    "definition": "Processo sistemático de agregação, análise e interpretação gráfica de dados seguido da disseminação de informações."
+  },
+  {
+    "term": "Escala de Classificação de Problemas para Resultados",
+    "definition": "Quadro abrangente, sistemático, recorrente/de avaliação concebido para medir o progresso do cliente em relação a problemas específicos relacionados com a saúde. Um dos três componentes ou instrumentos padronizados do Sistema Omaha."
+  },
+  {
+    "term": "Classificações",
+    "definition": "Cinco escolhas numéricas que compreendem três escalas do tipo Likert; as escolhas e escalas numéricas representam o estado mais negativo ao mais positivo de uma área problemática em relação ao Conhecimento, Comportamento e Status do cliente. Os profissionais precisam determinar as classificações com base nos dados do cliente, não em seus valores ou vieses."
+  },
+  {
+    "term": "Estado",
+    "definition": "Condição do cliente em relação às características objetivas e subjetivas. Descreve como um cliente \"é\". Uma das três escalas separadas da Escala de Classificação de Problemas para Resultados."
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "term": "Données agrégées",
+    "definition": "Les données sur les problèmes, les interventions ou les résultats qui sont regroupées."
+  },
+  {
+    "term": "Évaluation",
+    "definition": "Collecte de données objectives et subjectives pertinentes sur les clients ; première étape ou concept du processus de résolution de problèmes ; l'utilisation du système de classification des problèmes permet au praticien d'opérationnaliser l'évaluation avant de compléter l'identification du problème."
+  },
+  {
+    "term": "Classification",
+    "definition": "Processus consistant à organiser des termes similaires en groupes selon un modèle spécifique."
+  },
+  {
+    "term": "Concepts",
+    "definition": "Idées qui représentent une fusion de termes ou d'objets spécifiques, familiers et concrets en des niveaux plus généraux d'abstraction ; éléments constitutifs d'une classification ou d'une taxonomie."
+  },
+  {
+    "term": "Pensée critique",
+    "definition": "Analyse minutieuse à l'aide de faits, d'intuition et d'expérience, dans le but d'obtenir un jugement éclairé."
+  },
+  {
+    "term": "Prise de décision",
+    "definition": "Choix d'un plan d'action après avoir examiné les avantages et les inconvénients des solutions de rechange."
+  },
+  {
+    "term": "Évaluation",
+    "definition": "Processus conçu pour mesurer les résultats et comparer les résultats des soins aux normes désignées ; quatrième étape ou concept du processus de résolution de problèmes ; l'utilisation de l'échelle d'évaluation des résultats permet au praticien de rendre l'évaluation opérationnelle."
+  },
+  {
+    "term": "Pratique fondée sur des preuves",
+    "definition": "Le praticien combine la pensée critique et le processus de résolution de problèmes et se réfère souvent aux meilleures pratiques, lignes directrices, normes, protocoles ou cheminements cliniques."
+  },
+  {
+    "term": "Planification et intervention",
+    "definition": "Actions et activités de soins proposées et complétées pour divers clients ; troisième étape ou concept du processus de résolution de problèmes ; l'utilisation du plan d'intervention permet au praticien d'opérationnaliser la planification et l'intervention."
+  },
+  {
+    "term": "Système Omaha",
+    "definition": "Approche fondée sur la recherche en matière de gestion de la pratique, de la documentation et de l'information qui intègre le système de classification des problèmes, le système d'intervention et l'échelle d'évaluation des problèmes en fonction des résultats."
+  },
+  {
+    "term": "Modèle du système Omaha",
+    "definition": "Modèle conceptuel circulaire, dynamique, épidémiologique, interactif et interactif qui représente les instruments normalisés du système Omaha et qui est basé sur le processus de résolution de problèmes, la relation client-praticien/partenariat et les concepts de pensée critique, de prise de décision clinique et d'amélioration de la qualité."
+  },
+  {
+    "term": "Identification des problèmes",
+    "definition": "Jugement clinique fondé sur les données d'évaluation ; identification ou diagnostic des intérêts du client, des risques potentiels, des signes ou des symptômes ; deuxième étape ou concept du processus de résolution des problèmes ; l'utilisation de la classification des problèmes permet au praticien d'opérationnaliser l'identification des problèmes après l'évaluation."
+  },
+  {
+    "term": "Processus de résolution de problèmes",
+    "definition": "L'évaluation, l'identification des problèmes, la planification et l'intervention, et les étapes ou concepts d'évaluation qui guident la pratique multidisciplinaire des soins de santé et fournissent des boucles de rétroaction aux praticiens : les infirmières utilisent souvent le synonyme de processus infirmier alors que les médecins utilisent le processus de diagnostic médical."
+  },
+  {
+    "term": "Développement des relations",
+    "definition": "Art d'établir un partenariat thérapeutique entre praticiens et clients en combinant les services de santé, la compréhension, l'estime de soi, la motivation, le professionnalisme et le souci de l'autre ; une entente de partenariat ; l'existence de ce partenariat fournit un contexte pour les interactions dans le modèle du système Omaha."
+  },
+  {
+    "term": "Taxonomie",
+    "definition": "Science de la classification et de l'organisation des termes et concepts à des niveaux allant du général au spécifique, conformément aux principes et règles établis."
+  },
+  {
+    "term": "Terminologie",
+    "definition": "Étude des symboles ou des termes utilisés par une ou plusieurs disciplines des soins de santé et des services sociaux : L'American Nurses Association a mis au point un processus de reconnaissance des diverses terminologies."
+  },
+  {
+    "term": "Théorie",
+    "definition": "Ensemble cohérent de concepts ; les relations entre les concepts peuvent être décrites."
+  },
+  {
+    "term": "Réel",
+    "definition": "Situation problématique du client caractérisée par l'existence d'un ou de plusieurs signes et symptômes, utilisée comme modificateur de problème qui apparaît au troisième niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Communauté",
+    "definition": "Groupes, écoles, cliniques, quartiers ou autres zones géographiques plus vastes qui partagent un environnement physique commun et la propriété d'un problème de santé, utilisé comme modificateur de problème qui apparaît au troisième niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Détails",
+    "definition": "Données descriptives qui expliquent l'intérêt ou les préoccupations d'un client à l'égard d'un problème particulier, et qui permettent au praticien d'identifier, de décrire et de documenter les détails du modificateur Promotion de la santé."
+  },
+  {
+    "term": "Domaines",
+    "definition": "Quatre domaines généraux qui représentent la pratique des soins de santé et fournissent des regroupements organisationnels pour les problèmes des clients et apparaissent au premier niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Domaine environnemental",
+    "definition": "Ressources matérielles et environnement physique à l'intérieur et à l'extérieur de la zone d'habitation, du quartier et de la communauté au sens large, qui apparaît au premier niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Famille",
+    "definition": "Unité sociale ou groupe apparenté d'individus qui vivent ensemble et partagent la propriété d'un problème de santé, utilisé comme modificateur de problème qui apparaît au troisième niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Promotion de la santé",
+    "definition": "Statut du client caractérisé par l'intérêt à accroître les connaissances, le comportement et les attentes en matière de santé, ainsi qu'à développer des forces et des ressources pour améliorer le bien-être en l'absence de facteurs de risque, de signes ou de symptômes, et utilisé comme modificateur de problème qui apparaît au troisième niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Domaine des comportements liés à la santé",
+    "definition": "Modèles d'activités qui maintiennent ou favorisent le mieux-être, favorisent le rétablissement et diminuent le risque de maladie. apparaît au premier niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Priorité élevée",
+    "definition": "Jugement du praticien selon lequel un problème doit être traité rapidement, en fonction des recommandations des clients, des sources d'aiguillage et d'autres intervenants, et lorsqu'un problème est considéré comme hautement prioritaire, le praticien documente le problème, fournit des interventions et effectue des évaluations."
+  },
+  {
+    "term": "Individuel",
+    "definition": "Personne qui éprouve un problème de santé, utilisé comme modificateur de problème qui apparaît au troisième niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Priorité faible",
+    "definition": "Jugement du praticien selon lequel un problème est une préoccupation secondaire par rapport à d'autres problèmes, d'après les recommandations des clients, des sources d'aiguillage et d'autres intervenants ; lorsqu'un problème est considéré comme peu prioritaire, le praticien documente le problème, mais ne fournit pas d'interventions ou n'évalue pas la situation avant que les besoins du client ne changent ou augmentent."
+  },
+  {
+    "term": "Modificateurs",
+    "definition": "Deux ensembles de termes (individuel, familial, communautaire et promotion de la santé, potentiel, réel) utilisés conjointement avec les problèmes, qui permettent aux praticiens d'identifier à qui le problème se rapporte et le degré de gravité par rapport aux forces, préoccupations, facteurs de risque, signes et symptômes du client."
+  },
+  {
+    "term": "Domaine physiologique",
+    "definition": "Fonctions et processus qui maintiennent la vie, apparaît au premier niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Potentiel",
+    "definition": "État du client caractérisé par l'absence de signes et de symptômes et la présence de modèles, de pratiques, de comportements ou de facteurs de risque qui peuvent empêcher une santé optimale, et utilisé comme modificateur de problème au troisième niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Système de classification des problèmes",
+    "definition": "Taxonomie complète, ordonnée, non exhaustive et mutuellement exclusive, conçue pour identifier les préoccupations des clients en matière de santé, l'une des trois composantes ou l'un des instruments normalisés du système Omaha."
+  },
+  {
+    "term": "Problèmes",
+    "definition": "Préoccupations, besoins, forces, points forts, problèmes, centres d'intérêt ou conditions propres au client qui influent sur tout aspect de son bien-être ; diagnostics infirmiers établis du point de vue du client. 42 problèmes se situent au deuxième niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Domaine psychosocial",
+    "definition": "Modèles de comportement, d'émotion, de communication, de relations et de développement, qui apparaissent au premier niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Facteurs de risque",
+    "definition": "Circonstances qui augmentent la vulnérabilité du client à l'apparition d'un problème de santé : le praticien identifie, décrit et documente les facteurs de risque lorsqu'il choisit le modificateur Potentiel."
+  },
+  {
+    "term": "Signes",
+    "definition": "Le praticien identifie, décrit et documente les signes et/ou symptômes lorsqu'il choisit le modificateur Réel Apparaît au quatrième niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Symptômes",
+    "definition": "Le praticien identifie, décrit et documente les symptômes et/ou les signes lorsqu'il choisit le modificateur Réel Apparaît au quatrième niveau du système de classification des problèmes."
+  },
+  {
+    "term": "Gestion de cas",
+    "definition": "Activités telles que la coordination, la défense des droits et l'aiguillage qui facilitent la prestation des services, favorisent l'affirmation de soi, orientent la personne, la famille ou la communauté vers l'utilisation des ressources appropriées et améliorent la communication entre les fournisseurs de services de santé et de services sociaux et communautaires."
+  },
+  {
+    "term": "Catégories",
+    "definition": "Quatre grands domaines qui fournissent une structure pour décrire les actions ou les activités des praticiens et qui apparaissent au premier niveau du plan d'intervention."
+  },
+  {
+    "term": "Renseignements propres au client",
+    "definition": "Partie détaillée d'un plan ou d'un énoncé d'intervention élaboré et documenté par le praticien ; le guide de l'utilisateur contient des suggestions d'information propre au client pour tous les problèmes ; apparaît au troisième niveau du plan d'intervention."
+  },
+  {
+    "term": "Interventions",
+    "definition": "Mesures ou activités mises en œuvre pour s'attaquer à un problème particulier d'un client et pour améliorer, maintenir ou rétablir la santé ou prévenir la maladie."
+  },
+  {
+    "term": "Régime d'intervention",
+    "definition": "Taxonomie complète, ordonnée, non exhaustive, non exhaustive, mutuellement exclusive, utilisée pour décrire les actions et les activités des praticiens, l'une des trois composantes ou l'un des instruments standardisés du système Omaha."
+  },
+  {
+    "term": "Plans",
+    "definition": "Mesures ou activités proposées visant à établir un plan de soins pour un problème particulier d'un client ; un énoncé de plan se compose d'une catégorie, d'une ou de plusieurs cibles et de renseignements propres au client."
+  },
+  {
+    "term": "Surveillance",
+    "definition": "Activités telles que la détection, la mesure, l'analyse critique et le suivi visant à identifier la situation de l'individu, de la famille ou de la communauté par rapport à une condition ou à un phénomène donné, applicable à un problème spécifique, apparaît au premier niveau du dispositif d'intervention."
+  },
+  {
+    "term": "Cibles",
+    "definition": "Objets uniques des actions ou des activités des praticiens qui servent à décrire plus en détail les interventions. 75 cibles se trouvent au deuxième niveau du plan d'intervention."
+  },
+  {
+    "term": "Enseignement, orientation et counseling",
+    "definition": "Activités conçues pour fournir de l'information et du matériel, encourager l'action et la responsabilité en matière d'autosoins et d'adaptation, et aider la personne, la famille ou la communauté à prendre des décisions et à résoudre des problèmes, applicables à un problème spécifique."
+  },
+  {
+    "term": "Traitements et procédures",
+    "definition": "Activités techniques telles que le soin des plaies, le prélèvement d'échantillons, les exercices de résistance et la prescription de médicaments conçus pour prévenir, diminuer ou soulager les signes et symptômes pour la personne, la famille ou la communauté, applicables à un problème spécifique."
+  },
+  {
+    "term": "Cote d'admission",
+    "definition": "L'évaluation numérique des connaissances, du comportement et de l'état d'un problème particulier est terminée la première fois que le problème est identifié comme hautement prioritaire pour le client."
+  },
+  {
+    "term": "Comportement",
+    "definition": "Réponses, actions ou activités observables du client en fonction de l'occasion ou de l'objectif ; décrit ce qu'un client \" fait \" ; est l'une des trois échelles distinctes de l'échelle d'évaluation des problèmes pour les résultats."
+  },
+  {
+    "term": "Cotes de rejet",
+    "definition": "Les cotes numériques propres au problème pour les connaissances, le comportement et l'état au moment de la résolution du problème sont changées à faible priorité, ou lorsque le client reçoit son congé."
+  },
+  {
+    "term": "Cotes provisoires",
+    "definition": "L'évaluation numérique des connaissances, du comportement et de l'état d'un problème spécifique est effectuée à intervalles réguliers au cours de la prestation des services au client et pendant que le problème est considéré comme hautement prioritaire."
+  },
+  {
+    "term": "Connaissances",
+    "definition": "Capacité du client de se rappeler et d'interpréter l'information et de décrire ce qu'il \"sait\", l'une des trois échelles distinctes de l'échelle d'évaluation des problèmes pour les résultats."
+  },
+  {
+    "term": "Gestion des résultats",
+    "definition": "Processus systématique d'agrégation, d'analyse et d'interprétation graphique des données, suivi de la diffusion de l'information."
+  },
+  {
+    "term": "Échelle d'évaluation des problèmes pour les résultats",
+    "definition": "Cadre complet, systématique, récurrent et d'évaluation conçu pour mesurer les progrès des clients par rapport à des problèmes de santé spécifiques, l'une des trois composantes ou l'un des instruments normalisés du système Omaha."
+  },
+  {
+    "term": "Cote d'évaluation",
+    "definition": "Cinq choix numériques qui comprennent trois échelles de type Likert ; les choix numériques et les échelles décrivent l'état le plus négatif ou le plus positif d'un secteur problématique par rapport aux connaissances, au comportement et au statut du client ; les praticiens doivent déterminer les cotes en fonction des données du client et non de leurs valeurs ou biais."
+  },
+  {
+    "term": "Statut",
+    "definition": "Condition du client par rapport à des caractéristiques objectives et subjectives, qui décrit comment le client \"est\", l'une des trois échelles distinctes de l'échelle d'évaluation des problèmes pour les résultats."
+  }
+]

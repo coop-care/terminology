@@ -1,0 +1,2343 @@
+{
+  "title": "System Omaha",
+  "problemClassificationScheme": {
+    "title": "System klasyfikacji problemów",
+    "domains": [
+      {
+        "title": "Dziedzina ochrony środowiska",
+        "description": "Zasoby materialne i fizyczne otoczenie, zarówno wewnątrz, jak i na zewnątrz obszaru mieszkalnego, sąsiedztwa i szerszej społeczności.",
+        "code": "",
+        "problems": [
+          {
+            "title": "Przychody",
+            "description": "Pieniądze z wynagrodzeń, emerytur, dotacji, odsetek, dywidend lub innych źródeł dostępnych na pokrycie wydatków na życie i opiekę zdrowotną.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "niski/brak dochodów",
+                "code": ""
+              },
+              {
+                "title": "nieubezpieczonych kosztów leczenia",
+                "code": ""
+              },
+              {
+                "title": "trudności z zarządzaniem pieniędzmi",
+                "code": ""
+              },
+              {
+                "title": "w stanie kupować tylko artykuły pierwszej potrzeby.",
+                "code": ""
+              },
+              {
+                "title": "trudności w zakupie artykułów pierwszej potrzeby",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Sanitariaty",
+            "description": "Czystość środowiska i środki ostrożności przeciwko infekcjom i chorobom.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "zabrudzony obszar mieszkalny",
+                "code": ""
+              },
+              {
+                "title": "nieodpowiednie przechowywanie/usuwanie żywności",
+                "code": ""
+              },
+              {
+                "title": "owady/gryzonie",
+                "code": ""
+              },
+              {
+                "title": "nieprzyjemny zapach",
+                "code": ""
+              },
+              {
+                "title": "niedostateczne zaopatrzenie w wodę",
+                "code": ""
+              },
+              {
+                "title": "nieodpowiednie odprowadzanie ścieków",
+                "code": ""
+              },
+              {
+                "title": "nieodpowiednie urządzenia do prania brudnych pieniędzy",
+                "code": ""
+              },
+              {
+                "title": "alergeny",
+                "code": ""
+              },
+              {
+                "title": "czynniki zakaźne/zanieczyszczające",
+                "code": ""
+              },
+              {
+                "title": "obecność pleśni",
+                "code": ""
+              },
+              {
+                "title": "nadmierna liczba zwierząt domowych",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Rezydencja",
+            "description": "Miejsce do życia.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "strukturalnie nieracjonalne",
+                "code": ""
+              },
+              {
+                "title": "nieodpowiednie ogrzewanie/chłodzenie",
+                "code": ""
+              },
+              {
+                "title": "schody strome/niebezpieczne",
+                "code": ""
+              },
+              {
+                "title": "nieodpowiednie/zakłócone wyjścia/wprowadzenia alarmowe",
+                "code": ""
+              },
+              {
+                "title": "zagracona przestrzeń życiowa",
+                "code": ""
+              },
+              {
+                "title": "niebezpieczne składowanie niebezpiecznych przedmiotów/substancji",
+                "code": ""
+              },
+              {
+                "title": "niebezpieczne maty / dywany do rzucania",
+                "code": ""
+              },
+              {
+                "title": "nieodpowiednie urządzenia zabezpieczające",
+                "code": ""
+              },
+              {
+                "title": "obecność farby ołowiowej",
+                "code": ""
+              },
+              {
+                "title": "niebezpieczne urządzenia/urządzenia/akcesoria",
+                "code": ""
+              },
+              {
+                "title": "niewystarczająca/ zatłoczona przestrzeń życiowa",
+                "code": ""
+              },
+              {
+                "title": "okablowanie narażone",
+                "code": ""
+              },
+              {
+                "title": "bariery strukturalne",
+                "code": ""
+              },
+              {
+                "title": "bezdomny",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Bezpieczeństwo w sąsiedztwie/miejscu pracy",
+            "description": "Wolność od chorób, obrażeń lub utraty w społeczności miejsca lub zatrudnienia.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "wysoki wskaźnik przestępczości",
+                "code": ""
+              },
+              {
+                "title": "wysoki poziom zanieczyszczenia",
+                "code": ""
+              },
+              {
+                "title": "zwierzęta niekontrolowane/niebezpieczne/zakażone/zainfekowane",
+                "code": ""
+              },
+              {
+                "title": "nieodpowiednie/niebezpieczne miejsca do zabawy/ćwiczeń",
+                "code": ""
+              },
+              {
+                "title": "niewystarczająca ilość miejsca/zasobów na opiekę zdrowotną",
+                "code": ""
+              },
+              {
+                "title": "groźby/zgłaszanie aktów przemocy",
+                "code": ""
+              },
+              {
+                "title": "zagrożenia fizyczne",
+                "code": ""
+              },
+              {
+                "title": "zagrożenia związane z pojazdami i ruchem drogowym",
+                "code": ""
+              },
+              {
+                "title": "zagrożenia chemiczne",
+                "code": ""
+              },
+              {
+                "title": "zagrożenia radiologiczne",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Domena psychospołeczna",
+        "description": "Wzorce zachowań, emocji, komunikacji, relacji i rozwoju.",
+        "code": "",
+        "problems": [
+          {
+            "title": "Komunikacja z zasobami Wspólnoty",
+            "description": "Interakcje między jednostką/rodziną/społecznością a organizacjami usług społecznych, szkołami i przedsiębiorstwami w odniesieniu do usług, informacji i towarów/dostaw.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "niezaznajomieni z opcjami/procedurami uzyskiwania usług",
+                "code": ""
+              },
+              {
+                "title": "trudności w zrozumieniu roli/regulacji dostawców usług",
+                "code": ""
+              },
+              {
+                "title": "niezdolność do przekazania informacji o problemach usługodawcy",
+                "code": ""
+              },
+              {
+                "title": "niezadowolenie z usług",
+                "code": ""
+              },
+              {
+                "title": "niewystarczające/niedostępne zasoby",
+                "code": ""
+              },
+              {
+                "title": "bariera językowa",
+                "code": ""
+              },
+              {
+                "title": "bariera kulturowa",
+                "code": ""
+              },
+              {
+                "title": "bariera edukacyjna",
+                "code": ""
+              },
+              {
+                "title": "bariera transportowa",
+                "code": ""
+              },
+              {
+                "title": "ograniczony dostęp do opieki/usług/towarów",
+                "code": ""
+              },
+              {
+                "title": "nie jest w stanie używać/ma nieodpowiednie urządzenia/aparaturę komunikacyjną",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Kontakt społeczny",
+            "description": "Interakcja między jednostką/rodziną/społecznością a innymi osobami spoza najbliższego otoczenia.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "ograniczony kontakt społeczny",
+                "code": ""
+              },
+              {
+                "title": "korzysta z usług podmiotu świadczącego usługi zdrowotne w zakresie kontaktów społecznych",
+                "code": ""
+              },
+              {
+                "title": "minimalną stymulację zewnętrzną/aktywność w czasie wolnym od pracy",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Zmiana roli",
+            "description": "Dodanie lub usunięcie zestawu oczekiwanych cech behawioralnych.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "mimowolne odwrócenie roli.",
+                "code": ""
+              },
+              {
+                "title": "przyjmuje nową rolę",
+                "code": ""
+              },
+              {
+                "title": "traci poprzednią rolę",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Stosunki międzyludzkie",
+            "description": "Stowarzyszenia lub więzi pomiędzy osobą fizyczną/rodziną/społecznością a innymi osobami.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "trudności w nawiązywaniu/utrzymywaniu relacji",
+                "code": ""
+              },
+              {
+                "title": "minimalne wspólne działania",
+                "code": ""
+              },
+              {
+                "title": "nieadekwatne wartości/cele/oczekiwania/harmonogramy",
+                "code": ""
+              },
+              {
+                "title": "niewystarczające umiejętności komunikacji interpersonalnej",
+                "code": ""
+              },
+              {
+                "title": "długotrwałe, nierozwiązane napięcie.",
+                "code": ""
+              },
+              {
+                "title": "niewłaściwe podejrzenie/manipulacja/kontrola",
+                "code": ""
+              },
+              {
+                "title": "przemoc fizyczna/emocjonalna w stosunku do partnera",
+                "code": ""
+              },
+              {
+                "title": "Trudności w rozwiązywaniu problemów bez konfliktu",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Duchowość",
+            "description": "Przekonania i praktyki, które obejmują wiarę, religię, wartości, ducha i/lub duszę.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "wyraża duchowe obawy",
+                "code": ""
+              },
+              {
+                "title": "zakłócił duchowe rytuały.",
+                "code": ""
+              },
+              {
+                "title": "zakłócił duchowe zaufanie",
+                "code": ""
+              },
+              {
+                "title": "sprzeczne przekonania duchowe i system opieki medycznej/zdrowotnej",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Żal",
+            "description": "Cierpienie i cierpienie związane z utratą.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "nie rozpoznaje etapów smutku/procesu leczenia",
+                "code": ""
+              },
+              {
+                "title": "trudności w radzeniu sobie z reakcjami żałobnymi",
+                "code": ""
+              },
+              {
+                "title": "trudności w wyrażaniu reakcji na żałobę",
+                "code": ""
+              },
+              {
+                "title": "konfliktowe etapy żałoby pomiędzy osobami/rodzinami",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Zdrowie psychiczne",
+            "description": "Rozwój i wykorzystanie zdolności umysłowych/emocjonalnych w celu dostosowania się do sytuacji życiowych, interakcji z innymi oraz zaangażowania się w działania.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "smutek/beznadzieja/spadek poczucia własnej wartości",
+                "code": ""
+              },
+              {
+                "title": "zatrzymanie/nieokreślony strach",
+                "code": ""
+              },
+              {
+                "title": "utrata udziałów/zaangażowanie w działalność/samopielęgnację",
+                "code": ""
+              },
+              {
+                "title": "zawężone do rozproszonej uwagi/ogniskowania",
+                "code": ""
+              },
+              {
+                "title": "płaski afekt",
+                "code": ""
+              },
+              {
+                "title": "drażliwe/agitowane/agresywne/agresywne",
+                "code": ""
+              },
+              {
+                "title": "działalność bezcelowa/obowiązkowa",
+                "code": ""
+              },
+              {
+                "title": "trudności w zarządzaniu stresem",
+                "code": ""
+              },
+              {
+                "title": "trudności w radzeniu sobie z gniewem",
+                "code": ""
+              },
+              {
+                "title": "skargi somatyczne/zmęczenie",
+                "code": ""
+              },
+              {
+                "title": "urojenia",
+                "code": ""
+              },
+              {
+                "title": "halucynacje/illuzje",
+                "code": ""
+              },
+              {
+                "title": "wyraża myśli samobójcze/homiczne",
+                "code": ""
+              },
+              {
+                "title": "próbuje popełnić samobójstwo/homicyd.",
+                "code": ""
+              },
+              {
+                "title": "samookaleczenie",
+                "code": ""
+              },
+              {
+                "title": "wahania nastroju",
+                "code": ""
+              },
+              {
+                "title": "retrospekcje",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Seksualność",
+            "description": "Postawy, uczucia i zachowania związane z intymnością i aktywnością seksualną.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "trudności w rozpoznawaniu konsekwencji zachowań seksualnych",
+                "code": ""
+              },
+              {
+                "title": "trudności w wyrażaniu intymności",
+                "code": ""
+              },
+              {
+                "title": "dezorientacja seksualna",
+                "code": ""
+              },
+              {
+                "title": "zmieszanie wartości seksualnych",
+                "code": ""
+              },
+              {
+                "title": "niezadowolony z relacji seksualnych.",
+                "code": ""
+              },
+              {
+                "title": "niebezpieczne praktyki seksualne",
+                "code": ""
+              },
+              {
+                "title": "działania seksualne/zachowania prowokacyjne/nękanie seksualne",
+                "code": ""
+              },
+              {
+                "title": "popełnienie przestępstwa na tle seksualnym/assault",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Opieka/rodzicielstwo",
+            "description": "Wspieranie, pielęgnacja, stymulacja i fizyczna opieka nad zależnym dzieckiem lub dorosłym.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "trudności w zapewnieniu fizycznej opieki/bezpieczeństwa",
+                "code": ""
+              },
+              {
+                "title": "trudności z zapewnieniem emocjonalnej opieki pielęgnacyjnej",
+                "code": ""
+              },
+              {
+                "title": "trudności w dostarczaniu doświadczeń i działań związanych z uczeniem się poznawczym",
+                "code": ""
+              },
+              {
+                "title": "trudności w zapewnieniu profilaktycznej i terapeutycznej opieki zdrowotnej",
+                "code": ""
+              },
+              {
+                "title": "oczekiwania niezgodne z etapem wzrostu i rozwoju",
+                "code": ""
+              },
+              {
+                "title": "niezadowolenie/trudności z zakresu odpowiedzialności",
+                "code": ""
+              },
+              {
+                "title": "trudności z interpretacją lub reagowaniem na komunikację werbalną/niewerbalną",
+                "code": ""
+              },
+              {
+                "title": "lekceważący",
+                "code": ""
+              },
+              {
+                "title": "obraźliwy",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Zaniedbać",
+            "description": "Dziecko lub osoba dorosła pozbawiona minimalnie akceptowanych standardów żywności, schronienia, odzieży lub opieki.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "brak jest odpowiedniej opieki fizycznej",
+                "code": ""
+              },
+              {
+                "title": "brak emocjonalnego wsparcia/opieki pielęgnacyjnej",
+                "code": ""
+              },
+              {
+                "title": "brak jest odpowiedniej stymulacji/doświadczeń poznawczych",
+                "code": ""
+              },
+              {
+                "title": "nieodpowiednio pozostawiony samemu sobie.",
+                "code": ""
+              },
+              {
+                "title": "brak niezbędnego nadzoru",
+                "code": ""
+              },
+              {
+                "title": "nieodpowiednia/opóźniona opieka medyczna",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Nadużycie",
+            "description": "Dziecko lub osoba dorosła narażona na przypadkową przemoc fizyczną, emocjonalną, seksualną lub obrażenia.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "surowa/ekstensywna dyscyplina",
+                "code": ""
+              },
+              {
+                "title": "ślady/oparzenia/inne urazy",
+                "code": ""
+              },
+              {
+                "title": "wątpliwe wyjaśnienia dotyczące urazu",
+                "code": ""
+              },
+              {
+                "title": "zaatakowane werbalnie.",
+                "code": ""
+              },
+              {
+                "title": "strachliwe/hypervigilanckie zachowanie",
+                "code": ""
+              },
+              {
+                "title": "gwałtowne środowisko",
+                "code": ""
+              },
+              {
+                "title": "spójne komunikaty negatywne",
+                "code": ""
+              },
+              {
+                "title": "zaatakowany seksualnie",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Wzrost i rozwój",
+            "description": "Postępujące dojrzewanie fizyczne, emocjonalne i społeczne wzdłuż kontinuum wiekowego od bitu do śmierci.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "nieprawidłowe wyniki rozwojowych badań przesiewowych",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowa waga/wysokość/obwód głowy w odniesieniu do standardów wzrostu/starzenia się",
+                "code": ""
+              },
+              {
+                "title": "niewłaściwe zachowanie ze względu na wiek",
+                "code": ""
+              },
+              {
+                "title": "niewystarczająca realizacja/utrzymanie zadań rozwojowych",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Fizjologiczna domena",
+        "description": "Funkcje i procesy, które utrzymują życie.",
+        "code": "",
+        "problems": [
+          {
+            "title": "Słuch",
+            "description": "Postrzeganie dźwięku przez uszy.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "trudności w słyszeniu normalnych dźwięków mowy",
+                "code": ""
+              },
+              {
+                "title": "trudności w słyszeniu mowy w dużych grupach, - trudności w słyszeniu mowy w dużych grupach",
+                "code": ""
+              },
+              {
+                "title": "trudności w słyszeniu dźwięków o wysokiej częstotliwości",
+                "code": ""
+              },
+              {
+                "title": "brak/nieprawidłowa reakcja na dźwięk",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowe wyniki badania przesiewowego słuchu",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Wizja",
+            "description": "Działanie lub moc wyczuwania oczami.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "trudności w dostrzeganiu małych wydruków/kalibracji",
+                "code": ""
+              },
+              {
+                "title": "trudności w widzeniu odległych obiektów",
+                "code": ""
+              },
+              {
+                "title": "trudności w widzeniu bliskich obiektów",
+                "code": ""
+              },
+              {
+                "title": "brak/nieprawidłowa reakcja na bodźce wzrokowe",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowe wyniki badania przesiewowego wzroku",
+                "code": ""
+              },
+              {
+                "title": "mrużenie/ mrugnięcie/ rozmycie/rozmycie/rozmycie",
+                "code": ""
+              },
+              {
+                "title": "lampy błyskowe/pływaki",
+                "code": ""
+              },
+              {
+                "title": "trudności w różnicowaniu kolorów",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Mowa i język",
+            "description": "Wykorzystanie artykularnych dźwięków wokalnych, symboli, znaków lub gestów do komunikacji.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "brak/nieformalna zdolność do mówienia/ wokalizacji",
+                "code": ""
+              },
+              {
+                "title": "brak/nieformalna umiejętność rozumienia/nieformalna zdolność do rozumienia",
+                "code": ""
+              },
+              {
+                "title": "brak alternatywnych umiejętności/gestii komunikacyjnych",
+                "code": ""
+              },
+              {
+                "title": "niewłaściwa struktura zdań",
+                "code": ""
+              },
+              {
+                "title": "ograniczona enuncjacja/jasność",
+                "code": ""
+              },
+              {
+                "title": "niewłaściwe użycie słów",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Zdrowie jamy ustnej",
+            "description": "Stan jamy ustnej i dziąseł oraz liczba, rodzaj i układ zębów.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "brakujące/złamane/niedostatecznie uformowane zęby",
+                "code": ""
+              },
+              {
+                "title": "próchnica",
+                "code": ""
+              },
+              {
+                "title": "nadmiar kamienia nazębnego",
+                "code": ""
+              },
+              {
+                "title": "obolałe/pęczniejące/krwawiące gumy",
+                "code": ""
+              },
+              {
+                "title": "wadliwe zgryzienie",
+                "code": ""
+              },
+              {
+                "title": "źle dopasowane/nieprawidłowo dopasowane protezy zębowe",
+                "code": ""
+              },
+              {
+                "title": "wrażliwość na gorąco lub zimno",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Poznanie",
+            "description": "Umiejętność myślenia i wykorzystywania informacji.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "pomniejszony wyrok",
+                "code": ""
+              },
+              {
+                "title": "zdezorientowany na czas/miejsce/osobę",
+                "code": ""
+              },
+              {
+                "title": "ograniczone wycofanie ostatnich wydarzeń",
+                "code": ""
+              },
+              {
+                "title": "ograniczone przypomnienie dawno minionych wydarzeń.",
+                "code": ""
+              },
+              {
+                "title": "ograniczone umiejętności obliczeniowe/sekwencyjne",
+                "code": ""
+              },
+              {
+                "title": "ograniczone stężenie",
+                "code": ""
+              },
+              {
+                "title": "ograniczona zdolność do rozumowania i myślenia abstrakcyjnego",
+                "code": ""
+              },
+              {
+                "title": "impulsywność",
+                "code": ""
+              },
+              {
+                "title": "powtarzający się język/zachowanie",
+                "code": ""
+              },
+              {
+                "title": "wędrówki",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Ból",
+            "description": "Nieprzyjemne doświadczenia sensoryczne i emocjonalne związane z rzeczywistym lub potencjalnym uszkodzeniem tkanki.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "wyraża dyskomfort/ból",
+                "code": ""
+              },
+              {
+                "title": "podwyższone tętno/respiracja/ciśnienie krwi",
+                "code": ""
+              },
+              {
+                "title": "kompensowany ruch/ochrona",
+                "code": ""
+              },
+              {
+                "title": "niespokojne zachowanie",
+                "code": ""
+              },
+              {
+                "title": "grymasy twarzy",
+                "code": ""
+              },
+              {
+                "title": "bladość/perspiracja",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Świadomość",
+            "description": "Świadomość i zdolność reagowania na bodźce i otoczenie.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "apatyczny",
+                "code": ""
+              },
+              {
+                "title": "osłupiały",
+                "code": ""
+              },
+              {
+                "title": "nieodpowiadający",
+                "code": ""
+              },
+              {
+                "title": "śpiączka",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Skóra",
+            "description": "Naturalne pokrycie ciała.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "choroba wrzodowa/ciśnieniowa",
+                "code": ""
+              },
+              {
+                "title": "nieprzemyślany",
+                "code": ""
+              },
+              {
+                "title": "nadmiernie suche",
+                "code": ""
+              },
+              {
+                "title": "nadmiernie zaolejony",
+                "code": ""
+              },
+              {
+                "title": "zapalenie",
+                "code": ""
+              },
+              {
+                "title": "świąd",
+                "code": ""
+              },
+              {
+                "title": "drenaż",
+                "code": ""
+              },
+              {
+                "title": "siniaki",
+                "code": ""
+              },
+              {
+                "title": "przerost paznokci",
+                "code": ""
+              },
+              {
+                "title": "opóźnione gojenie nacięć",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Funkcja neuro-muskulo-szkieletowa",
+            "description": "Zdolność nerwów, mięśni i kości do wykonywania lub koordynowania określonych ruchów, doznań lub regulacji.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "ograniczony zakres ruchu",
+                "code": ""
+              },
+              {
+                "title": "zmniejszona siła mięśni",
+                "code": ""
+              },
+              {
+                "title": "zmniejszona koordynacja",
+                "code": ""
+              },
+              {
+                "title": "zmniejszenie napięcia mięśni",
+                "code": ""
+              },
+              {
+                "title": "zwiększone napięcie mięśni",
+                "code": ""
+              },
+              {
+                "title": "zmniejszone odczucie",
+                "code": ""
+              },
+              {
+                "title": "zwiększone uczucie",
+                "code": ""
+              },
+              {
+                "title": "zmniejszenie salda",
+                "code": ""
+              },
+              {
+                "title": "zaburzenie chodu/ambulacji",
+                "code": ""
+              },
+              {
+                "title": "trudności z przeniesieniem",
+                "code": ""
+              },
+              {
+                "title": "pęknięcia",
+                "code": ""
+              },
+              {
+                "title": "wstrząsy/przejęcia",
+                "code": ""
+              },
+              {
+                "title": "trudności z termoregulacją",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Oddychanie",
+            "description": "Wdychanie i wydychanie powietrza do organizmu oraz wymiana tlenu.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "nieprawidłowe wzorce oddechowe",
+                "code": ""
+              },
+              {
+                "title": "niezdolny do samodzielnego oddychania.",
+                "code": ""
+              },
+              {
+                "title": "kaszel",
+                "code": ""
+              },
+              {
+                "title": "niezdolny do samodzielnego kaszlu/spodziewania się.",
+                "code": ""
+              },
+              {
+                "title": "sinica",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowa plwocina",
+                "code": ""
+              },
+              {
+                "title": "hałaśliwe oddechy",
+                "code": ""
+              },
+              {
+                "title": "zator nosorożca/nasalny",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowe odgłosy oddechu",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowe wyniki badań laboratoryjnych w zakresie oddychania",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Obieg",
+            "description": "Pompowanie krwi w odpowiednich ilościach i przy odpowiednim ciśnieniu w całym organizmie.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "obrzęk",
+                "code": ""
+              },
+              {
+                "title": "skurcze/ból kończyn",
+                "code": ""
+              },
+              {
+                "title": "zmniejszone impulsy",
+                "code": ""
+              },
+              {
+                "title": "przebarwienia skóry",
+                "code": ""
+              },
+              {
+                "title": "zmiana temperatury w dotkniętym obszarze",
+                "code": ""
+              },
+              {
+                "title": "wariancje",
+                "code": ""
+              },
+              {
+                "title": "synkopalne epizody (omdlenia)/ zawroty głowy",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowy odczyt ciśnienia krwi",
+                "code": ""
+              },
+              {
+                "title": "deficyt pulsu",
+                "code": ""
+              },
+              {
+                "title": "nieregularne tętno",
+                "code": ""
+              },
+              {
+                "title": "zbyt szybkie tętno",
+                "code": ""
+              },
+              {
+                "title": "zbyt wolne tętno",
+                "code": ""
+              },
+              {
+                "title": "ból kątowy",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowe odgłosy serca/murmury",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowe krzepnięcie",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowe wyniki badań laboratoryjnych serca",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Nawadnianie trawienne",
+            "description": "Proces przekształcania żywności w formy, które mogą być wchłaniane i asymilowane, oraz utrzymywania równowagi płynów.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "nudności/wymioty",
+                "code": ""
+              },
+              {
+                "title": "trudność/niezdolność do żucia/połykania/połykania/przetworzenia pokarmu",
+                "code": ""
+              },
+              {
+                "title": "niestrawność",
+                "code": ""
+              },
+              {
+                "title": "refluks",
+                "code": ""
+              },
+              {
+                "title": "anoreksja",
+                "code": ""
+              },
+              {
+                "title": "niedokrwistość",
+                "code": ""
+              },
+              {
+                "title": "wodobrzusze",
+                "code": ""
+              },
+              {
+                "title": "żółtaczka/rozszerzenie wątroby",
+                "code": ""
+              },
+              {
+                "title": "zmniejszony turgor skórny",
+                "code": ""
+              },
+              {
+                "title": "popękane usta/suche usta",
+                "code": ""
+              },
+              {
+                "title": "niewyważenie elektrolitu",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Funkcja jelita grubego",
+            "description": "Transport żywności przez przewód pokarmowy w celu wyeliminowania odpadów.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "nieprawidłowa częstotliwość/konsekwencja działania stolca",
+                "code": ""
+              },
+              {
+                "title": "bolesne defekacje",
+                "code": ""
+              },
+              {
+                "title": "zmniejszone dźwięki jelit",
+                "code": ""
+              },
+              {
+                "title": "krew w taboretach",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowy kolor",
+                "code": ""
+              },
+              {
+                "title": "skurcze/dyskomfort brzucha",
+                "code": ""
+              },
+              {
+                "title": "nietrzymanie stolca.",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Funkcja moczopędna",
+            "description": "Produkcja i wydalanie moczu.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "palenie/bólowe oddawanie moczu",
+                "code": ""
+              },
+              {
+                "title": "niezaspokojenie moczu",
+                "code": ""
+              },
+              {
+                "title": "pilność/częstotliwość",
+                "code": ""
+              },
+              {
+                "title": "trudności w inicjowaniu oddawania moczu",
+                "code": ""
+              },
+              {
+                "title": "trudności w opróżnianiu pęcherza moczowego",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowa kwota",
+                "code": ""
+              },
+              {
+                "title": "hematuria/barwa azbestowa",
+                "code": ""
+              },
+              {
+                "title": "nokturia",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowe wyniki laboratoriów moczowych",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Funkcja reprodukcyjna",
+            "description": "Stan narządów płciowych i piersi oraz zdolność do reprodukcji.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "nieprawidłowe wyładowanie",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowy wzorzec menstruacyjny",
+                "code": ""
+              },
+              {
+                "title": "trudności w zarządzaniu menopauzą/andropauzą",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowe grudki/pęcznienie/pęcznienie/podatność narządów płciowych lub piersi",
+                "code": ""
+              },
+              {
+                "title": "ból podczas lub po stosunku seksualnym",
+                "code": ""
+              },
+              {
+                "title": "niepłodność",
+                "code": ""
+              },
+              {
+                "title": "bezsilność",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Ciąża",
+            "description": "Okres od poczęcia do porodu.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "trudności w łączeniu się z nienarodzonym dzieckiem",
+                "code": ""
+              },
+              {
+                "title": "trudności w radzeniu sobie ze zmianami w organizmie",
+                "code": ""
+              },
+              {
+                "title": "trudności z ćwiczeniami prenatalnymi/odpoczynkiem/odpoczynkiem/dietetyką/zachowaniem się",
+                "code": ""
+              },
+              {
+                "title": "obaw związanych z procedurą doręczenia",
+                "code": ""
+              },
+              {
+                "title": "komplikacje prenatalne/praca prenatalna",
+                "code": ""
+              },
+              {
+                "title": "niewystarczające wsparcie społeczne",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Po porodzie",
+            "description": "Sześciotygodniowy okres po porodzie.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "trudności w karmieniu piersią",
+                "code": ""
+              },
+              {
+                "title": "trudności w radzeniu sobie ze zmianami po porodzie",
+                "code": ""
+              },
+              {
+                "title": "trudności z ćwiczeniami po porodzie/odpoczynkiem/odpoczynkiem/dietetyką/zachowaniami",
+                "code": ""
+              },
+              {
+                "title": "nieprawidłowe krwawienie/wyładunek z pochwy",
+                "code": ""
+              },
+              {
+                "title": "powikłania poporodowe",
+                "code": ""
+              },
+              {
+                "title": "nienormalne, depresyjne uczucia.",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Zakaźny/Zakaźny stan zdrowia",
+            "description": "Stan, w którym organizmy atakują/zainfiskują i wywołują choroby powierzchowne lub ogólnoustrojowe, które mogą się rozprzestrzeniać lub przenosić.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "zakażenie",
+                "code": ""
+              },
+              {
+                "title": "infestacja",
+                "code": ""
+              },
+              {
+                "title": "gorączka",
+                "code": ""
+              },
+              {
+                "title": "zagrożenia biologiczne",
+                "code": ""
+              },
+              {
+                "title": "pozytywne wyniki badań przesiewowych/kultury/laboratorium",
+                "code": ""
+              },
+              {
+                "title": "nieodpowiednie dostawy/urządzenia/polityka zapobiegające przesyłowi danych",
+                "code": ""
+              },
+              {
+                "title": "nie przestrzega schematu kontroli zakażeń.",
+                "code": ""
+              },
+              {
+                "title": "niewystarczająca odporność",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Zachowania związane ze zdrowiem Domena \"Zachowania związane ze zdrowiem",
+        "description": "Wzorce aktywności, które utrzymują lub promują dobre samopoczucie, wspierają powrót do zdrowia i zmniejszają ryzyko zachorowań.",
+        "code": "",
+        "problems": [
+          {
+            "title": "Żywienie",
+            "description": "Wybieraj, konsumuj i używaj żywności i płynów do produkcji energii, utrzymania, wzrostu i zdrowia.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "nadwaga: dorosły BMI 25,0 lub więcej; dziecko BMI 95. percentyl lub więcej",
+                "code": ""
+              },
+              {
+                "title": "niedowaga: dorosły BMI 18,5 lub mniej; dziecko BMI 5. percentyl lub mniej",
+                "code": ""
+              },
+              {
+                "title": "brak ustalonych norm dziennego spożycia kalorii/płynów.",
+                "code": ""
+              },
+              {
+                "title": "przekracza ustalone normy dziennego spożycia kalorii/płynów",
+                "code": ""
+              },
+              {
+                "title": "niezbilansowana dieta",
+                "code": ""
+              },
+              {
+                "title": "niewłaściwy harmonogram karmienia dla osób w podeszłym wieku",
+                "code": ""
+              },
+              {
+                "title": "nie przestrzega zalecanego planu żywieniowego",
+                "code": ""
+              },
+              {
+                "title": "niewyjaśniona/progresywna utrata masy ciała",
+                "code": ""
+              },
+              {
+                "title": "niezdolny do uzyskania/przygotowania żywności",
+                "code": ""
+              },
+              {
+                "title": "hipoglikemia",
+                "code": ""
+              },
+              {
+                "title": "hiperglikemia",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Wzory snu i odpoczynku",
+            "description": "Okresy zawieszonej aktywności ruchowej i sensorycznej oraz okresy bezczynności, odpoczynku lub spokoju psychicznego.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "Wzór snu/odpoczynku zakłóca rodzinę.",
+                "code": ""
+              },
+              {
+                "title": "często budzi się w nocy.",
+                "code": ""
+              },
+              {
+                "title": "lunatykowanie",
+                "code": ""
+              },
+              {
+                "title": "bezsenność",
+                "code": ""
+              },
+              {
+                "title": "koszmary",
+                "code": ""
+              },
+              {
+                "title": "niewystarczający sen/odpoczynek dla wieku/stanu fizycznego",
+                "code": ""
+              },
+              {
+                "title": "bezdech senny",
+                "code": ""
+              },
+              {
+                "title": "chrapanie",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Aktywność fizyczna",
+            "description": "Stan lub jakość ruchów ciała podczas codziennego życia.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "siedzący tryb życia",
+                "code": ""
+              },
+              {
+                "title": "nieadekwatna/spójna rutyna ćwiczeń",
+                "code": ""
+              },
+              {
+                "title": "niewłaściwy rodzaj/ilość ćwiczeń dla wieku/stanu fizycznego",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Pielęgnacja ciała",
+            "description": "Zarządzanie czystością osobistą i ubieraniem się.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "trudności z praniem odzieży",
+                "code": ""
+              },
+              {
+                "title": "trudności z kąpielą",
+                "code": ""
+              },
+              {
+                "title": "trudności z czynnościami toaletowymi",
+                "code": ""
+              },
+              {
+                "title": "trudności w ubieraniu dolnej części ciała",
+                "code": ""
+              },
+              {
+                "title": "trudności w ubieraniu górnej części ciała",
+                "code": ""
+              },
+              {
+                "title": "nieprzyjemny zapach ciała",
+                "code": ""
+              },
+              {
+                "title": "trudność szamponowania/kombinacji włosów",
+                "code": ""
+              },
+              {
+                "title": "trudności w szczotkowaniu/natryskiwaniu zębów/opiece nad ustami",
+                "code": ""
+              },
+              {
+                "title": "niechętny/niepotrzebny/zapomina się o zakończeniu czynności związanych z pielęgnacją osobistą",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Wykorzystanie substancji",
+            "description": "Spożycie leków, leków rekreacyjnych lub innych materiałów, które mogą spowodować zmiany nastroju i/lub uzależnienie psychiczne/fizyczne, chorobę i chorobę.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "nadużycia związane z lekami wydawanymi bez recepty lub na receptę",
+                "code": ""
+              },
+              {
+                "title": "używa \"ulicy\" - narkotyków rekreacyjnych",
+                "code": ""
+              },
+              {
+                "title": "nadużywa alkoholu",
+                "code": ""
+              },
+              {
+                "title": "palenie/używanie wyrobów tytoniowych",
+                "code": ""
+              },
+              {
+                "title": "trudności w wykonywaniu normalnych rutynowych czynności",
+                "code": ""
+              },
+              {
+                "title": "zakłócenia odruchowe",
+                "code": ""
+              },
+              {
+                "title": "zmiana zachowania",
+                "code": ""
+              },
+              {
+                "title": "narażenie na dym papierosowy/dym tytoniowy",
+                "code": ""
+              },
+              {
+                "title": "kupuje/sprzedaje substancje nielegalne",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Planowanie rodziny",
+            "description": "Praktyki mające na celu zaplanowanie i umiejscowienie ciąży w kontekście wartości, postaw i przekonań.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "niewłaściwa/niewystarczająca wiedza na temat metod planowania rodziny",
+                "code": ""
+              },
+              {
+                "title": "niewłaściwa/niewystarczająca wiedza na temat praktyk w zakresie zdrowia przedpoczątkowego",
+                "code": ""
+              },
+              {
+                "title": "niedokładne/spójne stosowanie metod planowania rodziny",
+                "code": ""
+              },
+              {
+                "title": "niezadowolony z obecnej metody planowania rodziny.",
+                "code": ""
+              },
+              {
+                "title": "obawia się reakcji innych osób na wybory związane z planowaniem rodziny.",
+                "code": ""
+              },
+              {
+                "title": "trudności w uzyskaniu metod planowania rodziny",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Nadzór medyczny",
+            "description": "Zarządzanie planem leczenia zdrowotnego przez pracowników służby zdrowia.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "nie uzyskała rutynowej/profilaktycznej opieki zdrowotnej",
+                "code": ""
+              },
+              {
+                "title": "nie poszukuje opieki nad objawami wymagającymi oceny/leczenia",
+                "code": ""
+              },
+              {
+                "title": "nie zwróci się, zgodnie z wnioskiem, do podmiotu świadczącego opiekę zdrowotną",
+                "code": ""
+              },
+              {
+                "title": "niezdolność do koordynowania wielu spotkań/planów leczenia",
+                "code": ""
+              },
+              {
+                "title": "niespójne źródło opieki zdrowotnej",
+                "code": ""
+              },
+              {
+                "title": "niewystarczające źródło opieki zdrowotnej",
+                "code": ""
+              },
+              {
+                "title": "nieodpowiedni plan leczenia",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Schemat przyjmowania leków",
+            "description": "Stosowanie lub stosowanie leków bez recepty i leków przepisanych/zalecanych/zalecanych oraz naparów w celu spełnienia wytycznych dotyczących działań terapeutycznych, bezpieczeństwa i harmonogramu.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "nie przestrzega zalecanego dawkowania/harmonogramu dawkowania",
+                "code": ""
+              },
+              {
+                "title": "dowody skutków ubocznych/reakcji niepożądanych",
+                "code": ""
+              },
+              {
+                "title": "niewystarczający system przyjmowania leków",
+                "code": ""
+              },
+              {
+                "title": "niewłaściwe przechowywanie leków",
+                "code": ""
+              },
+              {
+                "title": "nie uzyska odpowiedniego uzupełnienia zapasów.",
+                "code": ""
+              },
+              {
+                "title": "nie uodpornia się na szczepienia.",
+                "code": ""
+              },
+              {
+                "title": "nieadekwatny schemat przyjmowania leków",
+                "code": ""
+              },
+              {
+                "title": "niezdolny do przyjmowania leków bez pomocy.",
+                "code": ""
+              },
+              {
+                "title": "pozostały",
+                "code": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "modifiers": {
+      "scope": [
+        {
+          "title": "Osoba fizyczna",
+          "description": "Osoba mieszkająca samotnie lub członek rodziny, który doświadcza problemów zdrowotnych."
+        },
+        {
+          "title": "Rodzina",
+          "description": "Jednostka społeczna lub powiązana grupa osób, które żyją razem i doświadczają problemów zdrowotnych."
+        },
+        {
+          "title": "Wspólnota",
+          "description": "Osoby fizyczne i/lub rodziny, które tworzą grupę, dzielnicę lub inny okręg geograficzny, które doświadczają problemów zdrowotnych."
+        }
+      ],
+      "severity": [
+        {
+          "title": "Promocja zdrowia",
+          "description": "Zainteresowanie klientów zwiększeniem wiedzy, zachowań i oczekiwań zdrowotnych oraz rozwojem większej ilości aktywów i zasobów, które utrzymują lub zwiększają dobre samopoczucie w przypadku braku czynników ryzyka, oznak lub objawów."
+        },
+        {
+          "title": "Potencjał",
+          "description": "Status klienta charakteryzujący się obecnością pewnych wzorców zdrowotnych, praktyk, zachowań lub czynników ryzyka, które mogą wykluczać optymalny stan zdrowia oraz brak oznak i objawów."
+        },
+        {
+          "title": "Rzeczywiste",
+          "description": "Status klienta charakteryzujący się jednym lub kilkoma istniejącymi objawami i objawami, które mogą wykluczać optymalny stan zdrowia."
+        }
+      ]
+    }
+  },
+  "interventionScheme": {
+    "title": "System interwencji",
+    "categories": [
+      {
+        "title": "Nauczanie, poradnictwo i doradztwo",
+        "description": "Działania mające na celu dostarczenie informacji i materiałów, zachęcenie do działania i odpowiedzialności za samoopiekę i radzenie sobie z problemami oraz pomoc jednostce, rodzinie lub społeczności w podejmowaniu decyzji i rozwiązywaniu problemów.",
+        "code": ""
+      },
+      {
+        "title": "Traktowanie i procedury",
+        "description": "Działania techniczne, takie jak pielęgnacja ran, zbieranie próbek, ćwiczenia rezystancyjne i recepty na leki, które mają na celu zapobieganie, zmniejszanie lub łagodzenie objawów i objawów dla jednostki, rodziny lub społeczności.",
+        "code": ""
+      },
+      {
+        "title": "Zarządzanie sprawami",
+        "description": "Działania takie jak koordynacja, rzecznictwo i skierowanie, które ułatwiają świadczenie usług, promują asertywność, prowadzą jednostkę, rodzinę lub społeczność w kierunku wykorzystania odpowiednich zasobów oraz poprawiają komunikację pomiędzy dostawcami usług zdrowotnych i ludzkich.",
+        "code": ""
+      },
+      {
+        "title": "Nadzór",
+        "description": "Działania takie jak wykrywanie, pomiary, analiza krytyczna i monitorowanie mające na celu identyfikację osoby, rodziny lub społeczności w odniesieniu do danego stanu lub zjawiska.",
+        "code": ""
+      }
+    ],
+    "targets": [
+      {
+        "title": "anatomia/fizjologia",
+        "description": "Struktura i funkcja ludzkiego ciała.",
+        "code": ""
+      },
+      {
+        "title": "zarządzanie gniewem",
+        "description": "Działania, które zmniejszają lub kontrolują negatywne uczucia i interakcje, w tym przemoc.",
+        "code": ""
+      },
+      {
+        "title": "modyfikacja zachowania",
+        "description": "Działania, które zmieniają nawyki, zachowanie lub wzorce działania.",
+        "code": ""
+      },
+      {
+        "title": "pielęgnacja pęcherza moczowego",
+        "description": "Działania promujące funkcjonowanie pęcherza moczowego, takie jak przekwalifikowanie pęcherza, zmiana cewnika i nawadnianie cewnika.",
+        "code": ""
+      },
+      {
+        "title": "łączenie/przyłączenie",
+        "description": "Wzajemne, pozytywne relacje między dwiema osobami, takimi jak rodzic/opiekun i niemowlę/dziecko.",
+        "code": ""
+      },
+      {
+        "title": "opieka nad jelitami",
+        "description": "Działania promujące funkcje jelit, takie jak trening jelit i lewatywy.",
+        "code": ""
+      },
+      {
+        "title": "opieka kardiologiczna",
+        "description": "Działania promujące funkcje serca lub układu krążenia, takie jak oszczędność energii i równowaga płynów.",
+        "code": ""
+      },
+      {
+        "title": "umiejętności opiekuńcze/wychowawcze",
+        "description": "Czynności takie jak karmienie, kąpiele, dyscyplina, pielęgnacja i stymulacja zapewnione dziecku lub dorosłemu pozostającemu na utrzymaniu.",
+        "code": ""
+      },
+      {
+        "title": "opieka nad dzieckiem",
+        "description": "Działania promujące czystość, suchość, wsparcie, wyrównanie i złagodzenie bólu, nacisku i zwężenia zranionej części ciała unieruchomionej przez odlew, szynę lub inne urządzenie.",
+        "code": ""
+      },
+      {
+        "title": "komunikowanie",
+        "description": "Wymiana informacji werbalnych lub niewerbalnych pomiędzy jednostką/rodziną/społecznością a innymi osobami.",
+        "code": ""
+      },
+      {
+        "title": "usługi świadczone przez społeczność lokalną na rzecz pracowników zewnętrznych",
+        "description": "Pomoc w zarządzaniu opieką zdrowotną, transportem, gospodarstwem domowym oraz opieką nad dziećmi/dorosłymi świadczoną przez wykwalifikowanych pracowników pod nadzorem profesjonalnych zakładów opieki zdrowotnej.",
+        "code": ""
+      },
+      {
+        "title": "ciągłość opieki",
+        "description": "Komunikacja informacji pomiędzy dostawcami/organizacjami w celu zapewnienia bezpiecznej i skutecznej opieki oraz zmniejszenia powielania wysiłków/usług.",
+        "code": ""
+      },
+      {
+        "title": "umiejętności radzenia sobie z problemami",
+        "description": "Umiejętność skutecznego radzenia sobie z wyzwaniami i zmianami, takimi jak choroba, niepełnosprawność, utrata dochodów, narodziny dziecka lub śmierć członka rodziny.",
+        "code": ""
+      },
+      {
+        "title": "opieka dzienna/spotkanie towarzyskie",
+        "description": "Osoby lub organizacje, które zapewniają opiekę nad dzieckiem/dorosłymi, podczas gdy rodzic/opiekun uczęszcza do szkoły, pracuje lub ma ulgę w zwykłych obowiązkach.",
+        "code": ""
+      },
+      {
+        "title": "zarządzanie dietą",
+        "description": "Odżywianie za pomocą zbilansowanej żywności i płynów, które podtrzymują życie, dostarczają energii oraz wspierają wzrost i zdrowie.",
+        "code": ""
+      },
+      {
+        "title": "dyscyplina",
+        "description": "Praktyki pielęgnacyjne promujące właściwe zachowanie, zachowanie i samokontrolę.",
+        "code": ""
+      },
+      {
+        "title": "zmiana opatrunku/opieka nad ranami",
+        "description": "Działania promujące gojenie się ran i zapobiegające infekcjom, takie jak obserwacja, pomiar, oczyszczanie, nawadnianie i/lub przykrywanie ran, zmian chorobowych lub nacięć.",
+        "code": ""
+      },
+      {
+        "title": "trwały sprzęt medyczny",
+        "description": "Nienadające się do użytku przedmioty używane podczas opieki, takie jak specjalne łóżka, spacerowicze i monitory bezdechu.",
+        "code": ""
+      },
+      {
+        "title": "edukacja",
+        "description": "Formalne programy, które oferują ogólne, techniczne lub zindywidualizowane studia dla studentów w każdym wieku.",
+        "code": ""
+      },
+      {
+        "title": "zatrudnienie",
+        "description": "Zawód, który zapewnia dochód.",
+        "code": ""
+      },
+      {
+        "title": "opieka na koniec życia produktu",
+        "description": "Działania, które zapewniają komfort fizyczny i spokój emocjonalny dla tych, którzy umierają przez zaangażowanie/włączając w to rodzinę, przyjaciół, troski duchowe, rytuały, kontrolę bólu i opiekę fizyczną.",
+        "code": ""
+      },
+      {
+        "title": "środowisko",
+        "description": "Otoczenie fizyczne, warunki lub wpływy w rezydencji, sąsiedztwie i/lub społeczności lokalnej",
+        "code": ""
+      },
+      {
+        "title": "zajęcia",
+        "description": "Terapeutyczne aktywności fizyczne, takie jak aktywny/pasywny zakres ruchu, izometria, rozciąganie i podnoszenie ciężarów.",
+        "code": ""
+      },
+      {
+        "title": "opieka w zakresie planowania rodziny",
+        "description": "Działania wspierające rozważenie i wykorzystanie metod przygotowania do ciąży w przestrzeni kosmicznej.",
+        "code": ""
+      },
+      {
+        "title": "procedury karmienia",
+        "description": "Dostarczanie pożywienia lub płynów przy użyciu takich metod jak: pierś, formuła, łyżka, rurka i roztwory dożylne.",
+        "code": ""
+      },
+      {
+        "title": "finanse",
+        "description": "Zarządzanie przychodami i kosztami.",
+        "code": ""
+      },
+      {
+        "title": "szkolenia w chodniku",
+        "description": "Systematyczne działania promujące chodzenie z urządzeniami wspomagającymi lub bez nich.",
+        "code": ""
+      },
+      {
+        "title": "genetyka",
+        "description": "Diagnoza, konsultacje i procedury mające na celu zapobieganie, identyfikację lub leczenie wad wrodzonych, wrodzonych anomalii lub schorzeń.",
+        "code": ""
+      },
+      {
+        "title": "opieka nad wzrostem/rozwojem",
+        "description": "Działania promujące stopniowe dojrzewanie w zależności od wieku, takie jak pomiar wagi, wzrostu i obwodu głowy oraz stymulowanie osiągania kamieni milowych rozwoju.",
+        "code": ""
+      },
+      {
+        "title": "wracać do domu",
+        "description": "Miejsce zamieszkania.",
+        "code": ""
+      },
+      {
+        "title": "gospodarowanie w domu/gospodarstwo domowe",
+        "description": "Zarządzanie czynnościami takimi jak sprzątanie, pranie i przygotowywanie żywności w domu lub w placówce służby zdrowia.",
+        "code": ""
+      },
+      {
+        "title": "środki ostrożności dotyczące zakażenia",
+        "description": "Działania zmniejszające częstość występowania i przenoszenia chorób zakaźnych, takie jak mycie rąk, izolacja, pobieranie próbek, kontrola kontaktów, procedury sprawozdawcze i kontrola środowiska.",
+        "code": ""
+      },
+      {
+        "title": "oddziaływanie",
+        "description": "Wzajemne działania lub wpływy między osobami, w tym rodzic-dziecko, rodzic-nauczyciel i pielęgniarka-klient.",
+        "code": ""
+      },
+      {
+        "title": "usługi w zakresie tłumaczeń ustnych i pisemnych",
+        "description": "Pomoc w komunikacji ustnej lub pisemnej w innych językach zapewniana przez wykwalifikowanych pracowników, którzy znajdują się pod nadzorem profesjonalnych pracowników służby zdrowia.",
+        "code": ""
+      },
+      {
+        "title": "wyniki badań laboratoryjnych",
+        "description": "Wyniki badań płynów i tkanek, takich jak analiza moczu i krwi.",
+        "code": ""
+      },
+      {
+        "title": "system prawny",
+        "description": "Władza, zasady postępowania lub stosowanie prawa.",
+        "code": ""
+      },
+      {
+        "title": "opieka medyczna/ stomatologiczna",
+        "description": "Ocena/diagnoza i leczenie prowadzone przez lekarzy, lekarzy, lekarzy dentystów i ich pracowników lub asystentów.",
+        "code": ""
+      },
+      {
+        "title": "działanie leków/skutki uboczne",
+        "description": "Pozytywne i/lub negatywne skutki leków.",
+        "code": ""
+      },
+      {
+        "title": "administracja medyczna",
+        "description": "Działania, które obejmują stosowanie lub podawanie leków i które są wykonywane przez klientów, rodziców/opiekunów lub pracowników służby zdrowia.",
+        "code": ""
+      },
+      {
+        "title": "koordynacja/zamówienie leków",
+        "description": "Komunikacja z osobami, które przepisują i aplikują leki oraz systemy wsparcia indywidualnego/rodzinnego/społecznościowego w celu zapewnienia terminowego uzyskania odpowiednich leków i dostaw.",
+        "code": ""
+      },
+      {
+        "title": "recepta na lekarstwa",
+        "description": "Sformalizowane zamówienie farmaceutyczne/oficjalne zapotrzebowanie na leki.",
+        "code": ""
+      },
+      {
+        "title": "konfiguracja leków",
+        "description": "Przygotowanie do podania leku poprzez wypełnienie/kontrolę organizatora leku doustnego, wypełnienie strzykawek lub włożenie urządzeń dostępu dożylnego.",
+        "code": ""
+      },
+      {
+        "title": "mobilność/przekazy",
+        "description": "Ruchy ciała, które zmieniają pozycję lub pozwalają na uczestnictwo w czynnościach takich jak chodzenie.",
+        "code": ""
+      },
+      {
+        "title": "opieka pielęgniarska",
+        "description": "Ocena/diagnoza i leczenie wykonywane przez pielęgniarki i ich personel lub asystentów.",
+        "code": ""
+      },
+      {
+        "title": "opieka dietetyczna",
+        "description": "Ocena/diagnoza i leczenie prowadzone przez dietetyków/zarejestrowanych dietetyków i ich pracowników lub asystentów.",
+        "code": ""
+      },
+      {
+        "title": "opieka w zakresie terapii zajęciowej",
+        "description": "Ocena/diagnoza i leczenie prowadzone przez terapeutów zajęciowych i ich pracowników lub asystentów.",
+        "code": ""
+      },
+      {
+        "title": "opieka nad ostomią",
+        "description": "Działania mające na celu eliminację moczu lub stolca poprzez sztuczne otwory, takie jak kolostomia i ileostomia.",
+        "code": ""
+      },
+      {
+        "title": "inne środki wspólnotowe",
+        "description": "Organizacje lub grupy oferujące towary lub usługi, które nie zostały konkretnie określone w innych celach, takich jak obiekty do ćwiczeń, piżamy/centrum dystrybucji żywności lub wspólnoty wyznaniowe.",
+        "code": ""
+      },
+      {
+        "title": "pielęgnacja paraprofesjonalna/pomocowa",
+        "description": "Pomoc świadczona przez wykwalifikowanych pracowników pomocniczych, pomoc domową i asystentów pielęgniarskich pod nadzorem profesjonalnych pracowników służby zdrowia.",
+        "code": ""
+      },
+      {
+        "title": "higiena osobista",
+        "description": "Indywidualne czynności pielęgnacyjne, takie jak kąpiele, szamponowanie i toaleta.",
+        "code": ""
+      },
+      {
+        "title": "opieka nad terapią fizyczną",
+        "description": "Ocena/diagnoza i leczenie prowadzone przez fizjoterapeutów i ich pracowników lub asystentów.",
+        "code": ""
+      },
+      {
+        "title": "ustawianie",
+        "description": "Dopasowanie ciała w celu zwiększenia komfortu i funkcjonalności.",
+        "code": ""
+      },
+      {
+        "title": "opieka nad terapią rekreacyjną",
+        "description": "Ocena/diagnoza i leczenie prowadzone przez terapeutów rekreacyjnych i ich personel lub asystentów.",
+        "code": ""
+      },
+      {
+        "title": "techniki relaksacyjne/oddechowe",
+        "description": "Działania, które łagodzą napięcie mięśni, wywołują uspokajającą reakcję ciała i odbudowują zasoby energetyczne, takie jak głębokie ćwiczenia oddechowe, kierowane obrazy, medytacja i masaż.",
+        "code": ""
+      },
+      {
+        "title": "opieka oddechowa",
+        "description": "Działania promujące funkcje oddechowe lub płucne, takie jak odsysanie i leczenie nebulizatorem.",
+        "code": ""
+      },
+      {
+        "title": "opieka nad terapią oddechową",
+        "description": "Ocena/diagnoza i leczenie prowadzone przez terapeutów oddechowych oraz personel lub asystentów.",
+        "code": ""
+      },
+      {
+        "title": "odpoczynek/sypianie",
+        "description": "Okresowy stan ciszy i różne stopnie świadomości.",
+        "code": ""
+      },
+      {
+        "title": "bezpieczeństwo",
+        "description": "Wolność od ryzyka, wystąpienia urazu lub utraty.",
+        "code": ""
+      },
+      {
+        "title": "procedury przesiewowe",
+        "description": "Strategie oceny stosowane w celu określenia ryzyka wystąpienia schorzeń, wczesnego rozpoznania choroby oraz monitorowania zmian/progresji w czasie.",
+        "code": ""
+      },
+      {
+        "title": "opieka nad chorymi / rannymi",
+        "description": "Działania w odpowiedzi na chorobę lub wypadki, takie jak pierwsza pomoc i przyjmowanie temperatury.",
+        "code": ""
+      },
+      {
+        "title": "znaki/symptomy-mentalno-emocjonalne/emocjonalne",
+        "description": "Obiektywne lub subiektywne dowody problemów ze zdrowiem psychicznym/emocjonalnym, takich jak depresja, dezorientacja lub agitacja.",
+        "code": ""
+      },
+      {
+        "title": "oznaki/symptomy-fizyczne",
+        "description": "Obiektywne lub subiektywne dowody problemów zdrowotnych, takich jak gorączka, nagła utrata wagi lub stwierdzenie bólu.",
+        "code": ""
+      },
+      {
+        "title": "pielęgnacja skóry",
+        "description": "Działania promujące integralność skóry, takie jak stosowanie balsamu i masażu.",
+        "code": ""
+      },
+      {
+        "title": "praca socjalna/opieka doradcza",
+        "description": "Ocena/diagnoza i leczenie prowadzone przez pracowników socjalnych, doradców i ich pracowników lub asystentów.",
+        "code": ""
+      },
+      {
+        "title": "kolekcja wzorów",
+        "description": "Czynności mające na celu uzyskanie próbek tkanek ludzkich i zwierzęcych, płynów, wydzielin lub wydalin, takich jak krew, mocz, kał, plwocina i drenaż.",
+        "code": ""
+      },
+      {
+        "title": "opieka w zakresie patologii mowy i języka",
+        "description": "Ocena/diagnoza i leczenie prowadzone przez patologów mowy i języka oraz ich pracowników lub asystentów.",
+        "code": ""
+      },
+      {
+        "title": "opieka duchowa",
+        "description": "Działania promujące spokój i wygodę osobistą oraz angażujące duchowe troski/praktyki.",
+        "code": ""
+      },
+      {
+        "title": "stymulacja/opieka zdrowotna",
+        "description": "Działania promujące zdrowy rozwój fizyczny, intelektualny i emocjonalny.",
+        "code": ""
+      },
+      {
+        "title": "zarządzanie stresem",
+        "description": "Aktywności poznawcze, emocjonalne i fizyczne, które promują zdrowe funkcjonowanie w trudnych warunkach życiowych.",
+        "code": ""
+      },
+      {
+        "title": "zaprzestanie stosowania substancji",
+        "description": "Działania promujące zaprzestanie stosowania materiałów szkodliwych/dyktujących.",
+        "code": ""
+      },
+      {
+        "title": "zapasy",
+        "description": "Jednorazowe przedmioty używane w trakcie pielęgnacji, takie jak opatrunki, strzykawki, rurki, pieluchy i butelki dla dzieci.",
+        "code": ""
+      },
+      {
+        "title": "grupa wsparcia",
+        "description": "Zorganizowane źródła informacji i pomocy, takie jak skupione klasy i organizacje, zapewnienie telefoniczne i wiarygodne strony internetowe, które dotyczą konkretnych tematów, takich jak rodzicielstwo, alkoholizm, otyłość i choroba Alzheimera.",
+        "code": ""
+      },
+      {
+        "title": "system wsparcia",
+        "description": "Koło rodziny, przyjaciół i współpracowników, którzy zapewniają miłość, opiekę i pomoc w promowaniu zdrowia i radzeniu sobie z chorobą.",
+        "code": ""
+      },
+      {
+        "title": "transport",
+        "description": "Metody podróżowania, takie jak samochód, autobus, taksówka, skuter lub wózek.",
+        "code": ""
+      },
+      {
+        "title": "zdrowie",
+        "description": "Praktyki promujące zdrowie fizyczne i psychiczne, takie jak ćwiczenia, odżywianie i szczepienia.",
+        "code": ""
+      },
+      {
+        "title": "pozostały",
+        "description": "Osoby, miejsca, rzeczy lub działania nie wymienione na tej liście.",
+        "code": ""
+      }
+    ]
+  },
+  "problemRatingScale": {
+    "title": "Skala oceniania problemów dla wyników",
+    "ratings": [
+      {
+        "title": "Status",
+        "description": "Stan klienta w odniesieniu do obiektywnych i subiektywnych cech definiujących.",
+        "scale": [
+          {
+            "title": "Ekstremalne znaki/symptomy"
+          },
+          {
+            "title": "Poważne oznaki/symptomy"
+          },
+          {
+            "title": "Umiarkowane znaki/symptomy"
+          },
+          {
+            "title": "Minimalne znaki/symptomy"
+          },
+          {
+            "title": "Brak znaków/symptomów"
+          }
+        ]
+      },
+      {
+        "title": "Wiedza",
+        "description": "Zdolność klienta do zapamiętywania i interpretowania informacji.",
+        "scale": [
+          {
+            "title": "Brak wiedzy"
+          },
+          {
+            "title": "Minimalna wiedza"
+          },
+          {
+            "title": "Podstawowa wiedza"
+          },
+          {
+            "title": "Odpowiednia wiedza"
+          },
+          {
+            "title": "Najwyższa wiedza"
+          }
+        ]
+      },
+      {
+        "title": "Zachowanie",
+        "description": "Obserwowalne reakcje, działania lub działania klienta pasujące do okazji lub celu.",
+        "scale": [
+          {
+            "title": "Nieodpowiednie zachowanie"
+          },
+          {
+            "title": "Rzadko właściwe zachowanie"
+          },
+          {
+            "title": "Niespójnie właściwe zachowanie"
+          },
+          {
+            "title": "Zwykle właściwe zachowanie"
+          },
+          {
+            "title": "Konsekwentnie właściwe zachowanie"
+          }
+        ]
+      }
+    ]
+  }
+}

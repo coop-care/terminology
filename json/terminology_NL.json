@@ -1,0 +1,2343 @@
+{
+  "title": "Het Omaha-systeem",
+  "problemClassificationScheme": {
+    "title": "Probleemclassificatieschema",
+    "domains": [
+      {
+        "title": "Milieudomein",
+        "description": "Materiële middelen en fysieke omgeving zowel binnen als buiten het woongebied, de buurt en de bredere gemeenschap.",
+        "code": "",
+        "problems": [
+          {
+            "title": "Inkomsten",
+            "description": "Geld uit lonen, pensioenen, subsidies, rente, dividenden of andere bronnen die beschikbaar zijn voor levensonderhoud en gezondheidszorg.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "laag/geen inkomen",
+                "code": ""
+              },
+              {
+                "title": "onverzekerde medische kosten",
+                "code": ""
+              },
+              {
+                "title": "problemen met geldbeheer",
+                "code": ""
+              },
+              {
+                "title": "in staat om alleen de eerste levensbehoeften te kopen...",
+                "code": ""
+              },
+              {
+                "title": "moeite met het kopen van benodigdheden",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Sanering",
+            "description": "Reinheid van het milieu en voorzorgsmaatregelen tegen infecties en ziekten.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "vervuilde woonruimte",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende opslag en verwijdering van voedsel",
+                "code": ""
+              },
+              {
+                "title": "insecten/knaagdieren",
+                "code": ""
+              },
+              {
+                "title": "vieze geur",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende watervoorziening",
+                "code": ""
+              },
+              {
+                "title": "onvoldoende afvoer van afvalwater",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende wasfaciliteiten",
+                "code": ""
+              },
+              {
+                "title": "allergenen",
+                "code": ""
+              },
+              {
+                "title": "besmettelijke/verontreinigende agentia",
+                "code": ""
+              },
+              {
+                "title": "aanwezigheid van schimmel",
+                "code": ""
+              },
+              {
+                "title": "overmatige huisdieren",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Verblijf",
+            "description": "Woonruimte.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "structureel ondeugdelijk",
+                "code": ""
+              },
+              {
+                "title": "onvoldoende verwarming/koeling",
+                "code": ""
+              },
+              {
+                "title": "steile/onveilige trap",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende/belemmerde uitgangen/entrepots",
+                "code": ""
+              },
+              {
+                "title": "rommelige leefruimte",
+                "code": ""
+              },
+              {
+                "title": "onveilige opslag van gevaarlijke voorwerpen/stoffen",
+                "code": ""
+              },
+              {
+                "title": "onveilige matten/werptapijten",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende veiligheidsvoorzieningen",
+                "code": ""
+              },
+              {
+                "title": "aanwezigheid van loodhoudende verf op basis van lood",
+                "code": ""
+              },
+              {
+                "title": "onveilige apparaten/uitrusting",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende/bevolkte leefruimte",
+                "code": ""
+              },
+              {
+                "title": "blootgestelde bedrading",
+                "code": ""
+              },
+              {
+                "title": "structurele belemmeringen",
+                "code": ""
+              },
+              {
+                "title": "daklozen",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Buurt-/werkplaatsveiligheid",
+            "description": "Vrijwaring van ziekte, letsel of verlies in de gemeenschap van plaats of werk.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "hoge criminaliteit",
+                "code": ""
+              },
+              {
+                "title": "hoge mate van vervuiling",
+                "code": ""
+              },
+              {
+                "title": "ongecontroleerde/gevaarlijke/besmette dieren",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende/onveilige speel- en oefenterreinen",
+                "code": ""
+              },
+              {
+                "title": "onvoldoende ruimte/middelen om de gezondheid te bevorderen",
+                "code": ""
+              },
+              {
+                "title": "dreigingen/ meldingen van geweld",
+                "code": ""
+              },
+              {
+                "title": "fysieke gevaren",
+                "code": ""
+              },
+              {
+                "title": "voertuig-/verkeersgevaren",
+                "code": ""
+              },
+              {
+                "title": "chemische risico's",
+                "code": ""
+              },
+              {
+                "title": "radiologische gevaren",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Psychosociaal domein",
+        "description": "Gedragspatronen, emotie, communicatie, relaties en ontwikkeling.",
+        "code": "",
+        "problems": [
+          {
+            "title": "Communicatie met communautaire middelen",
+            "description": "Interactie tussen het individu, het gezin, de gemeenschap en sociale dienstenorganisaties, scholen en bedrijven op het gebied van diensten, informatie en goederen/leveringen.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "onbekend met opties / procedures voor het verkrijgen van diensten",
+                "code": ""
+              },
+              {
+                "title": "problemen met het begrijpen van de rollen/regelgeving van dienstverleners",
+                "code": ""
+              },
+              {
+                "title": "niet in staat om zorgen te communiceren met de leverancier",
+                "code": ""
+              },
+              {
+                "title": "ontevredenheid over diensten",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende/niet-beschikbare middelen",
+                "code": ""
+              },
+              {
+                "title": "taalbarrière",
+                "code": ""
+              },
+              {
+                "title": "culturele barrière",
+                "code": ""
+              },
+              {
+                "title": "educatieve barrière",
+                "code": ""
+              },
+              {
+                "title": "transportmuur",
+                "code": ""
+              },
+              {
+                "title": "beperkte toegang tot zorg/diensten/goederen/goederen",
+                "code": ""
+              },
+              {
+                "title": "niet in staat om te gebruiken/heeft onvoldoende communicatiemiddelen/apparatuur/uitrusting",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Sociaal contact",
+            "description": "Interactie tussen het individu/familie/gemeenschap en anderen buiten de directe leefomgeving.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "beperkt sociaal contact",
+                "code": ""
+              },
+              {
+                "title": "maakt gebruik van een zorgverlener voor sociale contacten",
+                "code": ""
+              },
+              {
+                "title": "minimale externe stimulatie/vrije tijd activiteiten van buitenaf",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Rolverandering",
+            "description": "Toevoeging aan of verwijdering van een set van verwachte gedragskenmerken.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "onvrijwillige rolverwisseling",
+                "code": ""
+              },
+              {
+                "title": "neemt een nieuwe rol aan",
+                "code": ""
+              },
+              {
+                "title": "verliest zijn vorige rol",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Interpersoonlijke relatie",
+            "description": "Verenigingen of banden tussen het individu/familie/gemeenschap en anderen.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "moeilijkheid om relaties op te bouwen/in stand te houden",
+                "code": ""
+              },
+              {
+                "title": "minimale gemeenschappelijke activiteiten",
+                "code": ""
+              },
+              {
+                "title": "ongerijmde waarden/doelen/doelen/verwachtingen/schema's/verwachtingen/verwachtingen",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende interpersoonlijke communicatievaardigheden",
+                "code": ""
+              },
+              {
+                "title": "Langdurige, niet aflatende spanning",
+                "code": ""
+              },
+              {
+                "title": "ongepaste verdenking/manipulatie/manipulatie/controle",
+                "code": ""
+              },
+              {
+                "title": "lichamelijk/prematoir misbruik van de partner",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheden bij het oplossen van een probleem zonder conflicten",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Spiritualiteit",
+            "description": "Overtuigingen en praktijken die te maken hebben met geloof, religie, waarden, de geest en/of de ziel.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "geeft uiting aan spirituele zorgen",
+                "code": ""
+              },
+              {
+                "title": "verstoorde spirituele rituelen",
+                "code": ""
+              },
+              {
+                "title": "verstoord spiritueel vertrouwen",
+                "code": ""
+              },
+              {
+                "title": "tegenstrijdige spirituele overtuigingen en medische/gezondheidszorgregeling",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Verdriet",
+            "description": "Lijden en leed in verband met verlies.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "faalt om stadia van verdriet / proces van genezing te herkennen",
+                "code": ""
+              },
+              {
+                "title": "moeilijk om te gaan met verdriet reacties op verdriet",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheid om verdrietreacties te uiten",
+                "code": ""
+              },
+              {
+                "title": "tegenstrijdige stadia van verdriet tussen individuen/families",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Geestelijke gezondheid",
+            "description": "Ontwikkeling en gebruik van mentaal/emotioneel vermogen om zich aan te passen aan levenssituaties, met anderen te interageren en activiteiten te ontplooien",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "droefheid/hopelessness/verlaging van het zelfvertrouwen",
+                "code": ""
+              },
+              {
+                "title": "vrees/onbepaalde angst/ongedefinieerde angst",
+                "code": ""
+              },
+              {
+                "title": "verlies van rente/betrokkenheid bij activiteiten/zelfzorg",
+                "code": ""
+              },
+              {
+                "title": "versmald tot verspreide aandacht / focus",
+                "code": ""
+              },
+              {
+                "title": "vlak effect",
+                "code": ""
+              },
+              {
+                "title": "geïrriteerd/geagiteerd/agiteerd/agressief",
+                "code": ""
+              },
+              {
+                "title": "Doelstelling/compulsieve activiteit",
+                "code": ""
+              },
+              {
+                "title": "moeite met het beheersen van stress",
+                "code": ""
+              },
+              {
+                "title": "moeite met het beheersen van woede",
+                "code": ""
+              },
+              {
+                "title": "somatische klachten/moeheid",
+                "code": ""
+              },
+              {
+                "title": "waanideeën",
+                "code": ""
+              },
+              {
+                "title": "hallucinaties/illucinaties/illucinaties",
+                "code": ""
+              },
+              {
+                "title": "drukt zelfmoordgedachten of zelfmoordgedachten uit...",
+                "code": ""
+              },
+              {
+                "title": "pogingen tot zelfmoord/moord",
+                "code": ""
+              },
+              {
+                "title": "zelfverminking",
+                "code": ""
+              },
+              {
+                "title": "stemmingswisselingen",
+                "code": ""
+              },
+              {
+                "title": "opflakkeringen",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Seksualiteit",
+            "description": "Houdingen, gevoelens en gedrag met betrekking tot intimiteit en seksuele activiteit.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "moeite om de gevolgen van seksueel gedrag te herkennen...",
+                "code": ""
+              },
+              {
+                "title": "moeite om intimiteit tot uitdrukking te brengen",
+                "code": ""
+              },
+              {
+                "title": "verwarring over seksuele identiteit",
+                "code": ""
+              },
+              {
+                "title": "seksuele waarde verwarring",
+                "code": ""
+              },
+              {
+                "title": "ontevredenheid over seksuele relaties",
+                "code": ""
+              },
+              {
+                "title": "onveilige seksuele praktijken",
+                "code": ""
+              },
+              {
+                "title": "seksueel handelen/provocatief gedrag/provocerend gedrag/pesten",
+                "code": ""
+              },
+              {
+                "title": "seksuele geweldpleging/aanval",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Verzorgende/ouderlijke verzorging",
+            "description": "Het bieden van ondersteuning, verzorging, verzorging, stimulatie en fysieke zorg voor afhankelijke kinderen of volwassenen.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "moeilijkheid om fysieke zorg/veiligheid te bieden",
+                "code": ""
+              },
+              {
+                "title": "moeite met het geven van emotionele voeding",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheid om cognitieve leerervaringen en -activiteiten aan te bieden",
+                "code": ""
+              },
+              {
+                "title": "problemen bij het verstrekken van preventieve en therapeutische gezondheidszorg",
+                "code": ""
+              },
+              {
+                "title": "verwachtingen die niet stroken met de fase van groei en ontwikkeling",
+                "code": ""
+              },
+              {
+                "title": "ontevredenheid/moeilijkheid met verantwoordelijkheden",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheden bij het interpreteren van of reageren op verbale/non-verbale communicatie of het reageren op verbale/non-verbale communicatie",
+                "code": ""
+              },
+              {
+                "title": "nalatig",
+                "code": ""
+              },
+              {
+                "title": "corrupt",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Verwaarlozing",
+            "description": "Kind of volwassene die verstoken zijn van minimaal aanvaarde normen voor voedsel, onderdak, kleding of zorg.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "het ontbreekt aan adequate fysieke zorg",
+                "code": ""
+              },
+              {
+                "title": "mist emotionele voeding/ondersteuning",
+                "code": ""
+              },
+              {
+                "title": "mist de juiste stimulatie/cognitieve ervaringen",
+                "code": ""
+              },
+              {
+                "title": "ongepast met rust gelaten",
+                "code": ""
+              },
+              {
+                "title": "het ontbreken van noodzakelijk toezicht",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende/vertraagde medische zorg",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Misbruik",
+            "description": "Kind of volwassene die het slachtoffer is geworden van niet-ongelukt fysiek, emotioneel of seksueel geweld of letsel.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "harde/buitensporige discipline",
+                "code": ""
+              },
+              {
+                "title": "werpen/verbranding/verbrandingen/andere verwondingen",
+                "code": ""
+              },
+              {
+                "title": "twijfelachtige verklaring van de schade",
+                "code": ""
+              },
+              {
+                "title": "verbaal aangevallen",
+                "code": ""
+              },
+              {
+                "title": "angstig/hypervigilant gedrag",
+                "code": ""
+              },
+              {
+                "title": "gewelddadige omgeving",
+                "code": ""
+              },
+              {
+                "title": "consistente negatieve berichten",
+                "code": ""
+              },
+              {
+                "title": "seksueel misbruikt",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Groei & ontwikkeling",
+            "description": "Progressieve fysieke, emotionele en sociale rijping in de loop van het leeftijdscontinuüm van bith tot de dood.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "abnormale resultaten van ontwikkelingsscreeningtests",
+                "code": ""
+              },
+              {
+                "title": "abnormaal gewicht/hoogte/hoofdomtrek in verhouding tot de normen voor groei/veroudering",
+                "code": ""
+              },
+              {
+                "title": "leeftijdsongeschikt gedrag",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende prestaties/onderhoudsresultaten van ontwikkelingstaken",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Fysiologisch Domein",
+        "description": "Functies en processen die het leven in stand houden.",
+        "code": "",
+        "problems": [
+          {
+            "title": "Horen",
+            "description": "Waarneming van geluid door de oren.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "moeite met het horen van normale spraaktonen",
+                "code": ""
+              },
+              {
+                "title": "problemen met het horen van spraak in grote groepen in grote groepen",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheid om hoogfrequente geluiden te horen",
+                "code": ""
+              },
+              {
+                "title": "Afwezigheid/abnormale reactie op geluid",
+                "code": ""
+              },
+              {
+                "title": "abnormale resultaten van de gehoortest",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Visie",
+            "description": "Handeling of aanvoelende kracht met de ogen.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "moeite met het zien van kleine lettertjes/kalibraties",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheid om verre objecten te zien",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheid om voorwerpen van dichtbij te zien",
+                "code": ""
+              },
+              {
+                "title": "afwezig/abnormale reactie op visuele stimuli",
+                "code": ""
+              },
+              {
+                "title": "abnormale resultaten van de test van het gezichtsvermogenonderzoek",
+                "code": ""
+              },
+              {
+                "title": "loensen/knipperen/knipperen/scheuren/vervagen",
+                "code": ""
+              },
+              {
+                "title": "drijvers / flitsen",
+                "code": ""
+              },
+              {
+                "title": "moeite met het onderscheiden van kleuren",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Spraak & taal",
+            "description": "Gebruik van gearticuleerde vocale geluiden, symbolen, tekens of gebaren voor communicatie.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "afwezig/abnormaal vermogen om te spreken/spreken/vocaliseren",
+                "code": ""
+              },
+              {
+                "title": "Afwezigheid/abnormaal vermogen om te begrijpen",
+                "code": ""
+              },
+              {
+                "title": "gebrek aan alternatieve communicatieve vaardigheden/gebaren",
+                "code": ""
+              },
+              {
+                "title": "ongepaste zinsbouw",
+                "code": ""
+              },
+              {
+                "title": "beperkte uitdrukking/duidelijkheid",
+                "code": ""
+              },
+              {
+                "title": "ongepast woordgebruik",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Mondgezondheid",
+            "description": "Conditie van de mond en het tandvlees en het aantal, type en plaatsing van de tanden.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "ontbrekende/gebroken/gebroken/gebroken/gebroken tanden",
+                "code": ""
+              },
+              {
+                "title": "gaatjes",
+                "code": ""
+              },
+              {
+                "title": "tandsteenoverschot",
+                "code": ""
+              },
+              {
+                "title": "pijnlijk/opgezwollen/gebloed tandvlees",
+                "code": ""
+              },
+              {
+                "title": "malocclusie",
+                "code": ""
+              },
+              {
+                "title": "slecht passend/ontbrekend kunstgebit",
+                "code": ""
+              },
+              {
+                "title": "gevoeligheid voor warm of koud",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Cognitie",
+            "description": "Vermogen om na te denken en informatie te gebruiken.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "verminderd oordeel",
+                "code": ""
+              },
+              {
+                "title": "gedesoriënteerd naar tijd/plaats/persoon",
+                "code": ""
+              },
+              {
+                "title": "beperkte terugroeping van recente gebeurtenissen",
+                "code": ""
+              },
+              {
+                "title": "beperkte terugroeping van gebeurtenissen uit het verleden",
+                "code": ""
+              },
+              {
+                "title": "beperkte reken- en volgordeschaafdheid",
+                "code": ""
+              },
+              {
+                "title": "beperkte concentratie",
+                "code": ""
+              },
+              {
+                "title": "beperkt redeneervermogen/abstract denkvermogen",
+                "code": ""
+              },
+              {
+                "title": "impulsiviteit",
+                "code": ""
+              },
+              {
+                "title": "herhaling van taal/gedrag",
+                "code": ""
+              },
+              {
+                "title": "dwaalt",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Pijn",
+            "description": "Onaangename zintuiglijke en emotionele ervaring in verband met feitelijke of potentiële weefselschade.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "drukt ongemak/pijn uit",
+                "code": ""
+              },
+              {
+                "title": "verhoogde hartslag/ademhaling/bloeddruk",
+                "code": ""
+              },
+              {
+                "title": "gecompenseerde beweging/bewaking",
+                "code": ""
+              },
+              {
+                "title": "onrustig gedrag",
+                "code": ""
+              },
+              {
+                "title": "gezichtsgrimassen",
+                "code": ""
+              },
+              {
+                "title": "bleekheid/perspiratie",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Bewustzijn",
+            "description": "Bewustwording van en reactie op prikkels en de omgeving.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "lethargisch",
+                "code": ""
+              },
+              {
+                "title": "stompzinnig",
+                "code": ""
+              },
+              {
+                "title": "ongevoelig",
+                "code": ""
+              },
+              {
+                "title": "comateus",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Huid",
+            "description": "Natuurlijke bedekking van het lichaam.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "laesie/drukzweer",
+                "code": ""
+              },
+              {
+                "title": "onbezonnen",
+                "code": ""
+              },
+              {
+                "title": "overdreven droog",
+                "code": ""
+              },
+              {
+                "title": "overdreven vettig",
+                "code": ""
+              },
+              {
+                "title": "ontsteking",
+                "code": ""
+              },
+              {
+                "title": "pruritus",
+                "code": ""
+              },
+              {
+                "title": "drainage",
+                "code": ""
+              },
+              {
+                "title": "blauwe plekken",
+                "code": ""
+              },
+              {
+                "title": "hypertrofie van nagels",
+                "code": ""
+              },
+              {
+                "title": "vertraagde incisionele genezing",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Neuro-musculo-skeletale functie",
+            "description": "Vermogen van zenuwen, spieren en botten om specifieke bewegingen, sensatie of regulatie uit te voeren of te coördineren.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "beperkt bewegingsbereik",
+                "code": ""
+              },
+              {
+                "title": "verminderde spierkracht",
+                "code": ""
+              },
+              {
+                "title": "verminderde coördinatie",
+                "code": ""
+              },
+              {
+                "title": "verminderde spierspanning",
+                "code": ""
+              },
+              {
+                "title": "verhoogde spierspanning",
+                "code": ""
+              },
+              {
+                "title": "verminderd gevoel",
+                "code": ""
+              },
+              {
+                "title": "verhoogd gevoel",
+                "code": ""
+              },
+              {
+                "title": "verminderd saldo",
+                "code": ""
+              },
+              {
+                "title": "stoornis in het gangwerk/ambulatiesysteem",
+                "code": ""
+              },
+              {
+                "title": "moeite met het overdragen",
+                "code": ""
+              },
+              {
+                "title": "breuken",
+                "code": ""
+              },
+              {
+                "title": "trillingen/aanvallen",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheid met thermoregulering",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Ademhaling",
+            "description": "Het inademen en uitademen van lucht in het lichaam en het uitwisselen van zuurstof.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "abnormale ademhalingspatronen",
+                "code": ""
+              },
+              {
+                "title": "niet in staat om zelfstandig te ademen",
+                "code": ""
+              },
+              {
+                "title": "hoest",
+                "code": ""
+              },
+              {
+                "title": "niet in staat om zelfstandig te hoesten/verwachten",
+                "code": ""
+              },
+              {
+                "title": "cyanose",
+                "code": ""
+              },
+              {
+                "title": "abnormaal sputum",
+                "code": ""
+              },
+              {
+                "title": "lawaaierige ademhalingen",
+                "code": ""
+              },
+              {
+                "title": "rinorroe/neurale congestie",
+                "code": ""
+              },
+              {
+                "title": "abnormale ademhalingsgeluiden",
+                "code": ""
+              },
+              {
+                "title": "abnormale ademhalingslaboratoriumuitslagen",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Verspreiding",
+            "description": "Het pompen van bloed in voldoende hoeveelheden en druk door het hele lichaam.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "oedeem",
+                "code": ""
+              },
+              {
+                "title": "kramp/pijn in de ledematen",
+                "code": ""
+              },
+              {
+                "title": "verminderde pulsen",
+                "code": ""
+              },
+              {
+                "title": "verkleuring van de huid",
+                "code": ""
+              },
+              {
+                "title": "temperatuursverandering in het getroffen gebied",
+                "code": ""
+              },
+              {
+                "title": "varicosities",
+                "code": ""
+              },
+              {
+                "title": "syncopische episodes (flauwvallen)/dizomerteit",
+                "code": ""
+              },
+              {
+                "title": "abnormale bloeddrukmeting",
+                "code": ""
+              },
+              {
+                "title": "pulstekort",
+                "code": ""
+              },
+              {
+                "title": "onregelmatige hartslag",
+                "code": ""
+              },
+              {
+                "title": "overdreven snelle hartslag",
+                "code": ""
+              },
+              {
+                "title": "buitensporig lage hartslag",
+                "code": ""
+              },
+              {
+                "title": "anginale pijn",
+                "code": ""
+              },
+              {
+                "title": "abnormale hartgeluiden/beirriteert het hart",
+                "code": ""
+              },
+              {
+                "title": "abnormale stolling",
+                "code": ""
+              },
+              {
+                "title": "abnormale cardiale laboratoriumresultaten",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Spijsvertering - hydratatie",
+            "description": "Proces van het omzetten van voedsel in vormen die kunnen worden geabsorbeerd en geassimileerd, en het behoud van de vochtbalans.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "misselijkheid/braken",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheid/onbekwaamheid om te kauwen/slikken/verteert/verteert",
+                "code": ""
+              },
+              {
+                "title": "indigestie",
+                "code": ""
+              },
+              {
+                "title": "terugvloeiing",
+                "code": ""
+              },
+              {
+                "title": "anorexia",
+                "code": ""
+              },
+              {
+                "title": "bloedarmoede",
+                "code": ""
+              },
+              {
+                "title": "ascites",
+                "code": ""
+              },
+              {
+                "title": "uitbreiding van de geelzucht en de lever",
+                "code": ""
+              },
+              {
+                "title": "verminderde huidturgor",
+                "code": ""
+              },
+              {
+                "title": "gebarsten lippen/droge mond",
+                "code": ""
+              },
+              {
+                "title": "elektrolytische onbalans",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Darm functie",
+            "description": "Het transporteren van voedsel door het maagdarmkanaal om afval te elimineren.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "abnormale frequentie/consistentie van de ontlasting",
+                "code": ""
+              },
+              {
+                "title": "pijnlijke ontlasting",
+                "code": ""
+              },
+              {
+                "title": "verminderde darmgeluiden",
+                "code": ""
+              },
+              {
+                "title": "bloed in ontlasting",
+                "code": ""
+              },
+              {
+                "title": "abnormale kleur",
+                "code": ""
+              },
+              {
+                "title": "kramp/abdominaal ongemak/abdominaal ongemak",
+                "code": ""
+              },
+              {
+                "title": "incontinent van ontlasting",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Urinefunctie",
+            "description": "Productie en uitscheiding van urine.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "branden/pijnig plassen/pijnig urineren",
+                "code": ""
+              },
+              {
+                "title": "incontinent van urine",
+                "code": ""
+              },
+              {
+                "title": "urgentie/frequentie",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheid om het plassen te starten",
+                "code": ""
+              },
+              {
+                "title": "moeite met het legen van de blaas",
+                "code": ""
+              },
+              {
+                "title": "abnormaal bedrag",
+                "code": ""
+              },
+              {
+                "title": "hematurie/abnormale kleur",
+                "code": ""
+              },
+              {
+                "title": "nocturie",
+                "code": ""
+              },
+              {
+                "title": "abnormale urinelaboratoriumuitslagen",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Reproductieve functie",
+            "description": "Conditie van de geslachtsorganen en borsten en het vermogen tot voortplanting.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "abnormale ontlading",
+                "code": ""
+              },
+              {
+                "title": "abnormaal menstruatiepatroon",
+                "code": ""
+              },
+              {
+                "title": "problemen met het beheer van de menopauze/andropauze",
+                "code": ""
+              },
+              {
+                "title": "abnormale knobbeltjes/zweling/tendens van genitale organen of borsten",
+                "code": ""
+              },
+              {
+                "title": "pijn tijdens of na de geslachtsgemeenschap",
+                "code": ""
+              },
+              {
+                "title": "onvruchtbaarheid",
+                "code": ""
+              },
+              {
+                "title": "machteloosheid",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Zwangerschap",
+            "description": "Periode van conceptie tot bevalling.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "moeilijkheid om zich te hechten aan ongeboren baby's",
+                "code": ""
+              },
+              {
+                "title": "problemen met het omgaan met lichaamsveranderingen",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheid met prenatale exercitie/rust/dieet/sterfgeval/gedrag",
+                "code": ""
+              },
+              {
+                "title": "angstaanjagende procedure",
+                "code": ""
+              },
+              {
+                "title": "prenatale complicaties/voorafgaand werk",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende sociale ondersteuning",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Postpartum",
+            "description": "Periode van zes weken na de bevalling.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "moeite met borstvoeding",
+                "code": ""
+              },
+              {
+                "title": "problemen met het omgaan met postpartumveranderingen",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheid met postpartum sporten/rust/sterfte/sterfte/gedrag na de bevalling",
+                "code": ""
+              },
+              {
+                "title": "abnormale bloedingen/vaginale afscheiding",
+                "code": ""
+              },
+              {
+                "title": "postpartum complicaties",
+                "code": ""
+              },
+              {
+                "title": "abnormale depressieve gevoelens",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Overdraagbare/infectieuze toestand",
+            "description": "Staat waarin organismen binnendringen/infesteren en oppervlakkige of systemische ziekten veroorzaken die zich kunnen verspreiden of overdragen.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "besmetting",
+                "code": ""
+              },
+              {
+                "title": "aantasting",
+                "code": ""
+              },
+              {
+                "title": "koorts",
+                "code": ""
+              },
+              {
+                "title": "biologische gevaren",
+                "code": ""
+              },
+              {
+                "title": "positieve screening/cultuur/laboratoriumresultaten",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende levering/uitrusting/beleidsmaatregelen om overdracht te voorkomen",
+                "code": ""
+              },
+              {
+                "title": "volgt niet het infectiebeheersingsregime",
+                "code": ""
+              },
+              {
+                "title": "onvoldoende immuniteit",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Domein Gezondheidsgerelateerd Gedrag",
+        "description": "Activiteitspatronen die het welzijn in stand houden of bevorderen, het herstel bevorderen en het risico op ziekten verminderen.",
+        "code": "",
+        "problems": [
+          {
+            "title": "Voeding",
+            "description": "Selecteer, consumeer en gebruik voedsel en vloeistoffen voor energie, onderhoud, groei en gezondheid.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "overgewicht: volwassen BMI 25,0 of meer; kind BMI 95e percentiel of meer",
+                "code": ""
+              },
+              {
+                "title": "ondergewicht: volwassen BMI 18,5 of minder; kind BMI 5e percentiel of minder",
+                "code": ""
+              },
+              {
+                "title": "het ontbreekt aan vastgestelde normen voor de dagelijkse inname van calorieën/vloeistoffen",
+                "code": ""
+              },
+              {
+                "title": "de vastgestelde normen voor dagelijkse calorische/vloeistofinname overschrijdt",
+                "code": ""
+              },
+              {
+                "title": "onevenwichtige voeding",
+                "code": ""
+              },
+              {
+                "title": "onjuist voedingsschema voor leeftijd",
+                "code": ""
+              },
+              {
+                "title": "volgt niet het aanbevolen voedingsplan",
+                "code": ""
+              },
+              {
+                "title": "onverklaarbaar/progressief gewichtsverlies",
+                "code": ""
+              },
+              {
+                "title": "niet in staat om voedsel te verkrijgen/voor te bereiden",
+                "code": ""
+              },
+              {
+                "title": "hypoglykemie",
+                "code": ""
+              },
+              {
+                "title": "hyperglykemie",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Slaap- en rustpatronen",
+            "description": "Perioden van verminderde motorische en zintuiglijke activiteit en perioden van inactiviteit, rust of mentale rust.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "Slaap/rust patroon verstoort het gezin",
+                "code": ""
+              },
+              {
+                "title": "vaak 's nachts wakker worden",
+                "code": ""
+              },
+              {
+                "title": "slaapwandelen",
+                "code": ""
+              },
+              {
+                "title": "slapeloosheid",
+                "code": ""
+              },
+              {
+                "title": "nachtmerries",
+                "code": ""
+              },
+              {
+                "title": "onvoldoende slaap/rust voor leeftijd/fysieke toestand",
+                "code": ""
+              },
+              {
+                "title": "slaapapneu",
+                "code": ""
+              },
+              {
+                "title": "snurken",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Fysieke activiteit",
+            "description": "Staat of kwaliteit van de lichaamsbewegingen tijdens het dagelijks leven.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "sedentaire levensstijl",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende/onconsistente trainingsroutine",
+                "code": ""
+              },
+              {
+                "title": "ongeschikte vorm/hoeveelheid beweging voor leeftijds-/fysieke toestand",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Persoonlijke verzorging",
+            "description": "Beheer van persoonlijke hygiëne en aankleding.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "problemen met het witwassen van kleding",
+                "code": ""
+              },
+              {
+                "title": "moeite met baden",
+                "code": ""
+              },
+              {
+                "title": "moeite met zwoegende activiteiten",
+                "code": ""
+              },
+              {
+                "title": "moeite met het aankleden van het onderlichaam",
+                "code": ""
+              },
+              {
+                "title": "moeite met het aankleden van het bovenlichaam",
+                "code": ""
+              },
+              {
+                "title": "vieze lichaamsgeur",
+                "code": ""
+              },
+              {
+                "title": "moeite met wassen/kammen van het haar",
+                "code": ""
+              },
+              {
+                "title": "moeite met borstelen/ flossen/mondverzorging",
+                "code": ""
+              },
+              {
+                "title": "onwillig/onbereidbaar/vergeten de persoonlijke verzorgingsactiviteiten te voltooien",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Gebruik van de stof",
+            "description": "Gebruik van medicijnen, recreatieve drugs of andere materialen die stemmingswisselingen en/of psychologische/fysieke afhankelijkheid, ziekte en ziekte kunnen veroorzaken.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "misbruik van vrij verkrijgbare geneesmiddelen/voorschriftmedicatie",
+                "code": ""
+              },
+              {
+                "title": "gebruikt 'straat' - recreatieve drugs",
+                "code": ""
+              },
+              {
+                "title": "misbruiken alcohol",
+                "code": ""
+              },
+              {
+                "title": "rookt/gebruikt tabaksproducten",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheden bij het uitvoeren van normale routines",
+                "code": ""
+              },
+              {
+                "title": "reflexstoornissen",
+                "code": ""
+              },
+              {
+                "title": "gedragsverandering",
+                "code": ""
+              },
+              {
+                "title": "blootstelling aan sigaretten/sigarenrook",
+                "code": ""
+              },
+              {
+                "title": "illegale stoffen koopt/verkoopt illegale stoffen",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Gezinsplanning",
+            "description": "Praktijken die ontworpen zijn om zwangerschap te plannen en in de ruimte te plaatsen binnen de context van waarden, houdingen en overtuigingen.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "ongeschikte/onvoldoende kennis over methoden voor gezinsplanning",
+                "code": ""
+              },
+              {
+                "title": "ongeschikte/onvoldoende kennis over vooroordelen over gezondheidspraktijken die aan de vooroordelen ten grondslag liggen",
+                "code": ""
+              },
+              {
+                "title": "onzorgvuldig/onconsistent gebruik van gezinsplanningsmethodes",
+                "code": ""
+              },
+              {
+                "title": "ontevreden over de huidige methode voor gezinsplanning",
+                "code": ""
+              },
+              {
+                "title": "vreest de reacties van anderen met betrekking tot de keuzes van de gezinsplanning...",
+                "code": ""
+              },
+              {
+                "title": "moeilijkheid om methoden voor gezinsplanning te verkrijgen",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Toezicht op de gezondheidszorg",
+            "description": "Beheer van het behandelplan voor de gezondheidszorg door de zorgverleners.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "er niet in slaagt om routine/preventieve gezondheidszorg te verkrijgen",
+                "code": ""
+              },
+              {
+                "title": "verzuimt zorg te zoeken voor symptomen die een evaluatie/behandeling vereisen",
+                "code": ""
+              },
+              {
+                "title": "nalaat om terug te keren zoals gevraagd aan de zorgverlener",
+                "code": ""
+              },
+              {
+                "title": "het onvermogen om meerdere afspraken/behandelingsplannen te coördineren",
+                "code": ""
+              },
+              {
+                "title": "inconsistente bron van gezondheidszorg",
+                "code": ""
+              },
+              {
+                "title": "ontoereikende bron van gezondheidszorg",
+                "code": ""
+              },
+              {
+                "title": "ontoereikend behandelplan",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "title": "Geneesmiddelenregime",
+            "description": "Gebruik of toepassing van vrij verkrijgbare en voorgeschreven/aanbevolen medicijnen en infusies om te voldoen aan de richtlijnen voor therapeutische werking, veiligheid en planning.",
+            "code": "",
+            "signsAndSymptoms": [
+              {
+                "title": "volgt niet de aanbevolen dosering/het aanbevolen schema",
+                "code": ""
+              },
+              {
+                "title": "bewijs van bijwerkingen/nadelige reacties",
+                "code": ""
+              },
+              {
+                "title": "inadequaat systeem voor het nemen van medicatie",
+                "code": ""
+              },
+              {
+                "title": "onjuiste opslag van medicijnen",
+                "code": ""
+              },
+              {
+                "title": "er niet in slaagt om op de juiste manier navullingen te verkrijgen...",
+                "code": ""
+              },
+              {
+                "title": "slaagt er niet in om vaccinaties te verkrijgen...",
+                "code": ""
+              },
+              {
+                "title": "ontoereikend medicijngebruik",
+                "code": ""
+              },
+              {
+                "title": "niet in staat om medicijnen in te nemen zonder hulp",
+                "code": ""
+              },
+              {
+                "title": "ander",
+                "code": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "modifiers": {
+      "scope": [
+        {
+          "title": "Individueel",
+          "description": "Een persoon die alleen woont of een eengezinslid dat een gezondheidsprobleem ondervindt."
+        },
+        {
+          "title": "Familie",
+          "description": "Een sociale eenheid of verwante groep personen die samenleven en een gezondheidsprobleem ervaren."
+        },
+        {
+          "title": "Gemeenschap",
+          "description": "De personen en/of families die een groep, buurt of ander geografisch district vormen die een gezondheidsprobleem ondervinden."
+        }
+      ],
+      "severity": [
+        {
+          "title": "Gezondheidsbevordering",
+          "description": "De interesse van de klant in het vergroten van kennis, gedrag en gezondheidsverwachtingen en het ontwikkelen van meer middelen en middelen die het welzijn in stand houden of verbeteren bij afwezigheid van risicofactoren, tekenen of symptomen."
+        },
+        {
+          "title": "Potentieel",
+          "description": "Klantstatus gekenmerkt door de aanwezigheid van bepaalde gezondheidspatronen, praktijken, gedragingen of risicofactoren die een optimale gezondheid en de afwezigheid van tekenen en symptomen kunnen verhinderen."
+        },
+        {
+          "title": "Werkelijk",
+          "description": "Cliëntstatus gekenmerkt door één of meer bestaande tekenen en symptomen die een optimale gezondheid in de weg kunnen staan."
+        }
+      ]
+    }
+  },
+  "interventionScheme": {
+    "title": "Interventieprogramma",
+    "categories": [
+      {
+        "title": "Onderwijs, begeleiding en advies",
+        "description": "Activiteiten die bedoeld zijn om informatie en materiaal te verstrekken, om actie en verantwoordelijkheid voor zelfzorg en het omgaan met de problemen te stimuleren en om het individu, het gezin of de gemeenschap te helpen beslissingen te nemen en problemen op te lossen.",
+        "code": ""
+      },
+      {
+        "title": "Behandelingen en procedures",
+        "description": "Technische activiteiten zoals wondverzorging, monsterafname, weerstandoefeningen en medicijnvoorschriften die zijn ontworpen om tekenen en symptomen voor het individu, de familie of de gemeenschap te voorkomen, te verminderen of te verlichten.",
+        "code": ""
+      },
+      {
+        "title": "Case Management",
+        "description": "Activiteiten zoals coördinatie, belangenbehartiging en doorverwijzing die de dienstverlening vergemakkelijken, assertiviteit bevorderen, het individu, het gezin of de gemeenschap leiden in de richting van het gebruik van de juiste middelen, en de communicatie tussen gezondheids- en menselijke dienstverleners verbeteren.",
+        "code": ""
+      },
+      {
+        "title": "Toezicht",
+        "description": "Activiteiten zoals het opsporen, meten, kritisch analyseren en controleren van de status van het individu, de familie of de gemeenschap met betrekking tot een bepaalde aandoening of fenomeen.",
+        "code": ""
+      }
+    ],
+    "targets": [
+      {
+        "title": "anatomie/fysiologie",
+        "description": "Structuur en functie van het menselijk lichaam.",
+        "code": ""
+      },
+      {
+        "title": "woedebeheersing",
+        "description": "Activiteiten die negatieve gevoelens en interacties, waaronder geweld, verminderen of beheersen.",
+        "code": ""
+      },
+      {
+        "title": "gedragsaanpassing",
+        "description": "Activiteiten die gewoonten, gedrag of handelingspatronen veranderen.",
+        "code": ""
+      },
+      {
+        "title": "blaasverzorging",
+        "description": "Activiteiten die de urineblaasfunctie bevorderen, zoals blaastraining, katheterwissel en katheterirrigatie.",
+        "code": ""
+      },
+      {
+        "title": "hecht/gehechtheid",
+        "description": "Een wederzijdse, positieve relatie tussen twee mensen zoals een ouder/verzorger en een baby/kind.",
+        "code": ""
+      },
+      {
+        "title": "darmverzorging",
+        "description": "Activiteiten die de darmwerking bevorderen, zoals darmopleiding en klysma's.",
+        "code": ""
+      },
+      {
+        "title": "cardiale zorg",
+        "description": "Activiteiten die de hart- of bloedsomloopfunctie bevorderen, zoals energiebesparing en vochtbalans.",
+        "code": ""
+      },
+      {
+        "title": "vaardigheden op het gebied van verzorging en ouderschap",
+        "description": "Activiteiten zoals voeding, baden, discipline, verzorging en stimulering van een kind of volwassene ten laste.",
+        "code": ""
+      },
+      {
+        "title": "gegoten zorg",
+        "description": "Activiteiten die de reinheid, droogte, ondersteuning, uitlijning en verlichting van pijn, druk en vernauwing van een gewond lichaamsdeel dat wordt geïmmobiliseerd door een cast, spalk of ander apparaat bevorderen.",
+        "code": ""
+      },
+      {
+        "title": "mededeling",
+        "description": "Uitwisseling van verbale of non-verbale informatie tussen het individu/familie/gemeenschap en anderen.",
+        "code": ""
+      },
+      {
+        "title": "diensten voor buurtwerkers in de outreachende gemeenschap",
+        "description": "Hulp bij het beheer van de verantwoordelijkheden op het gebied van gezondheidszorg, vervoer, huishouding en kind/volwassenenzorg door gekwalificeerde medewerkers onder toezicht van professionele zorgverleners.",
+        "code": ""
+      },
+      {
+        "title": "continuïteit van zorg",
+        "description": "Communicatie van informatie tussen leveranciers/organisaties om veilige en effectieve zorg te bieden en dubbel werk/diensten te verminderen.",
+        "code": ""
+      },
+      {
+        "title": "copingvaardigheden",
+        "description": "Vermogen om effectief om te gaan met uitdagingen en veranderingen zoals ziekte, handicap, inkomensverlies, geboorte van een kind of overlijden van een familielid.",
+        "code": ""
+      },
+      {
+        "title": "kinderopvang/reactie",
+        "description": "Personen of organisaties die zorgen voor toezicht op het kind/volwassene terwijl de ouder/gebruikelijke verzorger naar school gaat, werkt of ontlast is van de gebruikelijke verantwoordelijkheden.",
+        "code": ""
+      },
+      {
+        "title": "voedingsmanagement",
+        "description": "Voeding met uitgebalanceerde voeding en vloeistoffen die het leven ondersteunen, energie leveren en de groei en gezondheid bevorderen.",
+        "code": ""
+      },
+      {
+        "title": "vak",
+        "description": "Het koesteren van praktijken die geschikt gedrag, gedrag en zelfbeheersing bevorderen.",
+        "code": ""
+      },
+      {
+        "title": "kleedverzorging/wondverzorging",
+        "description": "Activiteiten die wondgenezing bevorderen en infectie voorkomen, zoals het observeren, meten, reinigen, irrigeren en/of afdekken van een wond, letsel of insnijding.",
+        "code": ""
+      },
+      {
+        "title": "duurzame medische apparatuur",
+        "description": "Niet-wegwerpartikelen die bij de verzorging worden gebruikt, zoals speciale bedden, wandelaars en apneummonitoren.",
+        "code": ""
+      },
+      {
+        "title": "educatie",
+        "description": "Formele programma's die algemene, technische of geïndividualiseerde studies aanbieden voor studenten van alle leeftijden.",
+        "code": ""
+      },
+      {
+        "title": "dienstbetrekking",
+        "description": "Beroep dat inkomsten oplevert.",
+        "code": ""
+      },
+      {
+        "title": "zorg aan het einde van het leven",
+        "description": "Activiteiten die fysiek comfort en emotionele rust bieden voor mensen die sterven door betrokkenheid/inclusief familie, vrienden, spirituele zorgen, rituelen, pijnbestrijding en fysieke zorg.",
+        "code": ""
+      },
+      {
+        "title": "milieu",
+        "description": "Fysieke omgeving, omstandigheden of invloeden in de woning, buurt en/of gemeenschap",
+        "code": ""
+      },
+      {
+        "title": "exercities",
+        "description": "Therapeutische fysieke activiteiten zoals actief/passief bewegen, isometrie, stretching en gewichtheffen.",
+        "code": ""
+      },
+      {
+        "title": "gezinsplanning",
+        "description": "Activiteiten die de overweging en het gebruik van methoden ter voorbereiding op en het gebruik van zwangerschap in de ruimte ondersteunen.",
+        "code": ""
+      },
+      {
+        "title": "voerprocedures",
+        "description": "Het verstrekken van voedsel of vloeistoffen met behulp van methoden zoals borst, formule, lepel, lepel, buis en intraveneuze oplossingen.",
+        "code": ""
+      },
+      {
+        "title": "financiën",
+        "description": "Beheer van inkomsten en uitgaven.",
+        "code": ""
+      },
+      {
+        "title": "loopopleiding",
+        "description": "Systematische activiteiten die het lopen met of zonder hulpmiddelen bevorderen.",
+        "code": ""
+      },
+      {
+        "title": "genetica",
+        "description": "Diagnose, raadpleging en procedures voor het voorkomen, identificeren of behandelen van geboorteafwijkingen, aangeboren afwijkingen of aandoeningen.",
+        "code": ""
+      },
+      {
+        "title": "groei/ontwikkelingszorg",
+        "description": "Activiteiten die de progressieve rijping in relatie tot leeftijd bevorderen, zoals het meten van gewicht, lengte en hoofdomtrek en het stimuleren van het bereiken van ontwikkelingsmijlpalen.",
+        "code": ""
+      },
+      {
+        "title": "huis",
+        "description": "Woonplaats.",
+        "code": ""
+      },
+      {
+        "title": "huismaken/huishouden",
+        "description": "Beheer van activiteiten zoals schoonmaken, wassen en bereiden van voedsel in huis of in de gezondheidszorg.",
+        "code": ""
+      },
+      {
+        "title": "infectievoorzorgsmaatregelen",
+        "description": "Activiteiten die de incidentie en overdracht van besmettelijke ziekten verminderen, zoals het wassen van de handen, isolatie, het verzamelen van monsters, follow-up van contacten, rapportageprocedures en milieucontrole.",
+        "code": ""
+      },
+      {
+        "title": "interactie",
+        "description": "Wederzijdse actie of invloed tussen mensen, waaronder ouder-kind, ouder-docent en verpleegkundige-klant.",
+        "code": ""
+      },
+      {
+        "title": "diensten van tolken/vertalers",
+        "description": "Hulp bij mondelinge of schriftelijke communicatie in andere talen door gekwalificeerde medewerkers die onder toezicht staan van professionele gezondheidswerkers.",
+        "code": ""
+      },
+      {
+        "title": "laboratoriumresultaten",
+        "description": "Resultaten van vocht- en weefseltests zoals urine- en bloedanalyse.",
+        "code": ""
+      },
+      {
+        "title": "rechtsstelsel",
+        "description": "Autoriteit, gedragsregels of rechtsbedeling.",
+        "code": ""
+      },
+      {
+        "title": "medische/tandheelkundige zorg",
+        "description": "Beoordeling/diagnose en behandeling door artsen, tandartsen en hun personeel of assistenten.",
+        "code": ""
+      },
+      {
+        "title": "werking van de medicatie/bijwerkingen",
+        "description": "Positieve en/of negatieve gevolgen van medicijnen.",
+        "code": ""
+      },
+      {
+        "title": "medicijnadministratie",
+        "description": "Activiteiten die betrekking hebben op het toepassen of geven van medicijnen en die worden uitgevoerd door cliënten, ouders/verzorgers of zorgverleners.",
+        "code": ""
+      },
+      {
+        "title": "coördinatie/bestelling van medicijnen",
+        "description": "Communicatie met degenen die medicijnen voorschrijven en afgeven en de individuele/familie/gemeenschapsondersteunende systemen om ervoor te zorgen dat de juiste medicijnen en voorraden tijdig worden verkregen.",
+        "code": ""
+      },
+      {
+        "title": "medicijnvoorschrift",
+        "description": "Een geformaliseerde farmaceutische order/officiële aanvraag voor medicijnen.",
+        "code": ""
+      },
+      {
+        "title": "medicijnopstelling",
+        "description": "Het voorbereiden van de toediening van medicijnen door het vullen/controleren van een orale medicijnorganisator, het vooraf vullen van injectiespuiten of het inbrengen van intraveneuze toegangsmiddelen.",
+        "code": ""
+      },
+      {
+        "title": "mobiliteit/transfers",
+        "description": "Lichaamsbewegingen die van positie veranderen of deelname aan activiteiten zoals wandelen mogelijk maken.",
+        "code": ""
+      },
+      {
+        "title": "verpleegkundige zorg",
+        "description": "Beoordeling/diagnose en behandeling door verpleegkundigen en hun personeel of assistenten.",
+        "code": ""
+      },
+      {
+        "title": "voedingskundige zorg",
+        "description": "Beoordeling/diagnose en behandeling door voedingsdeskundigen/geregistreerde diëtisten en hun personeel of assistenten.",
+        "code": ""
+      },
+      {
+        "title": "ergotherapiezorg",
+        "description": "Beoordeling/diagnose en behandeling door ergotherapeuten en hun medewerkers of assistenten.",
+        "code": ""
+      },
+      {
+        "title": "stomazorg",
+        "description": "Activiteiten om de verwijdering van urine of ontlasting te beheren door middel van kunstmatige openingen zoals een colostomie en ileostomie.",
+        "code": ""
+      },
+      {
+        "title": "andere gemeenschapsmiddelen",
+        "description": "Organisaties of groepen die goederen of diensten aanbieden die niet specifiek zijn geïdentificeerd in andere doelen, zoals trainingsfaciliteiten, voedselpantries/distributiecentra of geloofsgemeenschappen.",
+        "code": ""
+      },
+      {
+        "title": "paraprofessionele/aide zorg",
+        "description": "Bijstand van gekwalificeerde assistenten, gezondheidswerkers en verpleegkundige assistenten onder toezicht van professionele gezondheidswerkers.",
+        "code": ""
+      },
+      {
+        "title": "persoonlijke hygiëne",
+        "description": "Individuele verzorgingsactiviteiten zoals baden, wassen, wassen en zwoegen.",
+        "code": ""
+      },
+      {
+        "title": "fysiotherapeutische zorg",
+        "description": "Beoordeling/diagnose en behandeling door fysiotherapeuten en hun medewerkers of assistenten.",
+        "code": ""
+      },
+      {
+        "title": "positionering",
+        "description": "Afstemming van het lichaam om comfort en functie te bevorderen.",
+        "code": ""
+      },
+      {
+        "title": "recreatieve therapiezorg",
+        "description": "Beoordeling/diagnose en behandeling door recreatieve therapeuten en hun personeel of assistenten.",
+        "code": ""
+      },
+      {
+        "title": "ontspannings-/ademhalingstechnieken",
+        "description": "Activiteiten die de spierspanning verlichten, een rustgevende lichaamsreactie teweegbrengen en energiebronnen zoals diepe ademhalingsoefeningen, geleide beelden, meditatie en massage weer opbouwen.",
+        "code": ""
+      },
+      {
+        "title": "respiratoire zorg",
+        "description": "Activiteiten die de ademhalings- of longfunctie bevorderen, zoals het aanzuigen en vernevelen.",
+        "code": ""
+      },
+      {
+        "title": "ademhalingstherapiezorg",
+        "description": "Beoordeling/diagnose en behandeling door ademhalingstherapeuten en personeel of assistenten.",
+        "code": ""
+      },
+      {
+        "title": "rust/slaap",
+        "description": "Periodieke staat van rust en een verschillende mate van bewustzijn.",
+        "code": ""
+      },
+      {
+        "title": "zekerheid",
+        "description": "Vrijheid van risico, het ontstaan van letsel of verlies.",
+        "code": ""
+      },
+      {
+        "title": "screeningsprocedures",
+        "description": "Evaluatiestrategieën die worden gebruikt om risico's voor aandoeningen te identificeren, vroegtijdig een diagnose te stellen van ziekten en veranderingen/vooruitgang in de loop van de tijd te monitoren.",
+        "code": ""
+      },
+      {
+        "title": "Ziekte/letselzorg",
+        "description": "Activiteiten naar aanleiding van ziekte of ongevallen zoals eerste hulp en temperatuurmeting.",
+        "code": ""
+      },
+      {
+        "title": "tekenen/symptomen-mentele/emotionele tekens/symptomen",
+        "description": "Objectief of subjectief bewijs van geestelijke/emotionele gezondheidsproblemen zoals depressie, verwarring of onrust.",
+        "code": ""
+      },
+      {
+        "title": "tekens / symptomen-fysieke tekens / symptomen-fysieke",
+        "description": "Objectieve of subjectieve aanwijzingen voor lichamelijke gezondheidsproblemen zoals koorts, plotseling gewichtsverlies of een verklaring van pijn.",
+        "code": ""
+      },
+      {
+        "title": "huidverzorging",
+        "description": "Activiteiten die de huidintegriteit bevorderen, zoals het aanbrengen van lotion en massage.",
+        "code": ""
+      },
+      {
+        "title": "maatschappelijk werk/begeleidende zorg",
+        "description": "Beoordeling/diagnose en behandeling door maatschappelijk werkers, adviseurs en hun medewerkers of assistenten.",
+        "code": ""
+      },
+      {
+        "title": "specimeninzameling",
+        "description": "Activiteiten die gericht zijn op het verkrijgen van monsters van menselijk en dierlijk weefsel, vloeistoffen, afscheidingen of uitwerpselen, zoals bloed, urine, ontlasting, sputum en drainage.",
+        "code": ""
+      },
+      {
+        "title": "zorg voor spraak- en taalpathologie",
+        "description": "Beoordeling/diagnose en behandeling door spraak- en taalpathologen en hun personeel of assistenten.",
+        "code": ""
+      },
+      {
+        "title": "spirituele zorg",
+        "description": "Activiteiten die persoonlijke rust en troost bevorderen en waarbij spirituele overwegingen/praktijken een rol spelen.",
+        "code": ""
+      },
+      {
+        "title": "stimulatie/verzorging",
+        "description": "Activiteiten die een gezonde fysieke, intellectuele en emotionele ontwikkeling bevorderen.",
+        "code": ""
+      },
+      {
+        "title": "stressmanagement",
+        "description": "Cognitieve, emotionele en fysieke activiteiten die het gezond functioneren in moeilijke levensomstandigheden bevorderen.",
+        "code": ""
+      },
+      {
+        "title": "stopzetting van het stofgebruik",
+        "description": "Activiteiten die de stopzetting van het gebruik van schadelijk/verslavend materiaal bevorderen.",
+        "code": ""
+      },
+      {
+        "title": "benodigdheden",
+        "description": "Wegwerpartikelen die bij de verzorging worden gebruikt, zoals verbanden, spuiten, slangen, luiers en babyflessen.",
+        "code": ""
+      },
+      {
+        "title": "supportgroep",
+        "description": "Georganiseerde bronnen van informatie en hulp zoals gerichte klassen en organisaties, telefonische geruststelling, en betrouwbare websites die een specifiek onderwerp behandelen zoals opvoeding, alcoholisme, obesitas en de ziekte van Alzheimer.",
+        "code": ""
+      },
+      {
+        "title": "ondersteuningssysteem",
+        "description": "Cirkel van familie, vrienden en medewerkers die liefde, zorg en hulp bieden om de gezondheid te bevorderen en ziekte te beheersen.",
+        "code": ""
+      },
+      {
+        "title": "vervoer",
+        "description": "Reismethoden zoals een auto, bus, taxi, scooter of kar.",
+        "code": ""
+      },
+      {
+        "title": "gezondheid",
+        "description": "Praktijken die de lichamelijke en geestelijke gezondheid bevorderen, zoals beweging, voeding en vaccinaties.",
+        "code": ""
+      },
+      {
+        "title": "ander",
+        "description": "Personen, plaatsen, dingen of activiteiten die niet in deze lijst worden genoemd.",
+        "code": ""
+      }
+    ]
+  },
+  "problemRatingScale": {
+    "title": "Probleemschaal voor resultaten",
+    "ratings": [
+      {
+        "title": "Status",
+        "description": "Conditie van de cliënt in relatie tot objectieve en subjectieve kenmerken.",
+        "scale": [
+          {
+            "title": "Extreme tekenen/symptomen"
+          },
+          {
+            "title": "Ernstige tekenen/symptomen"
+          },
+          {
+            "title": "Gematigde tekenen/symptomen"
+          },
+          {
+            "title": "Minimale tekenen/symptomen"
+          },
+          {
+            "title": "Geen tekenen/symptomen"
+          }
+        ]
+      },
+      {
+        "title": "Kennis",
+        "description": "Vermogen van de klant om informatie te onthouden en te interpreteren.",
+        "scale": [
+          {
+            "title": "Geen kennis"
+          },
+          {
+            "title": "Minimale kennis"
+          },
+          {
+            "title": "Basiskennis"
+          },
+          {
+            "title": "Voldoende kennis"
+          },
+          {
+            "title": "Superieure kennis"
+          }
+        ]
+      },
+      {
+        "title": "Gedrag",
+        "description": "Waarneembare reacties, acties of activiteiten van de klant die passen bij de gelegenheid of het doel.",
+        "scale": [
+          {
+            "title": "Niet gepast gedrag"
+          },
+          {
+            "title": "Zelden gepast gedrag"
+          },
+          {
+            "title": "Onopzettelijk gepast gedrag"
+          },
+          {
+            "title": "Gewoonlijk passend gedrag"
+          },
+          {
+            "title": "Consequent passend gedrag"
+          }
+        ]
+      }
+    ]
+  }
+}

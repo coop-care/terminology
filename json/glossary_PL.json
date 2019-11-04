@@ -1,0 +1,226 @@
+[
+  {
+    "term": "Dane sumaryczne",
+    "definition": "Dane dotyczące problemu, interwencji i/lub wyników, które są zgrupowane razem."
+  },
+  {
+    "term": "Ocena",
+    "definition": "Gromadzenie istotnych obiektywnych i subiektywnych danych klienta; pierwszy krok lub koncepcja procesu rozwiązywania problemów. Zastosowanie Schematu Klasyfikacji Problemów umożliwia praktykom operacjonalizację oceny przed zakończeniem identyfikacji problemów."
+  },
+  {
+    "term": "Klasyfikacja",
+    "definition": "Proces porządkowania podobnych terminów w grupy według określonego modelu."
+  },
+  {
+    "term": "Koncepcje",
+    "definition": "Pomysły, które stanowią połączenie specyficznych, znanych, konkretnych pojęć lub obiektów w bardziej ogólne poziomy abstrakcji; elementy składowe klasyfikacji lub taksonomii."
+  },
+  {
+    "term": "Myślenie krytyczne",
+    "definition": "Dokładna analiza z wykorzystaniem faktów, intuicji i doświadczenia, której celem jest uzyskanie rozsądnego osądu."
+  },
+  {
+    "term": "Podejmowanie decyzji",
+    "definition": "Wybór kierunku działania po rozważeniu zalet i wad rozwiązań alternatywnych."
+  },
+  {
+    "term": "Ocena",
+    "definition": "Proces przeznaczony do mierzenia wyników i porównywania wyników opieki z wyznaczonymi standardami; czwarty krok lub koncepcja procesu rozwiązywania problemów. Zastosowanie Skali Oceny Problemów dla Wyników umożliwia praktykowi operacjonalizację oceny."
+  },
+  {
+    "term": "Praktyka oparta na dowodach",
+    "definition": "Wybór interwencji w oparciu o dokładne dane klienta i bieżące badania naukowe. Lekarz łączy krytyczne myślenie i proces rozwiązywania problemów oraz często odwołuje się do najlepszych praktyk, wytycznych, standardów, protokołów lub ścieżek klinicznych."
+  },
+  {
+    "term": "Planowanie i interwencja",
+    "definition": "Zaproponowane i zrealizowane działania opiekuńcze i działania na rzecz różnych klientów; trzeci krok lub koncepcja procesu rozwiązywania problemów. Zastosowanie Systemu Interwencyjnego umożliwia praktykowi operacjonalizację planowania i interwencji."
+  },
+  {
+    "term": "System Omaha",
+    "definition": "Oparte na badaniach podejście do praktyki, dokumentacji i zarządzania informacjami, które obejmuje System Klasyfikacji Problemów, System Interwencyjny i Skalę Oceny Problemów dla Wyników."
+  },
+  {
+    "term": "Model systemu Omaha",
+    "definition": "Okrągły, dynamiczny, epidemiologiczny, interaktywny model koncepcyjny, który reprezentuje znormalizowane instrumenty Systemu Omaha i opiera się na procesie rozwiązywania problemów, relacjach klient-praktyk, koncepcjach krytycznego myślenia, podejmowania decyzji klinicznych i poprawy jakości."
+  },
+  {
+    "term": "Identyfikacja problemu",
+    "definition": "Ocena kliniczna na podstawie danych z oceny; identyfikacja lub diagnoza interesów klienta, potencjalnych zagrożeń, objawów lub symptomów; drugi krok lub koncepcja procesu rozwiązywania problemu. Zastosowanie klasyfikacji problemów umożliwia praktykowi operacjonalizację identyfikacji problemu po zakończeniu oceny."
+  },
+  {
+    "term": "Proces rozwiązywania problemów",
+    "definition": "Ocena, identyfikacja problemów, planowanie i interwencja oraz etapy oceny lub koncepcje, które kierują wielodyscyplinarną praktyką w opiece zdrowotnej i dostarczają informacji zwrotnych lekarzom. Pielęgniarki często używają synonimu procesu pielęgniarskiego, podczas gdy lekarze używają procesu diagnostyki medycznej."
+  },
+  {
+    "term": "Rozwój relacji",
+    "definition": "Sztuka tworzenia terapeutycznego partnerstwa pomiędzy praktykami i klientami poprzez łączenie usług zdrowotnych, zrozumienia, szacunku dla samego siebie, motywacji, profesjonalizmu i autentycznej troski o innych; umowa partnerska. Istnienie tego partnerstwa zapewnia kontekst dla interakcji w ramach modelu systemu Omaha."
+  },
+  {
+    "term": "Taksonomia",
+    "definition": "Nauka o klasyfikacji i układaniu terminów i pojęć na poziomach od ogólnego do szczegółowego, zgodnie z ustalonymi zasadami i regułami."
+  },
+  {
+    "term": "Terminologia",
+    "definition": "Badanie symboli lub terminów używanych przez jedną lub więcej dyscyplin w opiece zdrowotnej i usługach socjalnych. Amerykańskie Stowarzyszenie Pielęgniarek opracowało proces rozpoznawania różnych terminologii."
+  },
+  {
+    "term": "Teoria",
+    "definition": "Spójny zestaw pojęć; można opisać relacje między pojęciami."
+  },
+  {
+    "term": "Rzeczywiste",
+    "definition": "Status problemu klienta charakteryzujący się istnieniem jednego lub więcej znaków i symptomów. Używany jako modyfikator problemu, który pojawia się na trzecim poziomie Systemu Klasyfikacji Problemów."
+  },
+  {
+    "term": "Wspólnota",
+    "definition": "Grupy, szkoły, kliniki, dzielnice lub inne większe obszary geograficzne, które mają wspólne środowisko fizyczne i własność problemu zdrowotnego. Używane jako modyfikator problemów, który pojawia się na trzecim poziomie programu klasyfikacji problemów."
+  },
+  {
+    "term": "Szczegóły",
+    "definition": "Dane opisowe, które wyjaśniają zainteresowanie klienta lub obawy dotyczące konkretnego problemu. Lekarz identyfikuje, opisuje i dokumentuje szczegóły przy wyborze modyfikatora promocji zdrowia."
+  },
+  {
+    "term": "Domeny",
+    "definition": "Cztery ogólne obszary, które reprezentują praktykę ochrony zdrowia i zapewniają grupy organizacyjne zajmujące się problemami klientów. Pojawiają się na pierwszym poziomie Systemu Klasyfikacji Problemów."
+  },
+  {
+    "term": "Dziedzina ochrony środowiska",
+    "definition": "Zasoby materialne i otoczenie fizyczne, zarówno wewnątrz jak i na zewnątrz obszaru mieszkalnego, sąsiedztwa i szerszej społeczności. Pojawia się na pierwszym poziomie Systemu Klasyfikacji Problemów."
+  },
+  {
+    "term": "Rodzina",
+    "definition": "Jednostka społeczna lub powiązana grupa osób, które mieszkają razem i współdzielą własność problemu zdrowotnego. Używany jako modyfikator problemu, który pojawia się na trzecim poziomie systemu klasyfikacji problemów."
+  },
+  {
+    "term": "Promocja zdrowia",
+    "definition": "Status klienta charakteryzujący się zainteresowaniem w zwiększaniu wiedzy, zachowań i oczekiwań zdrowotnych, jak również rozwijaniem mocnych stron i zasobów w celu poprawy samopoczucia przy braku czynników ryzyka, oznak lub objawów. Używany jako modyfikator problemu, który pojawia się na trzecim poziomie Systemu Klasyfikacji Problemów."
+  },
+  {
+    "term": "Domena zachowań zdrowotnych",
+    "definition": "Wzorce działań, które utrzymują lub promują dobre samopoczucie, wspierają powrót do zdrowia i zmniejszają ryzyko zachorowania. Pojawia się na pierwszym poziomie Systemu Klasyfikacji Problemów."
+  },
+  {
+    "term": "Wysoki priorytet",
+    "definition": "Orzeczenie praktykującego, że problem powinien być rozwiązywany szybko, w oparciu o zalecenia klientów, źródeł skierowań i innych. Kiedy problem jest uważany za wysoce priorytetowy, praktykujący dokumentuje problem, przeprowadza interwencje i uzupełnia ratingi."
+  },
+  {
+    "term": "Osoba fizyczna",
+    "definition": "Osoba, która doświadcza problemów zdrowotnych. Używany jako modyfikator problemów, który pojawia się na trzecim poziomie systemu klasyfikacji problemów."
+  },
+  {
+    "term": "Niski priorytet",
+    "definition": "Opinia praktykującego, że problem ma drugorzędne znaczenie w porównaniu z innymi problemami, oparta na zaleceniach klientów, źródłach skierowań i innych. Kiedy problem jest uważany za mało ważny, praktykujący dokumentuje problem, ale nie zapewnia interwencji lub kompletnych ocen, dopóki potrzeby klienta nie ulegną zmianie lub zwiększeniu."
+  },
+  {
+    "term": "Modyfikatory",
+    "definition": "Dwa zestawy terminów (Indywidualny, Rodzina, Społeczność i Promocja Zdrowia, Potencjalny, Rzeczywisty) używane w połączeniu z problemami, które pozwalają lekarzom określić, do kogo odnosi się problem oraz stopień nasilenia w odniesieniu do mocnych i słabych stron klienta, obaw, czynników ryzyka, objawów i objawów."
+  },
+  {
+    "term": "Fizjologiczna domena",
+    "definition": "Funkcje i procesy utrzymujące życie. Pojawia się na pierwszym poziomie Schematu Klasyfikacji Problemów."
+  },
+  {
+    "term": "Potencjał",
+    "definition": "Status klienta charakteryzujący się brakiem oznak i objawów oraz obecnością wzorców, praktyk, zachowań lub czynników ryzyka, które mogą wykluczać optymalne zdrowie. Używany jako modyfikator problemu, który pojawia się na trzecim poziomie Problem Classification Scheme."
+  },
+  {
+    "term": "System klasyfikacji problemów",
+    "definition": "Kompleksowa, uporządkowana, niewyczerpująca, wzajemnie wykluczająca się taksonomia mająca na celu identyfikację problemów zdrowotnych klientów. Jeden z trzech komponentów lub znormalizowanych instrumentów systemu Omaha."
+  },
+  {
+    "term": "Problemy",
+    "definition": "Unikalne problemy klienta, potrzeby, mocne strony, problemy, ogniska lub warunki, które wpływają na jakikolwiek aspekt dobrego samopoczucia klienta; diagnozy pielęgniarskie postawione z perspektywy klienta. Na drugim poziomie Systemu Klasyfikacji Problemów występują 42 problemy."
+  },
+  {
+    "term": "Domena psychospołeczna",
+    "definition": "Wzorce zachowań, emocji, komunikacji, relacji i rozwoju. Pojawia się na pierwszym poziomie schematu klasyfikacji problemów."
+  },
+  {
+    "term": "Czynniki ryzyka",
+    "definition": "Okoliczności zwiększające podatność klienta na rozwój problemu zdrowotnego. Lekarz identyfikuje, opisuje i dokumentuje czynniki ryzyka przy wyborze modyfikatora Potencjał."
+  },
+  {
+    "term": "Znaki",
+    "definition": "Obiektywne dowody dotyczące problemu klienta. Lekarz identyfikuje, opisuje i dokumentuje znaki i/lub objawy przy wyborze modyfikatora. Pojawiają się na czwartym poziomie systemu klasyfikacji problemów."
+  },
+  {
+    "term": "Objawy",
+    "definition": "Subiektywne dowody dotyczące problemu klienta. Lekarz identyfikuje, opisuje i dokumentuje objawy i/lub znaki przy wyborze modyfikatora. Pojawiają się na czwartym poziomie systemu klasyfikacji problemów."
+  },
+  {
+    "term": "Zarządzanie sprawami",
+    "definition": "Działania takie jak koordynacja, rzecznictwo i skierowanie, które ułatwiają świadczenie usług; promowanie asertywności; kierowanie jednostki, rodziny lub społeczności w kierunku wykorzystania odpowiednich zasobów; oraz poprawa komunikacji pomiędzy dostawcami usług zdrowotnych i ludzkich. Dotyczy konkretnego problemu. Pojawia się na pierwszym poziomie programu interwencyjnego."
+  },
+  {
+    "term": "Kategorie",
+    "definition": "Cztery szerokie obszary, które tworzą strukturę opisującą działania lub działania praktyków. Pojawiają się na pierwszym poziomie systemu interwencji."
+  },
+  {
+    "term": "Informacje specyficzne dla klienta",
+    "definition": "Szczegółowa część planu lub oświadczenia o interwencji, która jest opracowywana i dokumentowana przez praktykę. Podręcznik użytkownika zawiera sugerowane informacje specyficzne dla klienta dotyczące wszystkich problemów. Pojawia się na trzecim poziomie systemu interwencji."
+  },
+  {
+    "term": "Interwencje",
+    "definition": "Działania lub działania wdrożone w celu rozwiązania konkretnego problemu klienta oraz poprawy, utrzymania lub przywrócenia zdrowia lub zapobiegania chorobom. Oświadczenie interwencyjne składa się z kategorii, jednego lub więcej celów i informacji specyficznych dla klienta."
+  },
+  {
+    "term": "System interwencji",
+    "definition": "Kompleksowa, uporządkowana, niewyczerpująca, wzajemnie wykluczająca się taksonomia opisująca działania i działania praktyków. Jeden z trzech komponentów lub znormalizowanych instrumentów Systemu Omaha."
+  },
+  {
+    "term": "Plany",
+    "definition": "Proponowane działania lub czynności mające na celu ustalenie kursu opieki nad konkretnym problemem klienta. Oświadczenie dotyczące planu składa się z kategorii, jednego lub więcej celów oraz informacji dotyczących konkretnego klienta."
+  },
+  {
+    "term": "Nadzór",
+    "definition": "Działania takie jak wykrywanie, pomiary, analiza krytyczna i monitorowanie mające na celu identyfikację osoby, rodziny lub społeczności w odniesieniu do danego stanu lub zjawiska. Dotyczy konkretnego problemu. Pojawia się na pierwszym poziomie programu interwencyjnego."
+  },
+  {
+    "term": "Cele",
+    "definition": "Unikalne obiekty działań praktyków lub działań, które służą dalszemu opisywaniu interwencji. Na drugim poziomie schematu interwencji jest 75 celów."
+  },
+  {
+    "term": "Nauczanie, poradnictwo i doradztwo",
+    "definition": "Działania mające na celu dostarczenie informacji i materiałów, zachęcenie do działania i odpowiedzialności za samoopiekę i radzenie sobie z problemami oraz pomoc jednostce, rodzinie lub społeczności w podejmowaniu decyzji i rozwiązywaniu problemów. Wystąpić na pierwszym poziomie programu interwencyjnego."
+  },
+  {
+    "term": "Traktowanie i procedury",
+    "definition": "Czynności techniczne, takie jak pielęgnacja ran, zbieranie próbek, ćwiczenia rezystancyjne i recepty na leki, które są zaprojektowane w celu zapobiegania, zmniejszania lub łagodzenia objawów i symptomów dla jednostki, rodziny lub społeczności. Wystąpić na pierwszym poziomie Programu Interwencyjnego."
+  },
+  {
+    "term": "Klasyfikacja wstępu",
+    "definition": "Specyficzne dla problemu ratingi numeryczne dla wiedzy, zachowania i statusu zostały uzupełnione przy pierwszym zidentyfikowaniu problemu jako priorytetu dla klienta."
+  },
+  {
+    "term": "Zachowanie",
+    "definition": "Obserwowalne reakcje, działania lub działania klienta odpowiadające okazji lub celowi. Opisuje, co klient \"robi\". Jedna z trzech oddzielnych skal Skali Oceny Problemów dla Wyników."
+  },
+  {
+    "term": "Klasyfikacja wyładowań",
+    "definition": "Specyficzne dla danego problemu wskaźniki liczbowe dla wiedzy, zachowania i stanu uzupełnione w momencie rozwiązania problemu, są zmieniane na niskie priorytety lub gdy klient jest rozładowany."
+  },
+  {
+    "term": "Ratingi przejściowe",
+    "definition": "Oceny numeryczne specyficzne dla danego problemu w zakresie wiedzy, zachowania i statusu, sporządzane okresowo w trakcie świadczenia usługi na rzecz klienta, przy czym problem jest identyfikowany jako priorytetowy."
+  },
+  {
+    "term": "Wiedza",
+    "definition": "Zdolność klienta do zapamiętywania i interpretowania informacji. Opisuje, co klient \"wie\". Jedna z trzech oddzielnych skal skali ratingowej dla wyników."
+  },
+  {
+    "term": "Zarządzanie wynikami",
+    "definition": "Systematyczny proces agregacji, analizy i interpretacji danych w sposób graficzny, a następnie rozpowszechniania informacji."
+  },
+  {
+    "term": "Skala oceniania problemów dla wyników",
+    "definition": "Kompleksowe, systematyczne, powtarzalne/ewaluacyjne ramy przeznaczone do pomiaru postępów klienta w odniesieniu do konkretnych problemów zdrowotnych. Jeden z trzech komponentów lub znormalizowanych instrumentów systemu Omaha."
+  },
+  {
+    "term": "Ratingi",
+    "definition": "Pięć wyborów numerycznych, które składają się z trzech skal typu Likert-; wybory numeryczne i skale przedstawiają najbardziej negatywny do najbardziej pozytywnego stanu obszaru problemowego w odniesieniu do wiedzy, zachowania i statusu klienta. Praktycy muszą określić oceny w oparciu o dane klienta, a nie ich wartości lub uprzedzenia."
+  },
+  {
+    "term": "Status",
+    "definition": "Stan klienta w odniesieniu do obiektywnych i subiektywnych cech charakterystycznych. Opisuje, jak klient \"jest\". Jedna z trzech oddzielnych skal Skali Oceny Problemów dla Wyników."
+  }
+]
