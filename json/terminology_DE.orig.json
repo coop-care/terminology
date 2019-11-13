@@ -1770,27 +1770,6 @@
     "title": "Problembewertungsskala für Ergebnisse",
     "ratings": [
       {
-        "title": "Status",
-        "description": "Zustand des Kunden in Bezug auf objektive und subjektive definierende Merkmale.",
-        "scale": [
-          {
-            "title": "Extreme Anzeichen/Symptome"
-          },
-          {
-            "title": "Schwere Anzeichen/Symptome"
-          },
-          {
-            "title": "Mäßige Anzeichen/Symptome"
-          },
-          {
-            "title": "Minimale Anzeichen/Symptome"
-          },
-          {
-            "title": "Keine Anzeichen/Symptome"
-          }
-        ]
-      },
-      {
         "title": "Wissen",
         "description": "Fähigkeit des Kunden, Informationen zu speichern und zu interpretieren.",
         "scale": [
@@ -1829,6 +1808,27 @@
           },
           {
             "title": "Durchgängig angemessenes Verhalten"
+          }
+        ]
+      },
+      {
+        "title": "Status",
+        "description": "Zustand des Kunden in Bezug auf objektive und subjektive definierende Merkmale.",
+        "scale": [
+          {
+            "title": "Extreme Anzeichen/Symptome"
+          },
+          {
+            "title": "Schwere Anzeichen/Symptome"
+          },
+          {
+            "title": "Mäßige Anzeichen/Symptome"
+          },
+          {
+            "title": "Minimale Anzeichen/Symptome"
+          },
+          {
+            "title": "Keine Anzeichen/Symptome"
           }
         ]
       }

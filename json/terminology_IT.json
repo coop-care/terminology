@@ -2276,27 +2276,6 @@
     "title": "Scala di valutazione dei problemi per i risultati",
     "ratings": [
       {
-        "title": "Stato",
-        "description": "Condizione del cliente in relazione a caratteristiche definitorie oggettive e soggettive.",
-        "scale": [
-          {
-            "title": "Segni/sintomi estremi"
-          },
-          {
-            "title": "Segni/sintomi gravi"
-          },
-          {
-            "title": "Segni/sintomi moderati"
-          },
-          {
-            "title": "Segni/sintomi minimi"
-          },
-          {
-            "title": "Nessun segno/sintomi"
-          }
-        ]
-      },
-      {
         "title": "Conoscenza",
         "description": "Capacità del cliente di ricordare e interpretare le informazioni.",
         "scale": [
@@ -2335,6 +2314,27 @@
           },
           {
             "title": "Comportamento coerentemente appropriato"
+          }
+        ]
+      },
+      {
+        "title": "Stato",
+        "description": "Condizione del cliente in relazione a caratteristiche definitorie oggettive e soggettive.",
+        "scale": [
+          {
+            "title": "Segni/sintomi estremi"
+          },
+          {
+            "title": "Segni/sintomi gravi"
+          },
+          {
+            "title": "Segni/sintomi moderati"
+          },
+          {
+            "title": "Segni/sintomi minimi"
+          },
+          {
+            "title": "Nessun segno/sintomi"
           }
         ]
       }

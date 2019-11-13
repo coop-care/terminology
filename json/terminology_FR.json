@@ -2276,27 +2276,6 @@
     "title": "Échelle d'évaluation des problèmes pour les résultats",
     "ratings": [
       {
-        "title": "Statut",
-        "description": "Condition du client par rapport à des caractéristiques de définition objectives et subjectives.",
-        "scale": [
-          {
-            "title": "Signes/symptômes extrêmes"
-          },
-          {
-            "title": "Signes/symptômes graves"
-          },
-          {
-            "title": "Signes/symptômes modérés"
-          },
-          {
-            "title": "Signes/symptômes minimaux"
-          },
-          {
-            "title": "Aucun signe/symptômes"
-          }
-        ]
-      },
-      {
         "title": "Connaissances",
         "description": "Capacité du client à se souvenir et à interpréter l'information.",
         "scale": [
@@ -2335,6 +2314,27 @@
           },
           {
             "title": "Comportement toujours approprié"
+          }
+        ]
+      },
+      {
+        "title": "Statut",
+        "description": "Condition du client par rapport à des caractéristiques de définition objectives et subjectives.",
+        "scale": [
+          {
+            "title": "Signes/symptômes extrêmes"
+          },
+          {
+            "title": "Signes/symptômes graves"
+          },
+          {
+            "title": "Signes/symptômes modérés"
+          },
+          {
+            "title": "Signes/symptômes minimaux"
+          },
+          {
+            "title": "Aucun signe/symptômes"
           }
         ]
       }

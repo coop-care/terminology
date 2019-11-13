@@ -2276,27 +2276,6 @@
     "title": "Escala de Classificação de Problemas para Resultados",
     "ratings": [
       {
-        "title": "Estado",
-        "description": "Condição do cliente em relação às características definidoras objetivas e subjetivas.",
-        "scale": [
-          {
-            "title": "Sinais/assintomas extremos"
-          },
-          {
-            "title": "Sinais graves/sintomas"
-          },
-          {
-            "title": "Sinais/assintomas moderados"
-          },
-          {
-            "title": "Sinais/sintomas mínimos"
-          },
-          {
-            "title": "Sem sinais/sintomas"
-          }
-        ]
-      },
-      {
         "title": "Conhecimento",
         "description": "Capacidade do cliente de lembrar e interpretar informações.",
         "scale": [
@@ -2335,6 +2314,27 @@
           },
           {
             "title": "Comportamento consistentemente apropriado"
+          }
+        ]
+      },
+      {
+        "title": "Estado",
+        "description": "Condição do cliente em relação às características definidoras objetivas e subjetivas.",
+        "scale": [
+          {
+            "title": "Sinais/assintomas extremos"
+          },
+          {
+            "title": "Sinais graves/sintomas"
+          },
+          {
+            "title": "Sinais/assintomas moderados"
+          },
+          {
+            "title": "Sinais/sintomas mínimos"
+          },
+          {
+            "title": "Sem sinais/sintomas"
           }
         ]
       }

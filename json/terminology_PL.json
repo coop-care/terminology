@@ -2276,27 +2276,6 @@
     "title": "Skala oceniania problemów dla wyników",
     "ratings": [
       {
-        "title": "Status",
-        "description": "Stan klienta w odniesieniu do obiektywnych i subiektywnych cech definiujących.",
-        "scale": [
-          {
-            "title": "Ekstremalne znaki/symptomy"
-          },
-          {
-            "title": "Poważne oznaki/symptomy"
-          },
-          {
-            "title": "Umiarkowane znaki/symptomy"
-          },
-          {
-            "title": "Minimalne znaki/symptomy"
-          },
-          {
-            "title": "Brak znaków/symptomów"
-          }
-        ]
-      },
-      {
         "title": "Wiedza",
         "description": "Zdolność klienta do zapamiętywania i interpretowania informacji.",
         "scale": [
@@ -2335,6 +2314,27 @@
           },
           {
             "title": "Konsekwentnie właściwe zachowanie"
+          }
+        ]
+      },
+      {
+        "title": "Status",
+        "description": "Stan klienta w odniesieniu do obiektywnych i subiektywnych cech definiujących.",
+        "scale": [
+          {
+            "title": "Ekstremalne znaki/symptomy"
+          },
+          {
+            "title": "Poważne oznaki/symptomy"
+          },
+          {
+            "title": "Umiarkowane znaki/symptomy"
+          },
+          {
+            "title": "Minimalne znaki/symptomy"
+          },
+          {
+            "title": "Brak znaków/symptomów"
           }
         ]
       }

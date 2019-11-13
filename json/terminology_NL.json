@@ -2276,27 +2276,6 @@
     "title": "Probleemschaal voor resultaten",
     "ratings": [
       {
-        "title": "Status",
-        "description": "Conditie van de cliënt in relatie tot objectieve en subjectieve kenmerken.",
-        "scale": [
-          {
-            "title": "Extreme tekenen/symptomen"
-          },
-          {
-            "title": "Ernstige tekenen/symptomen"
-          },
-          {
-            "title": "Gematigde tekenen/symptomen"
-          },
-          {
-            "title": "Minimale tekenen/symptomen"
-          },
-          {
-            "title": "Geen tekenen/symptomen"
-          }
-        ]
-      },
-      {
         "title": "Kennis",
         "description": "Vermogen van de klant om informatie te onthouden en te interpreteren.",
         "scale": [
@@ -2335,6 +2314,27 @@
           },
           {
             "title": "Consequent passend gedrag"
+          }
+        ]
+      },
+      {
+        "title": "Status",
+        "description": "Conditie van de cliënt in relatie tot objectieve en subjectieve kenmerken.",
+        "scale": [
+          {
+            "title": "Extreme tekenen/symptomen"
+          },
+          {
+            "title": "Ernstige tekenen/symptomen"
+          },
+          {
+            "title": "Gematigde tekenen/symptomen"
+          },
+          {
+            "title": "Minimale tekenen/symptomen"
+          },
+          {
+            "title": "Geen tekenen/symptomen"
           }
         ]
       }

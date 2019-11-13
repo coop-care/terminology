@@ -2276,27 +2276,6 @@
     "title": "Escala de calificación del problema para los resultados",
     "ratings": [
       {
-        "title": "Estado",
-        "description": "Condición del cliente en relación a las características objetivas y subjetivas de definición.",
-        "scale": [
-          {
-            "title": "Signos/síntomas extremos"
-          },
-          {
-            "title": "Signos/síntomas graves"
-          },
-          {
-            "title": "Signos/síntomas moderados"
-          },
-          {
-            "title": "Signos/síntomas mínimos"
-          },
-          {
-            "title": "No hay signos/síntomas"
-          }
-        ]
-      },
-      {
         "title": "Conocimiento",
         "description": "Capacidad del cliente para recordar e interpretar la información.",
         "scale": [
@@ -2335,6 +2314,27 @@
           },
           {
             "title": "Comportamiento consistentemente apropiado"
+          }
+        ]
+      },
+      {
+        "title": "Estado",
+        "description": "Condición del cliente en relación a las características objetivas y subjetivas de definición.",
+        "scale": [
+          {
+            "title": "Signos/síntomas extremos"
+          },
+          {
+            "title": "Signos/síntomas graves"
+          },
+          {
+            "title": "Signos/síntomas moderados"
+          },
+          {
+            "title": "Signos/síntomas mínimos"
+          },
+          {
+            "title": "No hay signos/síntomas"
           }
         ]
       }
