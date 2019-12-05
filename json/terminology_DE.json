@@ -710,15 +710,15 @@
                 "code": "05"
               },
               {
-                "title": "Schwierigkeiten beim Hören von hochfrequenten Geräuschen",
+                "title": "Schwierigkeiten beim Hören von Tönen höherer Frequenz",
                 "code": "06"
               },
               {
-                "title": "Abwesend oder abnormale Reaktion auf Geräusche",
+                "title": "fehlende oder anormale Reaktion auf Geräusche",
                 "code": "02"
               },
               {
-                "title": "abnormale Ergebnisse des Hörscreening-Tests",
+                "title": "anormale Ergebnisse beim Hörtest",
                 "code": "03"
               },
               {
@@ -730,10 +730,10 @@
           },
           {
             "title": "Sehkraft",
-            "description": "Wirken oder die Kraft der Wahrnehmung mit den Augen.",
+            "description": "Wahrnehmung mit den Augen.",
             "signsAndSymptoms": [
               {
-                "title": "Schwierigkeiten bei der Darstellung kleiner Ausdrucke und Kalibrierungen",
+                "title": "Schwierigkeiten beim Erkennen von kleiner Schrift",
                 "code": "01"
               },
               {
@@ -745,23 +745,23 @@
                 "code": "03"
               },
               {
-                "title": "absent oder abnormale Reaktion auf visuelle Reize",
+                "title": "fehlende oder anormale Reaktion auf visuelle Reize",
                 "code": "04"
               },
               {
-                "title": "abnormale Ergebnisse des Sehtests",
+                "title": "anormale Ergebnisse beim Sehtest",
                 "code": "05"
               },
               {
-                "title": "blinzeln oder blinkend oder reißen oder verschwimmend",
+                "title": "schielen, blinzeln, tränen oder verschwimmend",
                 "code": "06"
               },
               {
-                "title": "Floater oder Blitzlichter",
+                "title": "Glaskörpertrübungen, Mouches volantes oder Blitzlichter",
                 "code": "09"
               },
               {
-                "title": "Schwierigkeit, Farben zu unterscheiden",
+                "title": "Schwierigkeiten, Farben zu unterscheiden",
                 "code": "07"
               },
               {
@@ -773,30 +773,30 @@
           },
           {
             "title": "Sprechen und Sprache",
-            "description": "Verwendung von artikulierten Stimmlauten, Symbolen, Zeichen oder Gesten zur Kommunikation.",
+            "description": "Gebrauch von artikulierten Stimmlauten, Symbolen, Zeichen oder Gesten zur Kommunikation.",
             "signsAndSymptoms": [
               {
-                "title": "Fehlende oder abnormale Fähigkeit zu sprechen oder zu sprechen oder sprechen",
+                "title": "Fehlende oder anormale Fähigkeit zu reden oder auszusprechen",
                 "code": "01"
               },
               {
-                "title": "Fehlende oder abnormale Fähigkeit zu verstehen",
+                "title": "Fehlende oder anormale Fähigkeit zu verstehen",
                 "code": "02"
               },
               {
-                "title": "keine alternativen Kommunikationsfähigkeiten oder Gesten hat.",
+                "title": "Mangel an alternativen Kommunikationsfähigkeiten oder Gesten",
                 "code": "03"
               },
               {
-                "title": "unangemessene Satzstruktur",
+                "title": "unpassende Satzstruktur",
                 "code": "04"
               },
               {
-                "title": "begrenzte Aussprache oder Klarheit",
+                "title": "eingeschränkte Ausdrucksweise oder Deutlichkeit",
                 "code": "05"
               },
               {
-                "title": "unangemessene Wortbenutzung",
+                "title": "unpassender Wortgebrauch",
                 "code": "06"
               },
               {
@@ -807,11 +807,11 @@
             "code": "21"
           },
           {
-            "title": "Mund",
+            "title": "Mundhygiene",
             "description": "Zustand von Mund und Zahnfleisch sowie Anzahl, Art und Anordnung der Zähne.",
             "signsAndSymptoms": [
               {
-                "title": "fehlende oder gebrochene oder fehlgestaltete Zähne",
+                "title": "fehlende, kaputte oder deformierte Zähne",
                 "code": "01"
               },
               {
@@ -819,19 +819,19 @@
                 "code": "02"
               },
               {
-                "title": "überschüssiger Zahnstein",
+                "title": "übermäßig viel Zahnstein",
                 "code": "03"
               },
               {
-                "title": "Wunde oder geschwollenes oder blutendes Zahnfleisch",
+                "title": "schmerzendes, geschwollenes oder blutendes Zahnfleisch",
                 "code": "04"
               },
               {
-                "title": "Malokklusion",
+                "title": "Zahnfehlstellung",
                 "code": "05"
               },
               {
-                "title": "schlecht sitzender oder fehlender Zahnersatz",
+                "title": "schlecht sitzende oder fehlende Zahnprothese",
                 "code": "06"
               },
               {
@@ -847,18 +847,18 @@
           },
           {
             "title": "Kognition",
-            "description": "Fähigkeit, Informationen zu denken und zu nutzen.",
+            "description": "Fähigkeit zu denken und Informationen zu verarbeiten.",
             "signsAndSymptoms": [
               {
                 "title": "vermindertes Urteilsvermögen",
                 "code": "01"
               },
               {
-                "title": "desorientiert zu Zeit oder Ort oder Person",
+                "title": "desorientiert in Bezug auf Zeit, Ort oder Personen",
                 "code": "02"
               },
               {
-                "title": "begrenzte Erinnerung an die jüngsten Ereignisse",
+                "title": "begrenzte Erinnerung an kürzliche Ereignisse",
                 "code": "03"
               },
               {
@@ -866,15 +866,15 @@
                 "code": "04"
               },
               {
-                "title": "begrenzte Fähigkeiten in der Berechnung und Sequenzierung",
+                "title": "begrenzte Fähigkeiten im Rechnen und Zählen",
                 "code": "05"
               },
               {
-                "title": "begrenzte Konzentration",
+                "title": "eingeschränkte Konzentration",
                 "code": "06"
               },
               {
-                "title": "eingeschränktes Denken oder abstraktes Denken",
+                "title": "eingeschränktes logisches oder abstraktes Denken",
                 "code": "07"
               },
               {
@@ -882,11 +882,11 @@
                 "code": "08"
               },
               {
-                "title": "Wiederholte Sprache  oder  Verhalten",
+                "title": "Wiederholendes Reden oder Verhalten",
                 "code": "09"
               },
               {
-                "title": "Wanderungen",
+                "title": "Abschweifen",
                 "code": "11"
               },
               {
@@ -897,7 +897,7 @@
             "code": "23"
           },
           {
-            "title": "Schmerzen",
+            "title": "Schmerz",
             "description": "Unangenehme sensorische und emotionale Erfahrungen, die mit tatsächlichen oder potenziellen Gewebeschäden verbunden sind.",
             "signsAndSymptoms": [
               {
@@ -905,23 +905,23 @@
                 "code": "01"
               },
               {
-                "title": "erhöhter Puls oder Atmung oder Blutdruck",
+                "title": "erhöhter Puls, Atmung oder Blutdruck",
                 "code": "02"
               },
               {
-                "title": "kompensierte Bewegung oder Bewachung",
+                "title": "ausgleichende Bewegungen oder Schonung",
                 "code": "03"
               },
               {
-                "title": "unruhiges Verhalten",
+                "title": "ruheloses Verhalten",
                 "code": "04"
               },
               {
-                "title": "Grimassen im Gesicht",
+                "title": "zieht Grimassen",
                 "code": "05"
               },
               {
-                "title": "Blässe oder Schweißung",
+                "title": "Blässe oder Schwitzen",
                 "code": "06"
               },
               {
@@ -932,15 +932,15 @@
             "code": "24"
           },
           {
-            "title": "Wahrnehmung",
-            "description": "Sensibilisierung und Reaktionsfähigkeit auf Reize und die Umgebung.",
+            "title": "Bewusstsein",
+            "description": "Wahrnehmung und Reaktionsfähigkeit auf Reize und die Umgebung.",
             "signsAndSymptoms": [
               {
                 "title": "lethargisch",
                 "code": "01"
               },
               {
-                "title": "stupor",
+                "title": "Stupor",
                 "code": "02"
               },
               {
@@ -960,22 +960,22 @@
           },
           {
             "title": "Haut",
-            "description": "Natürliche Abdeckung des Körpers.",
+            "description": "Natürliche Hülle des Körpers.",
             "signsAndSymptoms": [
               {
-                "title": "Läsion oder Druckgeschwür",
+                "title": "Läsion, Druckgeschwür oder Dekubitus",
                 "code": "01"
               },
               {
-                "title": "überstürzt",
+                "title": "Hautausschlag oder Effloreszenz",
                 "code": "02"
               },
               {
-                "title": "zu trocken",
+                "title": "extrem trocken",
                 "code": "03"
               },
               {
-                "title": "übermäßig ölig",
+                "title": "extrem fettig",
                 "code": "04"
               },
               {
@@ -987,11 +987,11 @@
                 "code": "06"
               },
               {
-                "title": "Entwässerung",
+                "title": "Wunddrainage",
                 "code": "07"
               },
               {
-                "title": "Prellungen",
+                "title": "Prellung oder Hämatom",
                 "code": "08"
               },
               {
@@ -999,7 +999,7 @@
                 "code": "09"
               },
               {
-                "title": "verzögerte Inzisionsheilung",
+                "title": "verzögerte Narbenheilung",
                 "code": "11"
               },
               {
@@ -1010,11 +1010,11 @@
             "code": "26"
           },
           {
-            "title": "Neuro-Muskel-Skelett-Funktion",
-            "description": "Fähigkeit von Nerven, Muskeln und Knochen, bestimmte Bewegungen, Empfindungen oder Regulierungen auszuführen oder zu koordinieren.",
+            "title": "Neuromuskeläre- und Skelett-Funktion",
+            "description": "Fähigkeit von Nerven, Muskeln und Knochen, gezielte Bewegungen, Empfindungen oder Steuerungen auszuführen oder zu koordinieren.",
             "signsAndSymptoms": [
               {
-                "title": "begrenzter Bewegungsumfang",
+                "title": "eingeschränkte Bewegungsfreiheit",
                 "code": "01"
               },
               {
@@ -1034,35 +1034,35 @@
                 "code": "05"
               },
               {
-                "title": "vermindertes Gefühl",
+                "title": "verminderte Sinnesempfindung",
                 "code": "06"
               },
               {
-                "title": "gesteigertes Gefühl",
+                "title": "gesteigerte Sinnesempfindung",
                 "code": "07"
               },
               {
-                "title": "vermindertes Guthaben",
+                "title": "vermindertes Gleichgewicht",
                 "code": "08"
               },
               {
-                "title": "Geh- und Bewegungsstörung",
+                "title": "Störung des Gangs",
                 "code": "09"
               },
               {
-                "title": "Übertragungsschwierigkeit",
+                "title": "Schwierigkeiten bei Transfer oder Umlagerung",
                 "code": "13"
               },
               {
-                "title": "Frakturen",
+                "title": "Brüche oder Frakturen",
                 "code": "14"
               },
               {
-                "title": "Erschütterungen oder Sicherungen",
+                "title": "Anfall, Krämpfe, Zittern oder Tremor",
                 "code": "11"
               },
               {
-                "title": "Schwierigkeiten bei der Thermoregulation",
+                "title": "Probleme mit der Thermoregulation",
                 "code": "15"
               },
               {
@@ -1077,7 +1077,7 @@
             "description": "Ein- und Ausatmen von Luft in den Körper und Austausch von Sauerstoff.",
             "signsAndSymptoms": [
               {
-                "title": "abnormale Atemmuster",
+                "title": "anormale Atemmuster",
                 "code": "01"
               },
               {
@@ -1097,7 +1097,7 @@
                 "code": "05"
               },
               {
-                "title": "abnormaler Auswurf",
+                "title": "anormaler Auswurf",
                 "code": "06"
               },
               {
@@ -1109,11 +1109,11 @@
                 "code": "08"
               },
               {
-                "title": "abnormale Atemgeräusche",
+                "title": "anormale Atemgeräusche",
                 "code": "09"
               },
               {
-                "title": "abnormale Atemlaborergebnisse",
+                "title": "anormale Atemlaborergebnisse",
                 "code": "11"
               },
               {
@@ -1156,7 +1156,7 @@
                 "code": "07"
               },
               {
-                "title": "abnormale Werte bei Blutdruckmessung",
+                "title": "anormale Werte bei Blutdruckmessung",
                 "code": "08"
               },
               {
@@ -1180,15 +1180,15 @@
                 "code": "13"
               },
               {
-                "title": "abnormale Herztöne oder Herzgeräusche",
+                "title": "anormale Herztöne oder Herzgeräusche",
                 "code": "14"
               },
               {
-                "title": "abnormale Gerinnung",
+                "title": "anormale Gerinnung",
                 "code": "16"
               },
               {
-                "title": "abnormale kardiale Laborergebnisse",
+                "title": "anormale kardiale Laborergebnisse",
                 "code": "17"
               },
               {
@@ -1258,7 +1258,7 @@
             "description": "Transport von Lebensmitteln durch den Magen-Darm-Trakt zur Beseitigung von Abfällen.",
             "signsAndSymptoms": [
               {
-                "title": "abnormale Häufigkeit oder Konsistenz des Stuhls",
+                "title": "anormale Häufigkeit oder Konsistenz des Stuhls",
                 "code": "01"
               },
               {
@@ -1317,11 +1317,11 @@
                 "code": "05"
               },
               {
-                "title": "abnormale Menge",
+                "title": "anormale Menge",
                 "code": "06"
               },
               {
-                "title": "Hämaturie oder abnormale Farbe",
+                "title": "Hämaturie oder anormale Farbe",
                 "code": "07"
               },
               {
@@ -1430,7 +1430,7 @@
                 "code": "03"
               },
               {
-                "title": "Abnormale Blutungen oder Vaginalausfluss",
+                "title": "Anormale Blutungen oder Vaginalausfluss",
                 "code": "04"
               },
               {
@@ -1438,7 +1438,7 @@
                 "code": "05"
               },
               {
-                "title": "abnormale depressive Gefühle",
+                "title": "anormale depressive Gefühle",
                 "code": "06"
               },
               {
