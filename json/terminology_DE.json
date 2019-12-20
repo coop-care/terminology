@@ -1074,14 +1074,14 @@
           },
           {
             "title": "Atmung",
-            "description": "Ein- und Ausatmen von Luft in den Körper und Austausch von Sauerstoff.",
+            "description": "Ein- und Ausatmen von Luft in den Körper und Sauerstoffaustausch.",
             "signsAndSymptoms": [
               {
                 "title": "anormale Atemmuster",
                 "code": "01"
               },
               {
-                "title": "unfähig, selbstständig zu atmen",
+                "title": "nicht in der Lage selbstständig zu atmen",
                 "code": "02"
               },
               {
@@ -1089,7 +1089,7 @@
                 "code": "03"
               },
               {
-                "title": "unfähig, selbstständig zu husten oder expektorieren",
+                "title": "nicht in der Lage selbstständig zu husten oder abzuhusten",
                 "code": "04"
               },
               {
@@ -1097,7 +1097,7 @@
                 "code": "05"
               },
               {
-                "title": "anormaler Auswurf",
+                "title": "anormaler Auswurf oder Sputum",
                 "code": "06"
               },
               {
@@ -1105,7 +1105,7 @@
                 "code": "07"
               },
               {
-                "title": "Rhinorrhöe oder Nasenverstopfung",
+                "title": "Rhinitis, laufende oder verstopfte Nase",
                 "code": "08"
               },
               {
@@ -1113,7 +1113,7 @@
                 "code": "09"
               },
               {
-                "title": "anormale Atemlaborergebnisse",
+                "title": "anormale Ergebnisse beim Atemtest",
                 "code": "11"
               },
               {
@@ -1200,22 +1200,22 @@
           },
           {
             "title": "Verdauung und Flüssigkeitsaufnahme",
-            "description": "Prozess zur Umwandlung von Lebensmitteln in Formen, die aufgenommen und assimiliert werden können, und zur Aufrechterhaltung des Flüssigkeitsgleichgewichts.",
+            "description": "Prozess zur Umwandlung von Lebensmitteln in Formen, die aufgenommen und verarbeitet werden können, und zur Aufrechterhaltung des Flüssigkeitsgleichgewichts.",
             "signsAndSymptoms": [
               {
-                "title": "Übelkeit oder Verbrechen",
+                "title": "Übelkeit oder Brechreiz",
                 "code": "01"
               },
               {
-                "title": "Schwierigkeit  oder  Unfähigkeit zu kauen  oder  zu schlucken  oder  zu verdauen",
+                "title": "Schwierigkeiten oder Unvermögen zu kauen, zu schlucken oder zu verdauen",
                 "code": "02"
               },
               {
-                "title": "Verdauungsstörungen",
+                "title": "Magenverstimmung oder Verdauungsstörung",
                 "code": "03"
               },
               {
-                "title": "Rückfluss",
+                "title": "Reflux oder Rückfluss",
                 "code": "04"
               },
               {
@@ -1231,11 +1231,11 @@
                 "code": "07"
               },
               {
-                "title": "Gelbsucht  oder  Lebererweiterung",
+                "title": "Ikterus (Gelbsucht) oder Lebervergrößerung",
                 "code": "08"
               },
               {
-                "title": "verminderter Hautturgor",
+                "title": "verminderte Hautspannung oder Dehydratation",
                 "code": "09"
               },
               {
@@ -1255,7 +1255,7 @@
           },
           {
             "title": "Darmfunktion",
-            "description": "Transport von Lebensmitteln durch den Magen-Darm-Trakt zur Beseitigung von Abfällen.",
+            "description": "Transport von Nahrung durch den Magen-Darm-Trakt zur Ausscheidung von Abfällen.",
             "signsAndSymptoms": [
               {
                 "title": "anormale Häufigkeit oder Konsistenz des Stuhls",
@@ -1278,11 +1278,11 @@
                 "code": "05"
               },
               {
-                "title": "Krämpfe oder Bauchbeschwerden",
+                "title": "Krämpfe oder Bauchschmerzen",
                 "code": "06"
               },
               {
-                "title": "Inkontinenz des Stuhls",
+                "title": "Stuhlinkontinenz",
                 "code": "07"
               },
               {
@@ -1293,27 +1293,27 @@
             "code": "31"
           },
           {
-            "title": "Harnwegsfunktion",
+            "title": "Harnfunktion",
             "description": "Produktion und Ausscheidung von Urin.",
             "signsAndSymptoms": [
               {
-                "title": "Verbrennung  oder  schmerzhaftes Wasserlassen",
+                "title": "Brennendes oder schmerzhaftes Wasserlassen",
                 "code": "01"
               },
               {
-                "title": "Urininkontinenz",
+                "title": "Harninkontinenz",
                 "code": "02"
               },
               {
-                "title": "Dringlichkeit oder Häufigkeit",
+                "title": "Harndrang oder -häufigkeit",
                 "code": "03"
               },
               {
-                "title": "Schwierigkeiten bei der Einleitung des Urinierens",
+                "title": "Schwierigkeiten mit dem Urinieren zu beginnen",
                 "code": "04"
               },
               {
-                "title": "Schwierigkeiten beim Entleeren der Blase",
+                "title": "Schwierigkeiten die Blase zu entleeren",
                 "code": "05"
               },
               {
@@ -1321,15 +1321,15 @@
                 "code": "06"
               },
               {
-                "title": "Hämaturie oder anormale Farbe",
+                "title": "Hämaturie (Blut im Urin) oder anormale Farbe",
                 "code": "07"
               },
               {
-                "title": "Nykturie",
+                "title": "Nykturie (Unterbrechung des Nachtschlafs wegen Harndrang)",
                 "code": "08"
               },
               {
-                "title": "Anormale Laborergebnisse der Harnwege",
+                "title": "Anormale Ergebnisse beim Urintest",
                 "code": "09"
               },
               {
@@ -1344,11 +1344,11 @@
             "description": "Zustand der Genitalien und Brüste und die Fähigkeit zur Fortpflanzung.",
             "signsAndSymptoms": [
               {
-                "title": "anormale Entladung",
+                "title": "anormaler Ausfluss",
                 "code": "01"
               },
               {
-                "title": "abnormes Menstruationsmuster",
+                "title": "anormales Menstruationsmuster",
                 "code": "02"
               },
               {
@@ -1356,7 +1356,7 @@
                 "code": "03"
               },
               {
-                "title": "Anomale Knoten oder Schwellung oder Auffälligkeit der Genitalien oder Brüste",
+                "title": "Anomale Knoten, Schwellung oder Spannung an Genitalien oder Brüsten",
                 "code": "04"
               },
               {
@@ -1383,23 +1383,23 @@
             "description": "Zeitraum von der Empfängnis bis zur Geburt.",
             "signsAndSymptoms": [
               {
-                "title": "Schwierigkeiten bei der Bindung an das ungeborene Baby",
+                "title": "Schwierigkeiten eine Bindung zum ungeborenen Baby aufzubauen",
                 "code": "01"
               },
               {
-                "title": "Schwierigkeiten bei der Bewältigung von Körperveränderungen",
+                "title": "Schwierigkeiten beim Umgang von Körperveränderungen",
                 "code": "02"
               },
               {
-                "title": "Schwierigkeiten bei pränataler Bewegung oder Ruhe oder Diät oder Verhalten",
+                "title": "Schwierigkeiten mit pränatalen Übungen, Ruhe, Ernährung oder Verhalten",
                 "code": "03"
               },
               {
-                "title": "befürchtet eine Zustellung",
+                "title": "Ängste bezüglich der Entbindung",
                 "code": "04"
               },
               {
-                "title": "pränatale Komplikationen oder Vorzeitige Wehen",
+                "title": "pränatale Komplikationen oder vorzeitige Wehen",
                 "code": "05"
               },
               {
@@ -1415,22 +1415,22 @@
           },
           {
             "title": "Wochenbett",
-            "description": "Sechs Wochen nach der Geburt.",
+            "description": "Der Zeitraum sechs Wochen nach der Geburt.",
             "signsAndSymptoms": [
               {
                 "title": "Schwierigkeiten beim Stillen",
                 "code": "01"
               },
               {
-                "title": "Schwierigkeiten bei der Bewältigung von postpartalen Veränderungen",
+                "title": "Schwierigkeiten beim Umgang mit postpartalen Veränderungen",
                 "code": "02"
               },
               {
-                "title": "Schwierigkeiten bei postpartaler Bewegung oder Ruhe oder Ernährung oder Verhalten",
+                "title": "Schwierigkeiten mit postpartalen Übungen, Ruhe, Ernährung oder Verhalten",
                 "code": "03"
               },
               {
-                "title": "Anormale Blutungen oder Vaginalausfluss",
+                "title": "Anormale Blutung oder Vaginalausfluss",
                 "code": "04"
               },
               {
@@ -1449,15 +1449,15 @@
             "code": "49"
           },
           {
-            "title": "Übertragbarer oder infektiöser Zustand",
-            "description": "Zustand, in dem Organismen eindringen oder infizieren und oberflächliche oder systemische Krankheiten mit dem Potenzial zur Verbreitung oder Übertragung hervorrufen.",
+            "title": "Übertragbare oder infektiöse Erkrankung",
+            "description": "Zustand, bei dem Organismen den Körper befallen und oberflächliche oder systemische Erkrankungen hervorrufen mit dem Risiko der Ausbreitung oder Übertragung.",
             "signsAndSymptoms": [
               {
                 "title": "Infektion",
                 "code": "01"
               },
               {
-                "title": "Befall",
+                "title": "Infestation (Befall) durch Parasiten",
                 "code": "02"
               },
               {
@@ -1469,15 +1469,15 @@
                 "code": "04"
               },
               {
-                "title": "positive screening oder kultur oder laborergebnisse",
+                "title": "positiver Befund oder Laborergebnisse",
                 "code": "05"
               },
               {
-                "title": "unzureichende Lieferungen oder Ausrüstungen oder Richtlinien zur Verhinderung der Übertragung",
+                "title": "unzureichender Vorrat, Ausrüstung oder Konzepte zur Verhinderung der Übertragung",
                 "code": "06"
               },
               {
-                "title": "folgt nicht der Infektionskontrolle",
+                "title": "befolgt nicht die Richtlinien zur Eindämmung von Infektionskrankheiten",
                 "code": "07"
               },
               {
