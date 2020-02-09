@@ -65,6 +65,26 @@ const app = new Vue({
         terminology.source,
         "terminology_" + this.languageMap.source + ".json"
       );
+    },
+    domains(terminology: any) {
+      let domains = terminology.problemClassificationScheme.domains;
+      return domains;
+    },
+    problems(domain: any) {
+      return (domain.problems as Titleable[]).sort(this.sortByTitle);
+    },
+    targets(terminology: any) {
+      let targets = terminology.interventionScheme.targets as Titleable[];
+      let other = targets.pop();
+      targets = targets.sort(this.sortByTitle);
+
+      if (other) {
+        targets.push(other);
+      }
+      return targets;
+    },
+    sortByTitle(a: Titleable, b: Titleable): number {
+      return a.title.localeCompare(b.title);
     }
   },
   computed: {
