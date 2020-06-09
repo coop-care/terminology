@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Omaha System: Codes</title>
+  <style type="text/css">
+    #print-terminology {
+      font-size: 85%
+    }
+
+    #print-terminology h2 {
+      padding: 4mm 13mm 4mm;
+      text-align: center;
+    }
+
+    #print-terminology strong {
+      font-size: 120%;
+      padding-left: .5rem;
+    }
+
+    .no-bullets {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ol {
+      margin: 0 13mm;
+    }
+
+    #print-terminology li {
+      margin: 0;
+    }
+
+    .column {
+      column-count: 2;
+      margin: 0 13mm;
+    }
+
+    .page-break {
+      page-break-before: always;
+    }
+
+    .unbreakable {
+      page-break-inside: avoid;
+      break-inside: avoid-column;
+    }
+
+    .reduced-line-height {
+      line-height: 1.3em;
+    }
+
+    @media print {}
+
+    @page {
+      size: A4;
+      margin: 0mm 0mm 8mm 0mm;
+    }
+  </style>
+</head>
+
+<body id="print-terminology">
+  <div id="app">
+
+    <h2>
+      <span class="parent-category">Problem Codes</span>
+    </h2>
+    <ol class="no-bullets">
+      <li v-for="problem in terminology.source.problemClassificationScheme.domains.flatMap(domain => domain.problems)"
+        :key="problem.title">{{ problem.title }} <strong>{{ problem.code }}</strong></li>
+    </ol>
+
+    <h2 class="page-break">
+      <span class="parent-category">Intervention Target Codes</span>
+    </h2>
+    <ol class="no-bullets column">
+      <li v-for="target in terminology.source.interventionScheme.targets" :key="target.title">{{ target.title }}
+        <strong>{{ target.code }}</strong></li>
+    </ol>
+
+  </div>
+  <script src="/dist/bundle.js"></script>
+</body>
+
+</html>
